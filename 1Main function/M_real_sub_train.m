@@ -11,7 +11,7 @@ n = size(A,1);                 % number of nodes
 nnlros = 1;                    % model parameter
 
 num_reali = 100;             % number of realizations per initial condition
-num_x0 = 10;                % number of initial conditions
+num_x0 = 20;                % number of initial conditions
 x_0 = 0;                     % baseline initial state （not real）
 sigma  = 1;                  % noise amplitude for initial conditions
 
@@ -63,4 +63,5 @@ for perturbation_type = 1:1  % loop over perturbation types
     end
 end
 end
+
 
