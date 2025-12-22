@@ -2,7 +2,7 @@ function M_real_sub_train(the_net)
 % M_REAL_SUB_TRAIN
 % Generate baseline-level training data by simulating perturbation responses
 % from multiple random initial conditions and saving each ensemble separately.
-dataPath = 'C:\Users\xuren\Desktop\NP-real\Data\4.noisy voter_Dolphin social network.mat';
+dataPath = 'C:\Users\xuren\Desktop\NP-real\0Data\1.Mutualistic_Coral Reefs.mat';
 load(dataPath);
 [~, netName, ~] = fileparts(dataPath);
 
@@ -63,3 +63,4 @@ for perturbation_type = 1:1  % loop over perturbation types
     end
 end
 end
+
