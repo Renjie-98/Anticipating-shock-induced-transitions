@@ -4,7 +4,7 @@ function X_test = M_real_sub_test(the_net)
 % initial conditions along the first dimension:
 %   (num_x0*num_reali) × nn × mm
 
-dataPath = 'C:\Users\xuren\Desktop\NP-real\Data\1.Mutualistic_Coral Reefs.mat';
+dataPath = 'C:\Users\xuren\Desktop\NP-real\0Data\1.Mutualistic_Coral Reefs.mat';
 S = load(dataPath);
 [~, netName, ~] = fileparts(dataPath);
 
