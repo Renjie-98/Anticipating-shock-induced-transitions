@@ -1,0 +1,2495 @@
+Index,Source,Target,Weight,Is_directed
+1,"Fine organic matter","Tabellaria",1,1
+2,"Fine organic matter","Synura",1,1
+3,"Fine organic matter","Synedra",1,1
+4,"Fine organic matter","Mallomonas",1,1
+5,"Fine organic matter","Dinobryon",1,1
+6,"Fine organic matter","Asterionella",1,1
+7,"Fine organic matter","Cryptomonas",1,1
+8,"Fine organic matter","Chroomonas",1,1
+9,"Fine organic matter","Trachelomonas",1,1
+10,"Fine organic matter","Phacus",1,1
+11,"Fine organic matter","Scenedesmus",1,1
+12,"Fine organic matter","Elaktothrix",1,1
+13,"Fine organic matter","Xanthidium",1,1
+14,"Fine organic matter","Ankistrodesmus",1,1
+15,"Fine organic matter","Tetraedron",1,1
+16,"Fine organic matter","Staurastrum",1,1
+17,"Fine organic matter","Spondylosium",1,1
+18,"Fine organic matter","Schroederia",1,1
+19,"Fine organic matter","Quadrigula",1,1
+20,"Fine organic matter","Pediastrum",1,1
+21,"Fine organic matter","Oocystis",1,1
+22,"Fine organic matter","Euastrum",1,1
+23,"Fine organic matter","Crucigenia",1,1
+24,"Fine organic matter","Cosmarium",1,1
+25,"Fine organic matter","Arthrodesmus",1,1
+26,"Fine organic matter","Anabaena",1,1
+27,"Fine organic matter","Aphanothece",1,1
+28,"Fine organic matter","Rhabdoderma",1,1
+29,"Fine organic matter","Coelosphaerium",1,1
+30,"Fine organic matter","Gomphosphaeria",1,1
+31,"Fine organic matter","Aphanocapsa",1,1
+32,"Fine organic matter","Merismopedia",1,1
+33,"Fine organic matter","Gloeothece",1,1
+34,"Fine organic matter","Chroococcus",1,1
+35,"Fine organic matter","Zygnema",1,1
+36,"Fine organic matter","Tribonema",1,1
+37,"Fine organic matter","Spirogyra",1,1
+38,"Fine organic matter","Sphaerozosma",1,1
+39,"Fine organic matter","Scytonema",1,1
+40,"Fine organic matter","Schizothrix",1,1
+41,"Fine organic matter","Rhizoclonium",1,1
+42,"Fine organic matter","Radiofilum",1,1
+43,"Fine organic matter","Plectonema",1,1
+44,"Fine organic matter","Phormidium",1,1
+45,"Fine organic matter","Oscillatoria",1,1
+46,"Fine organic matter","Oedogonium",1,1
+47,"Fine organic matter","Mougeotia",1,1
+48,"Fine organic matter","Microcoleus",1,1
+49,"Fine organic matter","Microchaete",1,1
+50,"Fine organic matter","Lyngbya",1,1
+51,"Fine organic matter","Hyalotheca",1,1
+52,"Fine organic matter","Hapalosiphon",1,1
+53,"Fine organic matter","Groenbladia",1,1
+54,"Fine organic matter","Geminella",1,1
+55,"Fine organic matter","Desmidium",1,1
+56,"Fine organic matter","Bulbochaete",1,1
+57,"Fine organic matter","Binuclearia",1,1
+58,"Fine organic matter","Batrachospermum",1,1
+59,"Fine organic matter","Bambusina",1,1
+60,"Fine organic matter","Arthropoda Hydracarina",1,1
+61,"Fine organic matter","Corvomyenia everetti",1,1
+62,"Fine organic matter","Ephydatia muelleri",1,1
+63,"Fine organic matter","Spongilla lacustris",1,1
+64,"Tabellaria","Turbellaria Tricladida",1,1
+65,"Tabellaria","Annelida Oligochaete",1,1
+66,"Tabellaria","Sphaeriidae",1,1
+67,"Tabellaria","Campeloma decisum",1,1
+68,"Tabellaria","Paratendipes",1,1
+69,"Synura","Turbellaria Tricladida",1,1
+70,"Synura","Trichocerca cylindrica",1,1
+71,"Synedra","Amphipoda Crangonyx gracilis",1,1
+72,"Synedra","Stenochironomus",1,1
+73,"Synedra","Pseudochironomus",1,1
+74,"Synedra","Annelida Oligochaete",1,1
+75,"Synedra","Sphaeriidae",1,1
+76,"Synedra","Campeloma decisum",1,1
+77,"Synedra","Trichocerca cylindrica",1,1
+78,"Synedra","Conochiloides",1,1
+79,"Mallomonas","Nauplii",1,1
+80,"Mallomonas","Polyarthra vulgaris",1,1
+81,"Mallomonas","Largemouth bass (Micropterus salsmoides), adult",1,1
+82,"Dinobryon","Nauplii",1,1
+83,"Dinobryon","Polyarthra vulgaris",1,1
+84,"Dinobryon","Largemouth bass (Micropterus salsmoides), adult",1,1
+85,"Asterionella","Nauplii",1,1
+86,"Asterionella","Polyarthra vulgaris",1,1
+87,"Asterionella","Largemouth bass (Micropterus salsmoides), adult",1,1
+88,"Cryptomonas","Nauplii",1,1
+89,"Cryptomonas","Polyarthra vulgaris",1,1
+90,"Cryptomonas","Largemouth bass (Micropterus salsmoides), adult",1,1
+91,"Chroomonas","Nauplii",1,1
+92,"Chroomonas","Polyarthra vulgaris",1,1
+93,"Chroomonas","Largemouth bass (Micropterus salsmoides), adult",1,1
+94,"Trachelomonas","Nauplii",1,1
+95,"Trachelomonas","Polyarthra vulgaris",1,1
+96,"Trachelomonas","Largemouth bass (Micropterus salsmoides), adult",1,1
+97,"Phacus","Nauplii",1,1
+98,"Phacus","Polyarthra vulgaris",1,1
+99,"Phacus","Largemouth bass (Micropterus salsmoides), adult",1,1
+100,"Scenedesmus","Nauplii",1,1
+101,"Scenedesmus","Polyarthra vulgaris",1,1
+102,"Scenedesmus","Largemouth bass (Micropterus salsmoides), adult",1,1
+103,"Elaktothrix","Nauplii",1,1
+104,"Elaktothrix","Polyarthra vulgaris",1,1
+105,"Elaktothrix","Largemouth bass (Micropterus salsmoides), adult",1,1
+106,"Xanthidium","Nauplii",1,1
+107,"Xanthidium","Polyarthra vulgaris",1,1
+108,"Xanthidium","Largemouth bass (Micropterus salsmoides), adult",1,1
+109,"Ankistrodesmus","Nauplii",1,1
+110,"Ankistrodesmus","Polyarthra vulgaris",1,1
+111,"Ankistrodesmus","Largemouth bass (Micropterus salsmoides), adult",1,1
+112,"Tetraedron","Nauplii",1,1
+113,"Tetraedron","Polyarthra vulgaris",1,1
+114,"Tetraedron","Largemouth bass (Micropterus salsmoides), adult",1,1
+115,"Staurastrum","Nauplii",1,1
+116,"Staurastrum","Polyarthra vulgaris",1,1
+117,"Staurastrum","Largemouth bass (Micropterus salsmoides), adult",1,1
+118,"Spondylosium","Nauplii",1,1
+119,"Spondylosium","Polyarthra vulgaris",1,1
+120,"Spondylosium","Largemouth bass (Micropterus salsmoides), adult",1,1
+121,"Schroederia","Nauplii",1,1
+122,"Schroederia","Polyarthra vulgaris",1,1
+123,"Schroederia","Largemouth bass (Micropterus salsmoides), adult",1,1
+124,"Quadrigula","Nauplii",1,1
+125,"Quadrigula","Polyarthra vulgaris",1,1
+126,"Quadrigula","Largemouth bass (Micropterus salsmoides), adult",1,1
+127,"Pediastrum","Nauplii",1,1
+128,"Pediastrum","Polyarthra vulgaris",1,1
+129,"Pediastrum","Largemouth bass (Micropterus salsmoides), adult",1,1
+130,"Oocystis","Nauplii",1,1
+131,"Oocystis","Polyarthra vulgaris",1,1
+132,"Oocystis","Largemouth bass (Micropterus salsmoides), adult",1,1
+133,"Euastrum","Nauplii",1,1
+134,"Euastrum","Polyarthra vulgaris",1,1
+135,"Euastrum","Largemouth bass (Micropterus salsmoides), adult",1,1
+136,"Crucigenia","Nauplii",1,1
+137,"Crucigenia","Polyarthra vulgaris",1,1
+138,"Crucigenia","Largemouth bass (Micropterus salsmoides), adult",1,1
+139,"Cosmarium","Nauplii",1,1
+140,"Cosmarium","Polyarthra vulgaris",1,1
+141,"Cosmarium","Largemouth bass (Micropterus salsmoides), adult",1,1
+142,"Arthrodesmus","Nauplii",1,1
+143,"Arthrodesmus","Polyarthra vulgaris",1,1
+144,"Arthrodesmus","Largemouth bass (Micropterus salsmoides), adult",1,1
+145,"Anabaena","Nauplii",1,1
+146,"Anabaena","Polyarthra vulgaris",1,1
+147,"Anabaena","Largemouth bass (Micropterus salsmoides), adult",1,1
+148,"Aphanothece","Nauplii",1,1
+149,"Aphanothece","Polyarthra vulgaris",1,1
+150,"Aphanothece","Largemouth bass (Micropterus salsmoides), adult",1,1
+151,"Rhabdoderma","Nauplii",1,1
+152,"Rhabdoderma","Polyarthra vulgaris",1,1
+153,"Rhabdoderma","Largemouth bass (Micropterus salsmoides), adult",1,1
+154,"Coelosphaerium","Parachironomus",1,1
+155,"Coelosphaerium","Microtendipes",1,1
+156,"Coelosphaerium","Glyptotendipes",1,1
+157,"Coelosphaerium","Paratanytarsus",1,1
+158,"Coelosphaerium","Cricotopus",1,1
+159,"Coelosphaerium","Corynoneura",1,1
+160,"Coelosphaerium","Chaetocladius",1,1
+161,"Coelosphaerium","Procladius",1,1
+162,"Coelosphaerium","Macropelopis",1,1
+163,"Coelosphaerium","Larsia",1,1
+164,"Coelosphaerium","Guttipelopia",1,1
+165,"Coelosphaerium","Djalmabatista",1,1
+166,"Coelosphaerium","Clinotanypus",1,1
+167,"Coelosphaerium","Albabesmyia",1,1
+168,"Coelosphaerium","Chaoborus punctipennis",1,1
+169,"Coelosphaerium","Chaoborus albatus",1,1
+170,"Coelosphaerium","Sphaeromais",1,1
+171,"Coelosphaerium","Bezzia",1,1
+172,"Coelosphaerium","Lepidoptera Pyralidae eoparagyractis",1,1
+173,"Coelosphaerium","Magaloptera Sialis",1,1
+174,"Coelosphaerium","Cladopelma",1,1
+175,"Coelosphaerium","Hemiptera Notonectids",1,1
+176,"Coelosphaerium","Hemiptera Veliidae",1,1
+177,"Coelosphaerium","Gyrinus",1,1
+178,"Coelosphaerium","Neuroptera Climacia",1,1
+179,"Coelosphaerium","Chironomus",1,1
+180,"Gomphosphaeria","Parachironomus",1,1
+181,"Gomphosphaeria","Microtendipes",1,1
+182,"Gomphosphaeria","Glyptotendipes",1,1
+183,"Aphanocapsa","Parachironomus",1,1
+184,"Aphanocapsa","Microtendipes",1,1
+185,"Aphanocapsa","Glyptotendipes",1,1
+186,"Aphanocapsa","Paratanytarsus",1,1
+187,"Aphanocapsa","Cricotopus",1,1
+188,"Aphanocapsa","Corynoneura",1,1
+189,"Aphanocapsa","Chaetocladius",1,1
+190,"Aphanocapsa","Procladius",1,1
+191,"Aphanocapsa","Macropelopis",1,1
+192,"Aphanocapsa","Larsia",1,1
+193,"Aphanocapsa","Guttipelopia",1,1
+194,"Aphanocapsa","Djalmabatista",1,1
+195,"Aphanocapsa","Clinotanypus",1,1
+196,"Aphanocapsa","Albabesmyia",1,1
+197,"Aphanocapsa","Chaoborus punctipennis",1,1
+198,"Aphanocapsa","Chaoborus albatus",1,1
+199,"Aphanocapsa","Sphaeromais",1,1
+200,"Aphanocapsa","Bezzia",1,1
+201,"Aphanocapsa","Lepidoptera Pyralidae eoparagyractis",1,1
+202,"Aphanocapsa","Magaloptera Sialis",1,1
+203,"Aphanocapsa","Cladopelma",1,1
+204,"Aphanocapsa","Hemiptera Notonectids",1,1
+205,"Aphanocapsa","Hemiptera Veliidae",1,1
+206,"Aphanocapsa","Gyrinus",1,1
+207,"Aphanocapsa","Neuroptera Climacia",1,1
+208,"Aphanocapsa","Chironomus",1,1
+209,"Merismopedia","Parachironomus",1,1
+210,"Merismopedia","Microtendipes",1,1
+211,"Merismopedia","Glyptotendipes",1,1
+212,"Gloeothece","Parachironomus",1,1
+213,"Gloeothece","Microtendipes",1,1
+214,"Gloeothece","Glyptotendipes",1,1
+215,"Gloeothece","Paratanytarsus",1,1
+216,"Gloeothece","Cricotopus",1,1
+217,"Gloeothece","Corynoneura",1,1
+218,"Gloeothece","Chaetocladius",1,1
+219,"Gloeothece","Procladius",1,1
+220,"Gloeothece","Macropelopis",1,1
+221,"Gloeothece","Larsia",1,1
+222,"Gloeothece","Guttipelopia",1,1
+223,"Gloeothece","Djalmabatista",1,1
+224,"Gloeothece","Clinotanypus",1,1
+225,"Gloeothece","Albabesmyia",1,1
+226,"Gloeothece","Chaoborus punctipennis",1,1
+227,"Gloeothece","Chaoborus albatus",1,1
+228,"Gloeothece","Sphaeromais",1,1
+229,"Gloeothece","Bezzia",1,1
+230,"Gloeothece","Lepidoptera Pyralidae eoparagyractis",1,1
+231,"Gloeothece","Magaloptera Sialis",1,1
+232,"Gloeothece","Cladopelma",1,1
+233,"Gloeothece","Hemiptera Notonectids",1,1
+234,"Gloeothece","Hemiptera Veliidae",1,1
+235,"Gloeothece","Gyrinus",1,1
+236,"Gloeothece","Neuroptera Climacia",1,1
+237,"Gloeothece","Chironomus",1,1
+238,"Chroococcus","Parachironomus",1,1
+239,"Chroococcus","Microtendipes",1,1
+240,"Chroococcus","Glyptotendipes",1,1
+241,"Zygnema","Parachironomus",1,1
+242,"Zygnema","Microtendipes",1,1
+243,"Zygnema","Glyptotendipes",1,1
+244,"Zygnema","Paratanytarsus",1,1
+245,"Zygnema","Cricotopus",1,1
+246,"Zygnema","Corynoneura",1,1
+247,"Zygnema","Chaetocladius",1,1
+248,"Zygnema","Procladius",1,1
+249,"Zygnema","Macropelopis",1,1
+250,"Zygnema","Larsia",1,1
+251,"Zygnema","Guttipelopia",1,1
+252,"Zygnema","Djalmabatista",1,1
+253,"Zygnema","Clinotanypus",1,1
+254,"Zygnema","Albabesmyia",1,1
+255,"Zygnema","Chaoborus punctipennis",1,1
+256,"Zygnema","Chaoborus albatus",1,1
+257,"Zygnema","Sphaeromais",1,1
+258,"Zygnema","Bezzia",1,1
+259,"Zygnema","Lepidoptera Pyralidae eoparagyractis",1,1
+260,"Zygnema","Magaloptera Sialis",1,1
+261,"Zygnema","Cladopelma",1,1
+262,"Zygnema","Hemiptera Notonectids",1,1
+263,"Zygnema","Hemiptera Veliidae",1,1
+264,"Zygnema","Gyrinus",1,1
+265,"Zygnema","Neuroptera Climacia",1,1
+266,"Zygnema","Chironomus",1,1
+267,"Tribonema","Parachironomus",1,1
+268,"Tribonema","Microtendipes",1,1
+269,"Tribonema","Glyptotendipes",1,1
+270,"Tribonema","Paratanytarsus",1,1
+271,"Tribonema","Cricotopus",1,1
+272,"Tribonema","Corynoneura",1,1
+273,"Tribonema","Chaetocladius",1,1
+274,"Tribonema","Procladius",1,1
+275,"Tribonema","Macropelopis",1,1
+276,"Tribonema","Larsia",1,1
+277,"Tribonema","Guttipelopia",1,1
+278,"Tribonema","Djalmabatista",1,1
+279,"Tribonema","Clinotanypus",1,1
+280,"Tribonema","Albabesmyia",1,1
+281,"Tribonema","Chaoborus punctipennis",1,1
+282,"Tribonema","Chaoborus albatus",1,1
+283,"Tribonema","Sphaeromais",1,1
+284,"Tribonema","Bezzia",1,1
+285,"Tribonema","Lepidoptera Pyralidae eoparagyractis",1,1
+286,"Tribonema","Magaloptera Sialis",1,1
+287,"Tribonema","Cladopelma",1,1
+288,"Tribonema","Hemiptera Notonectids",1,1
+289,"Tribonema","Hemiptera Veliidae",1,1
+290,"Tribonema","Gyrinus",1,1
+291,"Tribonema","Neuroptera Climacia",1,1
+292,"Tribonema","Chironomus",1,1
+293,"Spirogyra","Paratanytarsus",1,1
+294,"Sphaerozosma","Parachironomus",1,1
+295,"Sphaerozosma","Microtendipes",1,1
+296,"Sphaerozosma","Glyptotendipes",1,1
+297,"Sphaerozosma","Corynoneura",1,1
+298,"Sphaerozosma","Chaetocladius",1,1
+299,"Sphaerozosma","Procladius",1,1
+300,"Sphaerozosma","Macropelopis",1,1
+301,"Scytonema","Parachironomus",1,1
+302,"Scytonema","Microtendipes",1,1
+303,"Scytonema","Glyptotendipes",1,1
+304,"Scytonema","Corynoneura",1,1
+305,"Scytonema","Chaetocladius",1,1
+306,"Scytonema","Procladius",1,1
+307,"Scytonema","Macropelopis",1,1
+308,"Schizothrix","Parachironomus",1,1
+309,"Schizothrix","Microtendipes",1,1
+310,"Schizothrix","Glyptotendipes",1,1
+311,"Schizothrix","Paratanytarsus",1,1
+312,"Schizothrix","Cricotopus",1,1
+313,"Schizothrix","Corynoneura",1,1
+314,"Schizothrix","Chaetocladius",1,1
+315,"Schizothrix","Procladius",1,1
+316,"Schizothrix","Macropelopis",1,1
+317,"Schizothrix","Larsia",1,1
+318,"Schizothrix","Guttipelopia",1,1
+319,"Schizothrix","Djalmabatista",1,1
+320,"Schizothrix","Clinotanypus",1,1
+321,"Schizothrix","Albabesmyia",1,1
+322,"Schizothrix","Chaoborus punctipennis",1,1
+323,"Schizothrix","Chaoborus albatus",1,1
+324,"Schizothrix","Sphaeromais",1,1
+325,"Schizothrix","Bezzia",1,1
+326,"Schizothrix","Lepidoptera Pyralidae eoparagyractis",1,1
+327,"Schizothrix","Magaloptera Sialis",1,1
+328,"Schizothrix","Cladopelma",1,1
+329,"Schizothrix","Hemiptera Notonectids",1,1
+330,"Schizothrix","Hemiptera Veliidae",1,1
+331,"Schizothrix","Gyrinus",1,1
+332,"Schizothrix","Neuroptera Climacia",1,1
+333,"Schizothrix","Chironomus",1,1
+334,"Rhizoclonium","Parachironomus",1,1
+335,"Rhizoclonium","Microtendipes",1,1
+336,"Rhizoclonium","Glyptotendipes",1,1
+337,"Rhizoclonium","Paratanytarsus",1,1
+338,"Rhizoclonium","Cricotopus",1,1
+339,"Rhizoclonium","Corynoneura",1,1
+340,"Rhizoclonium","Chaetocladius",1,1
+341,"Rhizoclonium","Procladius",1,1
+342,"Rhizoclonium","Macropelopis",1,1
+343,"Rhizoclonium","Larsia",1,1
+344,"Rhizoclonium","Guttipelopia",1,1
+345,"Rhizoclonium","Djalmabatista",1,1
+346,"Rhizoclonium","Clinotanypus",1,1
+347,"Rhizoclonium","Albabesmyia",1,1
+348,"Rhizoclonium","Chaoborus punctipennis",1,1
+349,"Rhizoclonium","Chaoborus albatus",1,1
+350,"Rhizoclonium","Sphaeromais",1,1
+351,"Rhizoclonium","Bezzia",1,1
+352,"Rhizoclonium","Lepidoptera Pyralidae eoparagyractis",1,1
+353,"Rhizoclonium","Magaloptera Sialis",1,1
+354,"Rhizoclonium","Cladopelma",1,1
+355,"Rhizoclonium","Hemiptera Notonectids",1,1
+356,"Rhizoclonium","Hemiptera Veliidae",1,1
+357,"Rhizoclonium","Gyrinus",1,1
+358,"Rhizoclonium","Neuroptera Climacia",1,1
+359,"Rhizoclonium","Chironomus",1,1
+360,"Radiofilum","Parachironomus",1,1
+361,"Radiofilum","Microtendipes",1,1
+362,"Radiofilum","Glyptotendipes",1,1
+363,"Radiofilum","Paratanytarsus",1,1
+364,"Radiofilum","Cricotopus",1,1
+365,"Radiofilum","Corynoneura",1,1
+366,"Radiofilum","Chaetocladius",1,1
+367,"Radiofilum","Procladius",1,1
+368,"Radiofilum","Macropelopis",1,1
+369,"Radiofilum","Larsia",1,1
+370,"Radiofilum","Guttipelopia",1,1
+371,"Radiofilum","Djalmabatista",1,1
+372,"Radiofilum","Clinotanypus",1,1
+373,"Radiofilum","Albabesmyia",1,1
+374,"Radiofilum","Chaoborus punctipennis",1,1
+375,"Radiofilum","Chaoborus albatus",1,1
+376,"Radiofilum","Sphaeromais",1,1
+377,"Radiofilum","Bezzia",1,1
+378,"Radiofilum","Lepidoptera Pyralidae eoparagyractis",1,1
+379,"Radiofilum","Magaloptera Sialis",1,1
+380,"Radiofilum","Cladopelma",1,1
+381,"Radiofilum","Hemiptera Notonectids",1,1
+382,"Radiofilum","Hemiptera Veliidae",1,1
+383,"Radiofilum","Gyrinus",1,1
+384,"Radiofilum","Neuroptera Climacia",1,1
+385,"Radiofilum","Chironomus",1,1
+386,"Plectonema","Parachironomus",1,1
+387,"Plectonema","Microtendipes",1,1
+388,"Plectonema","Glyptotendipes",1,1
+389,"Plectonema","Corynoneura",1,1
+390,"Plectonema","Chaetocladius",1,1
+391,"Plectonema","Procladius",1,1
+392,"Plectonema","Macropelopis",1,1
+393,"Phormidium","Parachironomus",1,1
+394,"Phormidium","Microtendipes",1,1
+395,"Phormidium","Glyptotendipes",1,1
+396,"Phormidium","Corynoneura",1,1
+397,"Phormidium","Chaetocladius",1,1
+398,"Phormidium","Procladius",1,1
+399,"Phormidium","Macropelopis",1,1
+400,"Oscillatoria","Parachironomus",1,1
+401,"Oscillatoria","Microtendipes",1,1
+402,"Oscillatoria","Glyptotendipes",1,1
+403,"Oscillatoria","Paratanytarsus",1,1
+404,"Oscillatoria","Cricotopus",1,1
+405,"Oscillatoria","Corynoneura",1,1
+406,"Oscillatoria","Chaetocladius",1,1
+407,"Oscillatoria","Procladius",1,1
+408,"Oscillatoria","Macropelopis",1,1
+409,"Oscillatoria","Larsia",1,1
+410,"Oscillatoria","Guttipelopia",1,1
+411,"Oscillatoria","Djalmabatista",1,1
+412,"Oscillatoria","Clinotanypus",1,1
+413,"Oscillatoria","Albabesmyia",1,1
+414,"Oscillatoria","Chaoborus punctipennis",1,1
+415,"Oscillatoria","Chaoborus albatus",1,1
+416,"Oscillatoria","Sphaeromais",1,1
+417,"Oscillatoria","Bezzia",1,1
+418,"Oscillatoria","Lepidoptera Pyralidae eoparagyractis",1,1
+419,"Oscillatoria","Magaloptera Sialis",1,1
+420,"Oscillatoria","Cladopelma",1,1
+421,"Oscillatoria","Hemiptera Notonectids",1,1
+422,"Oscillatoria","Hemiptera Veliidae",1,1
+423,"Oscillatoria","Gyrinus",1,1
+424,"Oscillatoria","Neuroptera Climacia",1,1
+425,"Oscillatoria","Chironomus",1,1
+426,"Oedogonium","Parachironomus",1,1
+427,"Oedogonium","Microtendipes",1,1
+428,"Oedogonium","Glyptotendipes",1,1
+429,"Oedogonium","Corynoneura",1,1
+430,"Oedogonium","Chaetocladius",1,1
+431,"Oedogonium","Procladius",1,1
+432,"Oedogonium","Macropelopis",1,1
+433,"Mougeotia","Parachironomus",1,1
+434,"Mougeotia","Microtendipes",1,1
+435,"Mougeotia","Glyptotendipes",1,1
+436,"Mougeotia","Corynoneura",1,1
+437,"Mougeotia","Chaetocladius",1,1
+438,"Mougeotia","Procladius",1,1
+439,"Mougeotia","Macropelopis",1,1
+440,"Microcoleus","Parachironomus",1,1
+441,"Microcoleus","Microtendipes",1,1
+442,"Microcoleus","Glyptotendipes",1,1
+443,"Microcoleus","Paratanytarsus",1,1
+444,"Microcoleus","Cricotopus",1,1
+445,"Microcoleus","Corynoneura",1,1
+446,"Microcoleus","Chaetocladius",1,1
+447,"Microcoleus","Procladius",1,1
+448,"Microcoleus","Macropelopis",1,1
+449,"Microcoleus","Larsia",1,1
+450,"Microcoleus","Guttipelopia",1,1
+451,"Microcoleus","Djalmabatista",1,1
+452,"Microcoleus","Clinotanypus",1,1
+453,"Microcoleus","Albabesmyia",1,1
+454,"Microcoleus","Chaoborus punctipennis",1,1
+455,"Microcoleus","Chaoborus albatus",1,1
+456,"Microcoleus","Sphaeromais",1,1
+457,"Microcoleus","Bezzia",1,1
+458,"Microcoleus","Lepidoptera Pyralidae eoparagyractis",1,1
+459,"Microcoleus","Magaloptera Sialis",1,1
+460,"Microcoleus","Cladopelma",1,1
+461,"Microcoleus","Hemiptera Notonectids",1,1
+462,"Microcoleus","Hemiptera Veliidae",1,1
+463,"Microcoleus","Gyrinus",1,1
+464,"Microcoleus","Neuroptera Climacia",1,1
+465,"Microcoleus","Chironomus",1,1
+466,"Microchaete","Parachironomus",1,1
+467,"Microchaete","Microtendipes",1,1
+468,"Microchaete","Glyptotendipes",1,1
+469,"Microchaete","Paratanytarsus",1,1
+470,"Microchaete","Cricotopus",1,1
+471,"Microchaete","Corynoneura",1,1
+472,"Microchaete","Chaetocladius",1,1
+473,"Microchaete","Procladius",1,1
+474,"Microchaete","Macropelopis",1,1
+475,"Microchaete","Larsia",1,1
+476,"Microchaete","Guttipelopia",1,1
+477,"Microchaete","Djalmabatista",1,1
+478,"Microchaete","Clinotanypus",1,1
+479,"Microchaete","Albabesmyia",1,1
+480,"Microchaete","Chaoborus punctipennis",1,1
+481,"Microchaete","Chaoborus albatus",1,1
+482,"Microchaete","Sphaeromais",1,1
+483,"Microchaete","Bezzia",1,1
+484,"Microchaete","Lepidoptera Pyralidae eoparagyractis",1,1
+485,"Microchaete","Magaloptera Sialis",1,1
+486,"Microchaete","Cladopelma",1,1
+487,"Microchaete","Hemiptera Notonectids",1,1
+488,"Microchaete","Hemiptera Veliidae",1,1
+489,"Microchaete","Gyrinus",1,1
+490,"Microchaete","Neuroptera Climacia",1,1
+491,"Microchaete","Chironomus",1,1
+492,"Lyngbya","Parachironomus",1,1
+493,"Lyngbya","Microtendipes",1,1
+494,"Lyngbya","Glyptotendipes",1,1
+495,"Lyngbya","Corynoneura",1,1
+496,"Lyngbya","Chaetocladius",1,1
+497,"Lyngbya","Procladius",1,1
+498,"Lyngbya","Macropelopis",1,1
+499,"Hyalotheca","Parachironomus",1,1
+500,"Hyalotheca","Microtendipes",1,1
+501,"Hyalotheca","Glyptotendipes",1,1
+502,"Hyalotheca","Paratanytarsus",1,1
+503,"Hyalotheca","Cricotopus",1,1
+504,"Hyalotheca","Corynoneura",1,1
+505,"Hyalotheca","Chaetocladius",1,1
+506,"Hyalotheca","Procladius",1,1
+507,"Hyalotheca","Macropelopis",1,1
+508,"Hyalotheca","Larsia",1,1
+509,"Hyalotheca","Guttipelopia",1,1
+510,"Hyalotheca","Djalmabatista",1,1
+511,"Hyalotheca","Clinotanypus",1,1
+512,"Hyalotheca","Albabesmyia",1,1
+513,"Hyalotheca","Chaoborus punctipennis",1,1
+514,"Hyalotheca","Chaoborus albatus",1,1
+515,"Hyalotheca","Sphaeromais",1,1
+516,"Hyalotheca","Bezzia",1,1
+517,"Hyalotheca","Lepidoptera Pyralidae eoparagyractis",1,1
+518,"Hyalotheca","Magaloptera Sialis",1,1
+519,"Hyalotheca","Cladopelma",1,1
+520,"Hyalotheca","Hemiptera Notonectids",1,1
+521,"Hyalotheca","Hemiptera Veliidae",1,1
+522,"Hyalotheca","Gyrinus",1,1
+523,"Hyalotheca","Neuroptera Climacia",1,1
+524,"Hyalotheca","Chironomus",1,1
+525,"Hapalosiphon","Parachironomus",1,1
+526,"Hapalosiphon","Microtendipes",1,1
+527,"Hapalosiphon","Glyptotendipes",1,1
+528,"Hapalosiphon","Paratanytarsus",1,1
+529,"Hapalosiphon","Cricotopus",1,1
+530,"Hapalosiphon","Corynoneura",1,1
+531,"Hapalosiphon","Chaetocladius",1,1
+532,"Hapalosiphon","Procladius",1,1
+533,"Hapalosiphon","Macropelopis",1,1
+534,"Hapalosiphon","Larsia",1,1
+535,"Hapalosiphon","Guttipelopia",1,1
+536,"Hapalosiphon","Djalmabatista",1,1
+537,"Hapalosiphon","Clinotanypus",1,1
+538,"Hapalosiphon","Albabesmyia",1,1
+539,"Hapalosiphon","Chaoborus punctipennis",1,1
+540,"Hapalosiphon","Chaoborus albatus",1,1
+541,"Hapalosiphon","Sphaeromais",1,1
+542,"Hapalosiphon","Bezzia",1,1
+543,"Hapalosiphon","Lepidoptera Pyralidae eoparagyractis",1,1
+544,"Hapalosiphon","Magaloptera Sialis",1,1
+545,"Hapalosiphon","Cladopelma",1,1
+546,"Hapalosiphon","Hemiptera Notonectids",1,1
+547,"Hapalosiphon","Hemiptera Veliidae",1,1
+548,"Hapalosiphon","Gyrinus",1,1
+549,"Hapalosiphon","Neuroptera Climacia",1,1
+550,"Hapalosiphon","Chironomus",1,1
+551,"Groenbladia","Parachironomus",1,1
+552,"Groenbladia","Microtendipes",1,1
+553,"Groenbladia","Glyptotendipes",1,1
+554,"Groenbladia","Corynoneura",1,1
+555,"Groenbladia","Chaetocladius",1,1
+556,"Groenbladia","Procladius",1,1
+557,"Groenbladia","Macropelopis",1,1
+558,"Geminella","Parachironomus",1,1
+559,"Geminella","Microtendipes",1,1
+560,"Geminella","Glyptotendipes",1,1
+561,"Geminella","Corynoneura",1,1
+562,"Geminella","Chaetocladius",1,1
+563,"Geminella","Procladius",1,1
+564,"Geminella","Macropelopis",1,1
+565,"Desmidium","Parachironomus",1,1
+566,"Desmidium","Microtendipes",1,1
+567,"Desmidium","Glyptotendipes",1,1
+568,"Desmidium","Paratanytarsus",1,1
+569,"Desmidium","Cricotopus",1,1
+570,"Desmidium","Corynoneura",1,1
+571,"Desmidium","Chaetocladius",1,1
+572,"Desmidium","Procladius",1,1
+573,"Desmidium","Macropelopis",1,1
+574,"Desmidium","Larsia",1,1
+575,"Desmidium","Guttipelopia",1,1
+576,"Desmidium","Djalmabatista",1,1
+577,"Desmidium","Clinotanypus",1,1
+578,"Desmidium","Albabesmyia",1,1
+579,"Desmidium","Chaoborus punctipennis",1,1
+580,"Desmidium","Chaoborus albatus",1,1
+581,"Desmidium","Sphaeromais",1,1
+582,"Desmidium","Bezzia",1,1
+583,"Desmidium","Lepidoptera Pyralidae eoparagyractis",1,1
+584,"Desmidium","Magaloptera Sialis",1,1
+585,"Desmidium","Cladopelma",1,1
+586,"Desmidium","Hemiptera Notonectids",1,1
+587,"Desmidium","Hemiptera Veliidae",1,1
+588,"Desmidium","Gyrinus",1,1
+589,"Desmidium","Neuroptera Climacia",1,1
+590,"Desmidium","Chironomus",1,1
+591,"Bulbochaete","Parachironomus",1,1
+592,"Bulbochaete","Microtendipes",1,1
+593,"Bulbochaete","Glyptotendipes",1,1
+594,"Bulbochaete","Paratanytarsus",1,1
+595,"Bulbochaete","Cricotopus",1,1
+596,"Bulbochaete","Corynoneura",1,1
+597,"Bulbochaete","Chaetocladius",1,1
+598,"Bulbochaete","Procladius",1,1
+599,"Bulbochaete","Macropelopis",1,1
+600,"Bulbochaete","Larsia",1,1
+601,"Bulbochaete","Guttipelopia",1,1
+602,"Bulbochaete","Djalmabatista",1,1
+603,"Bulbochaete","Clinotanypus",1,1
+604,"Bulbochaete","Albabesmyia",1,1
+605,"Bulbochaete","Chaoborus punctipennis",1,1
+606,"Bulbochaete","Chaoborus albatus",1,1
+607,"Bulbochaete","Sphaeromais",1,1
+608,"Bulbochaete","Bezzia",1,1
+609,"Bulbochaete","Lepidoptera Pyralidae eoparagyractis",1,1
+610,"Bulbochaete","Magaloptera Sialis",1,1
+611,"Bulbochaete","Cladopelma",1,1
+612,"Bulbochaete","Hemiptera Notonectids",1,1
+613,"Bulbochaete","Hemiptera Veliidae",1,1
+614,"Bulbochaete","Gyrinus",1,1
+615,"Bulbochaete","Neuroptera Climacia",1,1
+616,"Bulbochaete","Chironomus",1,1
+617,"Binuclearia","Parachironomus",1,1
+618,"Binuclearia","Microtendipes",1,1
+619,"Binuclearia","Glyptotendipes",1,1
+620,"Binuclearia","Paratanytarsus",1,1
+621,"Binuclearia","Cricotopus",1,1
+622,"Binuclearia","Corynoneura",1,1
+623,"Binuclearia","Chaetocladius",1,1
+624,"Binuclearia","Procladius",1,1
+625,"Binuclearia","Macropelopis",1,1
+626,"Batrachospermum","Parachironomus",1,1
+627,"Batrachospermum","Microtendipes",1,1
+628,"Batrachospermum","Glyptotendipes",1,1
+629,"Bambusina","Parachironomus",1,1
+630,"Bambusina","Microtendipes",1,1
+631,"Bambusina","Glyptotendipes",1,1
+632,"Bambusina","Paratanytarsus",1,1
+633,"Bambusina","Cricotopus",1,1
+634,"Bambusina","Corynoneura",1,1
+635,"Bambusina","Chaetocladius",1,1
+636,"Bambusina","Procladius",1,1
+637,"Bambusina","Macropelopis",1,1
+638,"Arthropoda Hydracarina","Parachironomus",1,1
+639,"Arthropoda Hydracarina","Microtendipes",1,1
+640,"Arthropoda Hydracarina","Glyptotendipes",1,1
+641,"Arthropoda Hydracarina","Enallagma",1,1
+642,"Arthropoda Hydracarina","Ophryoxus gracilis",1,1
+643,"Arthropoda Hydracarina","Acantholeberis curvirostris",1,1
+644,"Arthropoda Hydracarina","Chydorus sp2",1,1
+645,"Arthropoda Hydracarina","Chydorus spl",1,1
+646,"Arthropoda Hydracarina","Disparalona acutirostris",1,1
+647,"Arthropoda Hydracarina","Alonella excisa",1,1
+648,"Arthropoda Hydracarina","Alona quadrangularis",1,1
+649,"Arthropoda Hydracarina","Cyclopoid copepodids",1,1
+650,"Arthropoda Hydracarina","Calanoid copepodids",1,1
+651,"Arthropoda Hydracarina","Nauplii",1,1
+652,"Corvomyenia everetti","Parachironomus",1,1
+653,"Corvomyenia everetti","Microtendipes",1,1
+654,"Corvomyenia everetti","Glyptotendipes",1,1
+655,"Ephydatia muelleri","Parachironomus",1,1
+656,"Ephydatia muelleri","Microtendipes",1,1
+657,"Ephydatia muelleri","Glyptotendipes",1,1
+658,"Ephydatia muelleri","Corynoneura",1,1
+659,"Ephydatia muelleri","Chaetocladius",1,1
+660,"Ephydatia muelleri","Procladius",1,1
+661,"Ephydatia muelleri","Macropelopis",1,1
+662,"Ephydatia muelleri","Enallagma",1,1
+663,"Ephydatia muelleri","Ophryoxus gracilis",1,1
+664,"Ephydatia muelleri","Acantholeberis curvirostris",1,1
+665,"Ephydatia muelleri","Chydorus sp2",1,1
+666,"Ephydatia muelleri","Chydorus spl",1,1
+667,"Ephydatia muelleri","Disparalona acutirostris",1,1
+668,"Ephydatia muelleri","Alonella excisa",1,1
+669,"Ephydatia muelleri","Alona quadrangularis",1,1
+670,"Ephydatia muelleri","Cyclopoid copepodids",1,1
+671,"Ephydatia muelleri","Calanoid copepodids",1,1
+672,"Ephydatia muelleri","Nauplii",1,1
+673,"Spongilla lacustris","Enallagma",1,1
+674,"Spongilla lacustris","Ophryoxus gracilis",1,1
+675,"Spongilla lacustris","Acantholeberis curvirostris",1,1
+676,"Spongilla lacustris","Chydorus sp2",1,1
+677,"Spongilla lacustris","Chydorus spl",1,1
+678,"Spongilla lacustris","Disparalona acutirostris",1,1
+679,"Spongilla lacustris","Alonella excisa",1,1
+680,"Spongilla lacustris","Alona quadrangularis",1,1
+681,"Spongilla lacustris","Alona affinis",1,1
+682,"Spongilla lacustris","Cyclopoid copepodids",1,1
+683,"Spongilla lacustris","Calanoid copepodids",1,1
+684,"Spongilla lacustris","Nauplii",1,1
+685,"Spongilla lacustris","Synchaeta",1,1
+686,"Spongilla lacustris","Asplanchna",1,1
+687,"Spongilla lacustris","Polyarthra vulgaris",1,1
+688,"Spongilla lacustris","Polyarthra remata",1,1
+689,"Spongilla lacustris","Keratella hiemalis",1,1
+690,"Spongilla lacustris","Keratella cochlearis",1,1
+691,"Spongilla lacustris","Conochilus unicornis",1,1
+692,"Spongilla lacustris","Polyphemus pediculus",1,1
+693,"Spongilla lacustris","Leptodora kindtii",1,1
+694,"Spongilla lacustris","Holopedium gibberum",1,1
+695,"Spongilla lacustris","Diaphanosoma birgei",1,1
+696,"Spongilla lacustris","Daphnia parvula",1,1
+697,"Spongilla lacustris","Daphnia galeata mendotae",1,1
+698,"Spongilla lacustris","Eubosmina",1,1
+699,"Spongilla lacustris","Bosmina longirostris",1,1
+700,"Spongilla lacustris","Epischura lacustris",1,1
+701,"Spongilla lacustris","Tropocyclops prasinus",1,1
+702,"Spongilla lacustris","Mesocyclops edax",1,1
+703,"Spongilla lacustris","Diacyclops thomasi",1,1
+704,"Spongilla lacustris","Sida crystallina",1,1
+705,"Spongilla lacustris","Diaptomus minutus",1,1
+706,"Spongilla lacustris","Scapholeberis kingi",1,1
+707,"Spongilla lacustris","Fish eggs",1,1
+708,"Spongilla lacustris","Shiner (Notemigonus crysoleucus)",1,1
+709,"Spongilla lacustris","Mudminnow (Umbra)",1,1
+710,"Spongilla lacustris","?",1,1
+711,"Spongilla lacustris","Black crappie (Pomoxis nigromaculatus), young",1,1
+712,"Spongilla lacustris","Rock bass (Ambloptes rupestris), adult",1,1
+713,"Spongilla lacustris","Rock bass (Ambloptes rupestris), young",1,1
+714,"Spongilla lacustris","Largemouth bass (Micropterus salsmoides), young",1,1
+715,"Spongilla lacustris","Yellow perch (Perca flaverscens), adult",1,1
+716,"Spongilla lacustris","Yellow perch (Perca flaverscens), young",1,1
+717,"Amphipoda Crangonyx gracilis","Turbellaria Tricladida",1,1
+718,"Amphipoda Crangonyx gracilis","Annelida Hirudinea",1,1
+719,"Amphipoda Crangonyx gracilis","Annelida Oligochaete",1,1
+720,"Amphipoda Crangonyx gracilis","Sphaeriidae",1,1
+721,"Amphipoda Crangonyx gracilis","Campeloma decisum",1,1
+722,"Amphipoda Crangonyx gracilis","Bivalvia",1,1
+723,"Amphipoda Crangonyx gracilis","Xenochironomus",1,1
+724,"Turbellaria Tricladida","Annelida Hirudinea",1,1
+725,"Turbellaria Tricladida","Stictochironomus",1,1
+726,"Annelida Hirudinea","Annelida Hirudinea",1,1
+727,"Annelida Hirudinea","Stictochironomus",1,1
+728,"Annelida Oligochaete","Annelida Hirudinea",1,1
+729,"Annelida Oligochaete","Stictochironomus",1,1
+730,"Sphaeriidae","Annelida Hirudinea",1,1
+731,"Sphaeriidae","Stictochironomus",1,1
+732,"Campeloma decisum","Turbellaria Tricladida",1,1
+733,"Campeloma decisum","Annelida Hirudinea",1,1
+734,"Campeloma decisum","Annelida Oligochaete",1,1
+735,"Campeloma decisum","Sphaeriidae",1,1
+736,"Campeloma decisum","Campeloma decisum",1,1
+737,"Campeloma decisum","Stictochironomus",1,1
+738,"Bivalvia","Amphipoda Crangonyx gracilis",1,1
+739,"Bivalvia","Stenochironomus",1,1
+740,"Bivalvia","Pseudochironomus",1,1
+741,"Bivalvia","Polypedilum",1,1
+742,"Bivalvia","Sphaeriidae",1,1
+743,"Bivalvia","Paratendipes",1,1
+744,"Bivalvia","Bivalvia",1,1
+745,"Bivalvia","Xenochironomus",1,1
+746,"Bivalvia","Glyptotendipes",1,1
+747,"Bivalvia","Endochironomus",1,1
+748,"Bivalvia","Cryptochironomus",1,1
+749,"Bivalvia","Chironomus",1,1
+750,"Bivalvia","Tanytarsus",1,1
+751,"Xenochironomus","Amphipoda Crangonyx gracilis",1,1
+752,"Xenochironomus","Turbellaria Tricladida",1,1
+753,"Xenochironomus","Stenochironomus",1,1
+754,"Xenochironomus","Pseudochironomus",1,1
+755,"Xenochironomus","Polypedilum",1,1
+756,"Xenochironomus","Sphaeriidae",1,1
+757,"Xenochironomus","Paratendipes",1,1
+758,"Xenochironomus","Bivalvia",1,1
+759,"Xenochironomus","Xenochironomus",1,1
+760,"Xenochironomus","Glyptotendipes",1,1
+761,"Xenochironomus","Endochironomus",1,1
+762,"Xenochironomus","Cryptochironomus",1,1
+763,"Xenochironomus","Chironomus",1,1
+764,"Xenochironomus","Tanytarsus",1,1
+765,"Stictochironomus","Turbellaria Tricladida",1,1
+766,"Stictochironomus","Stenochironomus",1,1
+767,"Stictochironomus","Annelida Hirudinea",1,1
+768,"Stictochironomus","Pseudochironomus",1,1
+769,"Stictochironomus","Annelida Oligochaete",1,1
+770,"Stictochironomus","Sphaeriidae",1,1
+771,"Stictochironomus","Campeloma decisum",1,1
+772,"Stenochironomus","Turbellaria Tricladida",1,1
+773,"Stenochironomus","Annelida Hirudinea",1,1
+774,"Stenochironomus","Annelida Oligochaete",1,1
+775,"Stenochironomus","Sphaeriidae",1,1
+776,"Stenochironomus","Campeloma decisum",1,1
+777,"Stenochironomus","Bivalvia",1,1
+778,"Stenochironomus","Xenochironomus",1,1
+779,"Stenochironomus","Stictochironomus",1,1
+780,"Pseudochironomus","Turbellaria Tricladida",1,1
+781,"Pseudochironomus","Annelida Hirudinea",1,1
+782,"Pseudochironomus","Annelida Oligochaete",1,1
+783,"Pseudochironomus","Sphaeriidae",1,1
+784,"Pseudochironomus","Campeloma decisum",1,1
+785,"Pseudochironomus","Bivalvia",1,1
+786,"Pseudochironomus","Xenochironomus",1,1
+787,"Pseudochironomus","Stictochironomus",1,1
+788,"Polypedilum","Turbellaria Tricladida",1,1
+789,"Polypedilum","Annelida Hirudinea",1,1
+790,"Polypedilum","Annelida Oligochaete",1,1
+791,"Polypedilum","Sphaeriidae",1,1
+792,"Polypedilum","Campeloma decisum",1,1
+793,"Polypedilum","Bivalvia",1,1
+794,"Polypedilum","Xenochironomus",1,1
+795,"Polypedilum","Stictochironomus",1,1
+796,"Paratendipes","Turbellaria Tricladida",1,1
+797,"Paratendipes","Annelida Hirudinea",1,1
+798,"Paratendipes","Annelida Oligochaete",1,1
+799,"Paratendipes","Sphaeriidae",1,1
+800,"Paratendipes","Campeloma decisum",1,1
+801,"Parachironomus","Amphipoda Crangonyx gracilis",1,1
+802,"Parachironomus","Stenochironomus",1,1
+803,"Parachironomus","Pseudochironomus",1,1
+804,"Parachironomus","Annelida Oligochaete",1,1
+805,"Parachironomus","Polypedilum",1,1
+806,"Parachironomus","Sphaeriidae",1,1
+807,"Parachironomus","Paratendipes",1,1
+808,"Parachironomus","Bivalvia",1,1
+809,"Parachironomus","Xenochironomus",1,1
+810,"Parachironomus","Microtendipes",1,1
+811,"Parachironomus","Glyptotendipes",1,1
+812,"Parachironomus","Endochironomus",1,1
+813,"Parachironomus","Cryptochironomus",1,1
+814,"Parachironomus","Cladopelma",1,1
+815,"Parachironomus","Chironomus",1,1
+816,"Parachironomus","Tanytarsus",1,1
+817,"Microtendipes","Amphipoda Crangonyx gracilis",1,1
+818,"Microtendipes","Turbellaria Tricladida",1,1
+819,"Microtendipes","Stenochironomus",1,1
+820,"Microtendipes","Pseudochironomus",1,1
+821,"Microtendipes","Polypedilum",1,1
+822,"Microtendipes","Sphaeriidae",1,1
+823,"Microtendipes","Paratendipes",1,1
+824,"Microtendipes","Bivalvia",1,1
+825,"Microtendipes","Xenochironomus",1,1
+826,"Microtendipes","Microtendipes",1,1
+827,"Microtendipes","Glyptotendipes",1,1
+828,"Microtendipes","Endochironomus",1,1
+829,"Microtendipes","Cryptochironomus",1,1
+830,"Microtendipes","Chironomus",1,1
+831,"Microtendipes","Tanytarsus",1,1
+832,"Glyptotendipes","Amphipoda Crangonyx gracilis",1,1
+833,"Glyptotendipes","Turbellaria Tricladida",1,1
+834,"Glyptotendipes","Stenochironomus",1,1
+835,"Glyptotendipes","Pseudochironomus",1,1
+836,"Glyptotendipes","Annelida Oligochaete",1,1
+837,"Glyptotendipes","Polypedilum",1,1
+838,"Glyptotendipes","Sphaeriidae",1,1
+839,"Glyptotendipes","Campeloma decisum",1,1
+840,"Glyptotendipes","Paratendipes",1,1
+841,"Glyptotendipes","Glyptotendipes",1,1
+842,"Glyptotendipes","Endochironomus",1,1
+843,"Glyptotendipes","Cryptochironomus",1,1
+844,"Glyptotendipes","Tanytarsus",1,1
+845,"Endochironomus","Amphipoda Crangonyx gracilis",1,1
+846,"Endochironomus","Turbellaria Tricladida",1,1
+847,"Endochironomus","Stenochironomus",1,1
+848,"Endochironomus","Pseudochironomus",1,1
+849,"Endochironomus","Polypedilum",1,1
+850,"Endochironomus","Sphaeriidae",1,1
+851,"Endochironomus","Campeloma decisum",1,1
+852,"Endochironomus","Paratendipes",1,1
+853,"Endochironomus","Glyptotendipes",1,1
+854,"Endochironomus","Micropsectra",1,1
+855,"Endochironomus","Nanocladius",1,1
+856,"Cryptochironomus","Amphipoda Crangonyx gracilis",1,1
+857,"Cryptochironomus","Stenochironomus",1,1
+858,"Cryptochironomus","Pseudochironomus",1,1
+859,"Cryptochironomus","Annelida Oligochaete",1,1
+860,"Cryptochironomus","Polypedilum",1,1
+861,"Cryptochironomus","Sphaeriidae",1,1
+862,"Cryptochironomus","Campeloma decisum",1,1
+863,"Cryptochironomus","Paratendipes",1,1
+864,"Cryptochironomus","Glyptotendipes",1,1
+865,"Cryptochironomus","Micropsectra",1,1
+866,"Cryptochironomus","Nanocladius",1,1
+867,"Cladopelma","Amphipoda Crangonyx gracilis",1,1
+868,"Cladopelma","Stenochironomus",1,1
+869,"Cladopelma","Pseudochironomus",1,1
+870,"Cladopelma","Polypedilum",1,1
+871,"Cladopelma","Sphaeriidae",1,1
+872,"Cladopelma","Campeloma decisum",1,1
+873,"Cladopelma","Paratendipes",1,1
+874,"Cladopelma","Bivalvia",1,1
+875,"Cladopelma","Xenochironomus",1,1
+876,"Cladopelma","Microtendipes",1,1
+877,"Cladopelma","Glyptotendipes",1,1
+878,"Cladopelma","Endochironomus",1,1
+879,"Cladopelma","Cryptochironomus",1,1
+880,"Cladopelma","Cladopelma",1,1
+881,"Cladopelma","Chironomus",1,1
+882,"Chironomus","Amphipoda Crangonyx gracilis",1,1
+883,"Chironomus","Stenochironomus",1,1
+884,"Chironomus","Pseudochironomus",1,1
+885,"Chironomus","Polypedilum",1,1
+886,"Chironomus","Sphaeriidae",1,1
+887,"Chironomus","Campeloma decisum",1,1
+888,"Chironomus","Paratendipes",1,1
+889,"Chironomus","Bivalvia",1,1
+890,"Chironomus","Xenochironomus",1,1
+891,"Chironomus","Microtendipes",1,1
+892,"Chironomus","Glyptotendipes",1,1
+893,"Chironomus","Endochironomus",1,1
+894,"Chironomus","Cryptochironomus",1,1
+895,"Chironomus","Chironomus",1,1
+896,"Tanytarsus","Amphipoda Crangonyx gracilis",1,1
+897,"Tanytarsus","Turbellaria Tricladida",1,1
+898,"Tanytarsus","Stenochironomus",1,1
+899,"Tanytarsus","Annelida Hirudinea",1,1
+900,"Tanytarsus","Pseudochironomus",1,1
+901,"Tanytarsus","Annelida Oligochaete",1,1
+902,"Tanytarsus","Sphaeriidae",1,1
+903,"Tanytarsus","Campeloma decisum",1,1
+904,"Tanytarsus","Trichocerca cylindrica",1,1
+905,"Tanytarsus","Tanytarsus",1,1
+906,"Paratanytarsus","Amphipoda Crangonyx gracilis",1,1
+907,"Paratanytarsus","Turbellaria Tricladida",1,1
+908,"Paratanytarsus","Stenochironomus",1,1
+909,"Paratanytarsus","Pseudochironomus",1,1
+910,"Paratanytarsus","Polypedilum",1,1
+911,"Paratanytarsus","Sphaeriidae",1,1
+912,"Paratanytarsus","Paratendipes",1,1
+913,"Paratanytarsus","Bivalvia",1,1
+914,"Paratanytarsus","Xenochironomus",1,1
+915,"Paratanytarsus","Microtendipes",1,1
+916,"Paratanytarsus","Glyptotendipes",1,1
+917,"Paratanytarsus","Endochironomus",1,1
+918,"Paratanytarsus","Cryptochironomus",1,1
+919,"Paratanytarsus","Cladopelma",1,1
+920,"Paratanytarsus","Chironomus",1,1
+921,"Paratanytarsus","Micropsectra",1,1
+922,"Paratanytarsus","Nanocladius",1,1
+923,"Micropsectra","Stenochironomus",1,1
+924,"Micropsectra","Annelida Hirudinea",1,1
+925,"Micropsectra","Annelida Oligochaete",1,1
+926,"Micropsectra","Micropsectra",1,1
+927,"Nanocladius","Amphipoda Crangonyx gracilis",1,1
+928,"Nanocladius","Stenochironomus",1,1
+929,"Nanocladius","Pseudochironomus",1,1
+930,"Nanocladius","Annelida Oligochaete",1,1
+931,"Nanocladius","Sphaeriidae",1,1
+932,"Nanocladius","Campeloma decisum",1,1
+933,"Nanocladius","Trichocerca cylindrica",1,1
+934,"Cricotopus","Amphipoda Crangonyx gracilis",1,1
+935,"Cricotopus","Stenochironomus",1,1
+936,"Cricotopus","Pseudochironomus",1,1
+937,"Cricotopus","Polypedilum",1,1
+938,"Cricotopus","Sphaeriidae",1,1
+939,"Cricotopus","Paratendipes",1,1
+940,"Cricotopus","Bivalvia",1,1
+941,"Cricotopus","Xenochironomus",1,1
+942,"Cricotopus","Microtendipes",1,1
+943,"Cricotopus","Glyptotendipes",1,1
+944,"Cricotopus","Endochironomus",1,1
+945,"Cricotopus","Cryptochironomus",1,1
+946,"Cricotopus","Cladopelma",1,1
+947,"Cricotopus","Chironomus",1,1
+948,"Cricotopus","Micropsectra",1,1
+949,"Cricotopus","Nanocladius",1,1
+950,"Corynoneura","Amphipoda Crangonyx gracilis",1,1
+951,"Corynoneura","Turbellaria Tricladida",1,1
+952,"Corynoneura","Stenochironomus",1,1
+953,"Corynoneura","Pseudochironomus",1,1
+954,"Corynoneura","Annelida Oligochaete",1,1
+955,"Corynoneura","Polypedilum",1,1
+956,"Corynoneura","Sphaeriidae",1,1
+957,"Corynoneura","Campeloma decisum",1,1
+958,"Corynoneura","Paratendipes",1,1
+959,"Corynoneura","Bivalvia",1,1
+960,"Corynoneura","Xenochironomus",1,1
+961,"Corynoneura","Microtendipes",1,1
+962,"Corynoneura","Glyptotendipes",1,1
+963,"Corynoneura","Endochironomus",1,1
+964,"Corynoneura","Cryptochironomus",1,1
+965,"Corynoneura","Chironomus",1,1
+966,"Corynoneura","Micropsectra",1,1
+967,"Corynoneura","Nanocladius",1,1
+968,"Corynoneura","Tanytarsus",1,1
+969,"Chaetocladius","Amphipoda Crangonyx gracilis",1,1
+970,"Chaetocladius","Turbellaria Tricladida",1,1
+971,"Chaetocladius","Stenochironomus",1,1
+972,"Chaetocladius","Pseudochironomus",1,1
+973,"Chaetocladius","Annelida Oligochaete",1,1
+974,"Chaetocladius","Polypedilum",1,1
+975,"Chaetocladius","Sphaeriidae",1,1
+976,"Chaetocladius","Campeloma decisum",1,1
+977,"Chaetocladius","Paratendipes",1,1
+978,"Chaetocladius","Bivalvia",1,1
+979,"Chaetocladius","Xenochironomus",1,1
+980,"Chaetocladius","Microtendipes",1,1
+981,"Chaetocladius","Glyptotendipes",1,1
+982,"Chaetocladius","Endochironomus",1,1
+983,"Chaetocladius","Cryptochironomus",1,1
+984,"Chaetocladius","Chironomus",1,1
+985,"Chaetocladius","Micropsectra",1,1
+986,"Chaetocladius","Nanocladius",1,1
+987,"Chaetocladius","Tanytarsus",1,1
+988,"Procladius","Amphipoda Crangonyx gracilis",1,1
+989,"Procladius","Turbellaria Tricladida",1,1
+990,"Procladius","Stenochironomus",1,1
+991,"Procladius","Pseudochironomus",1,1
+992,"Procladius","Annelida Oligochaete",1,1
+993,"Procladius","Polypedilum",1,1
+994,"Procladius","Sphaeriidae",1,1
+995,"Procladius","Campeloma decisum",1,1
+996,"Procladius","Paratendipes",1,1
+997,"Procladius","Bivalvia",1,1
+998,"Procladius","Xenochironomus",1,1
+999,"Procladius","Microtendipes",1,1
+1000,"Procladius","Glyptotendipes",1,1
+1001,"Procladius","Endochironomus",1,1
+1002,"Procladius","Cryptochironomus",1,1
+1003,"Procladius","Chironomus",1,1
+1004,"Procladius","Micropsectra",1,1
+1005,"Procladius","Nanocladius",1,1
+1006,"Procladius","Tanytarsus",1,1
+1007,"Macropelopis","Amphipoda Crangonyx gracilis",1,1
+1008,"Macropelopis","Turbellaria Tricladida",1,1
+1009,"Macropelopis","Stenochironomus",1,1
+1010,"Macropelopis","Pseudochironomus",1,1
+1011,"Macropelopis","Annelida Oligochaete",1,1
+1012,"Macropelopis","Polypedilum",1,1
+1013,"Macropelopis","Sphaeriidae",1,1
+1014,"Macropelopis","Campeloma decisum",1,1
+1015,"Macropelopis","Paratendipes",1,1
+1016,"Macropelopis","Microtendipes",1,1
+1017,"Macropelopis","Micropsectra",1,1
+1018,"Macropelopis","Nanocladius",1,1
+1019,"Larsia","Amphipoda Crangonyx gracilis",1,1
+1020,"Larsia","Stenochironomus",1,1
+1021,"Larsia","Pseudochironomus",1,1
+1022,"Larsia","Polypedilum",1,1
+1023,"Larsia","Sphaeriidae",1,1
+1024,"Larsia","Campeloma decisum",1,1
+1025,"Larsia","Paratendipes",1,1
+1026,"Guttipelopia","Amphipoda Crangonyx gracilis",1,1
+1027,"Guttipelopia","Stenochironomus",1,1
+1028,"Guttipelopia","Pseudochironomus",1,1
+1029,"Guttipelopia","Polypedilum",1,1
+1030,"Guttipelopia","Sphaeriidae",1,1
+1031,"Guttipelopia","Campeloma decisum",1,1
+1032,"Guttipelopia","Paratendipes",1,1
+1033,"Djalmabatista","Amphipoda Crangonyx gracilis",1,1
+1034,"Djalmabatista","Stenochironomus",1,1
+1035,"Djalmabatista","Pseudochironomus",1,1
+1036,"Djalmabatista","Polypedilum",1,1
+1037,"Djalmabatista","Sphaeriidae",1,1
+1038,"Djalmabatista","Campeloma decisum",1,1
+1039,"Djalmabatista","Paratendipes",1,1
+1040,"Clinotanypus","Amphipoda Crangonyx gracilis",1,1
+1041,"Clinotanypus","Stenochironomus",1,1
+1042,"Clinotanypus","Pseudochironomus",1,1
+1043,"Clinotanypus","Polypedilum",1,1
+1044,"Clinotanypus","Sphaeriidae",1,1
+1045,"Clinotanypus","Campeloma decisum",1,1
+1046,"Clinotanypus","Paratendipes",1,1
+1047,"Albabesmyia","Amphipoda Crangonyx gracilis",1,1
+1048,"Albabesmyia","Stenochironomus",1,1
+1049,"Albabesmyia","Pseudochironomus",1,1
+1050,"Albabesmyia","Polypedilum",1,1
+1051,"Albabesmyia","Sphaeriidae",1,1
+1052,"Albabesmyia","Campeloma decisum",1,1
+1053,"Albabesmyia","Paratendipes",1,1
+1054,"Albabesmyia","Cladopelma",1,1
+1055,"Chaoborus punctipennis","Amphipoda Crangonyx gracilis",1,1
+1056,"Chaoborus punctipennis","Stenochironomus",1,1
+1057,"Chaoborus punctipennis","Pseudochironomus",1,1
+1058,"Chaoborus punctipennis","Polypedilum",1,1
+1059,"Chaoborus punctipennis","Sphaeriidae",1,1
+1060,"Chaoborus punctipennis","Campeloma decisum",1,1
+1061,"Chaoborus punctipennis","Paratendipes",1,1
+1062,"Chaoborus punctipennis","Cladopelma",1,1
+1063,"Chaoborus albatus","Amphipoda Crangonyx gracilis",1,1
+1064,"Chaoborus albatus","Stenochironomus",1,1
+1065,"Chaoborus albatus","Pseudochironomus",1,1
+1066,"Chaoborus albatus","Polypedilum",1,1
+1067,"Chaoborus albatus","Sphaeriidae",1,1
+1068,"Chaoborus albatus","Campeloma decisum",1,1
+1069,"Chaoborus albatus","Paratendipes",1,1
+1070,"Chaoborus albatus","Cladopelma",1,1
+1071,"Sphaeromais","Amphipoda Crangonyx gracilis",1,1
+1072,"Sphaeromais","Stenochironomus",1,1
+1073,"Sphaeromais","Pseudochironomus",1,1
+1074,"Sphaeromais","Polypedilum",1,1
+1075,"Sphaeromais","Sphaeriidae",1,1
+1076,"Sphaeromais","Campeloma decisum",1,1
+1077,"Sphaeromais","Paratendipes",1,1
+1078,"Sphaeromais","Cladopelma",1,1
+1079,"Bezzia","Amphipoda Crangonyx gracilis",1,1
+1080,"Bezzia","Stenochironomus",1,1
+1081,"Bezzia","Pseudochironomus",1,1
+1082,"Bezzia","Polypedilum",1,1
+1083,"Bezzia","Sphaeriidae",1,1
+1084,"Bezzia","Campeloma decisum",1,1
+1085,"Bezzia","Paratendipes",1,1
+1086,"Bezzia","Bivalvia",1,1
+1087,"Bezzia","Xenochironomus",1,1
+1088,"Bezzia","Microtendipes",1,1
+1089,"Bezzia","Glyptotendipes",1,1
+1090,"Bezzia","Endochironomus",1,1
+1091,"Bezzia","Cryptochironomus",1,1
+1092,"Bezzia","Chironomus",1,1
+1093,"Lepidoptera Pyralidae eoparagyractis","Amphipoda Crangonyx gracilis",1,1
+1094,"Lepidoptera Pyralidae eoparagyractis","Stenochironomus",1,1
+1095,"Lepidoptera Pyralidae eoparagyractis","Pseudochironomus",1,1
+1096,"Lepidoptera Pyralidae eoparagyractis","Polypedilum",1,1
+1097,"Lepidoptera Pyralidae eoparagyractis","Sphaeriidae",1,1
+1098,"Lepidoptera Pyralidae eoparagyractis","Campeloma decisum",1,1
+1099,"Lepidoptera Pyralidae eoparagyractis","Paratendipes",1,1
+1100,"Lepidoptera Pyralidae eoparagyractis","Bivalvia",1,1
+1101,"Lepidoptera Pyralidae eoparagyractis","Xenochironomus",1,1
+1102,"Lepidoptera Pyralidae eoparagyractis","Microtendipes",1,1
+1103,"Lepidoptera Pyralidae eoparagyractis","Glyptotendipes",1,1
+1104,"Lepidoptera Pyralidae eoparagyractis","Endochironomus",1,1
+1105,"Lepidoptera Pyralidae eoparagyractis","Cryptochironomus",1,1
+1106,"Lepidoptera Pyralidae eoparagyractis","Chironomus",1,1
+1107,"Magaloptera Sialis","Amphipoda Crangonyx gracilis",1,1
+1108,"Magaloptera Sialis","Stenochironomus",1,1
+1109,"Magaloptera Sialis","Pseudochironomus",1,1
+1110,"Magaloptera Sialis","Polypedilum",1,1
+1111,"Magaloptera Sialis","Sphaeriidae",1,1
+1112,"Magaloptera Sialis","Campeloma decisum",1,1
+1113,"Magaloptera Sialis","Paratendipes",1,1
+1114,"Magaloptera Sialis","Bivalvia",1,1
+1115,"Magaloptera Sialis","Xenochironomus",1,1
+1116,"Magaloptera Sialis","Microtendipes",1,1
+1117,"Magaloptera Sialis","Glyptotendipes",1,1
+1118,"Magaloptera Sialis","Endochironomus",1,1
+1119,"Magaloptera Sialis","Cryptochironomus",1,1
+1120,"Magaloptera Sialis","Cladopelma",1,1
+1121,"Magaloptera Sialis","Chironomus",1,1
+1122,"Hemiptera Notonectids","Amphipoda Crangonyx gracilis",1,1
+1123,"Hemiptera Notonectids","Stenochironomus",1,1
+1124,"Hemiptera Notonectids","Pseudochironomus",1,1
+1125,"Hemiptera Notonectids","Polypedilum",1,1
+1126,"Hemiptera Notonectids","Sphaeriidae",1,1
+1127,"Hemiptera Notonectids","Campeloma decisum",1,1
+1128,"Hemiptera Notonectids","Paratendipes",1,1
+1129,"Hemiptera Notonectids","Bivalvia",1,1
+1130,"Hemiptera Notonectids","Xenochironomus",1,1
+1131,"Hemiptera Notonectids","Microtendipes",1,1
+1132,"Hemiptera Notonectids","Glyptotendipes",1,1
+1133,"Hemiptera Notonectids","Endochironomus",1,1
+1134,"Hemiptera Notonectids","Cryptochironomus",1,1
+1135,"Hemiptera Notonectids","Cladopelma",1,1
+1136,"Hemiptera Notonectids","Chironomus",1,1
+1137,"Hemiptera Veliidae","Amphipoda Crangonyx gracilis",1,1
+1138,"Hemiptera Veliidae","Stenochironomus",1,1
+1139,"Hemiptera Veliidae","Pseudochironomus",1,1
+1140,"Hemiptera Veliidae","Polypedilum",1,1
+1141,"Hemiptera Veliidae","Sphaeriidae",1,1
+1142,"Hemiptera Veliidae","Campeloma decisum",1,1
+1143,"Hemiptera Veliidae","Paratendipes",1,1
+1144,"Hemiptera Veliidae","Bivalvia",1,1
+1145,"Hemiptera Veliidae","Xenochironomus",1,1
+1146,"Hemiptera Veliidae","Microtendipes",1,1
+1147,"Hemiptera Veliidae","Glyptotendipes",1,1
+1148,"Hemiptera Veliidae","Endochironomus",1,1
+1149,"Hemiptera Veliidae","Cryptochironomus",1,1
+1150,"Hemiptera Veliidae","Cladopelma",1,1
+1151,"Hemiptera Veliidae","Chironomus",1,1
+1152,"Gyrinus","Amphipoda Crangonyx gracilis",1,1
+1153,"Gyrinus","Stenochironomus",1,1
+1154,"Gyrinus","Pseudochironomus",1,1
+1155,"Gyrinus","Polypedilum",1,1
+1156,"Gyrinus","Sphaeriidae",1,1
+1157,"Gyrinus","Campeloma decisum",1,1
+1158,"Gyrinus","Paratendipes",1,1
+1159,"Gyrinus","Bivalvia",1,1
+1160,"Gyrinus","Xenochironomus",1,1
+1161,"Gyrinus","Microtendipes",1,1
+1162,"Gyrinus","Glyptotendipes",1,1
+1163,"Gyrinus","Endochironomus",1,1
+1164,"Gyrinus","Cryptochironomus",1,1
+1165,"Gyrinus","Cladopelma",1,1
+1166,"Gyrinus","Chironomus",1,1
+1167,"Neuroptera Climacia","Amphipoda Crangonyx gracilis",1,1
+1168,"Neuroptera Climacia","Stenochironomus",1,1
+1169,"Neuroptera Climacia","Pseudochironomus",1,1
+1170,"Neuroptera Climacia","Polypedilum",1,1
+1171,"Neuroptera Climacia","Sphaeriidae",1,1
+1172,"Neuroptera Climacia","Campeloma decisum",1,1
+1173,"Neuroptera Climacia","Paratendipes",1,1
+1174,"Neuroptera Climacia","Bivalvia",1,1
+1175,"Neuroptera Climacia","Xenochironomus",1,1
+1176,"Neuroptera Climacia","Microtendipes",1,1
+1177,"Neuroptera Climacia","Glyptotendipes",1,1
+1178,"Neuroptera Climacia","Endochironomus",1,1
+1179,"Neuroptera Climacia","Cryptochironomus",1,1
+1180,"Neuroptera Climacia","Chironomus",1,1
+1181,"Enallagma","Amphipoda Crangonyx gracilis",1,1
+1182,"Enallagma","Polypedilum",1,1
+1183,"Enallagma","Sphaeriidae",1,1
+1184,"Enallagma","Campeloma decisum",1,1
+1185,"Enallagma","Paratendipes",1,1
+1186,"Enallagma","Bivalvia",1,1
+1187,"Enallagma","Xenochironomus",1,1
+1188,"Enallagma","Microtendipes",1,1
+1189,"Enallagma","Glyptotendipes",1,1
+1190,"Enallagma","Endochironomus",1,1
+1191,"Enallagma","Cryptochironomus",1,1
+1192,"Enallagma","Chironomus",1,1
+1193,"Enallagma","Sympetrum",1,1
+1194,"Enallagma","Libellula",1,1
+1195,"Enallagma","Anisoptera epitheca",1,1
+1196,"Enallagma","Polycentropus",1,1
+1197,"Enallagma","Molanna",1,1
+1198,"Enallagma","Banksiola",1,1
+1199,"Enallagma","Agrypnia",1,1
+1200,"Enallagma","Limnephilus",1,1
+1201,"Enallagma","Mystacides",1,1
+1202,"Enallagma","Oecetis",1,1
+1203,"Enallagma","Caenis",1,1
+1204,"Enallagma","Leptophlebia",1,1
+1205,"Enallagma","Hydroporus",1,1
+1206,"Enallagma","Hemiptera Gerris",1,1
+1207,"Enallagma","Harpacticoid copepodids",1,1
+1208,"Enallagma","Harpacticoid copepods",1,1
+1209,"Enallagma","Microcyclops rubellus",1,1
+1210,"Enallagma","Acanthocyclops",1,1
+1211,"Enallagma","Eucyclops serrulatus",1,1
+1212,"Enallagma","Macrocyclops albidus",1,1
+1213,"Enallagma","Sida crystallina",1,1
+1214,"Enallagma","Scapholeberis kingi",1,1
+1215,"Sympetrum","Amphipoda Crangonyx gracilis",1,1
+1216,"Sympetrum","Polypedilum",1,1
+1217,"Sympetrum","Sphaeriidae",1,1
+1218,"Sympetrum","Campeloma decisum",1,1
+1219,"Sympetrum","Paratendipes",1,1
+1220,"Sympetrum","Bivalvia",1,1
+1221,"Sympetrum","Xenochironomus",1,1
+1222,"Sympetrum","Microtendipes",1,1
+1223,"Sympetrum","Glyptotendipes",1,1
+1224,"Sympetrum","Endochironomus",1,1
+1225,"Sympetrum","Cryptochironomus",1,1
+1226,"Sympetrum","Chironomus",1,1
+1227,"Sympetrum","Limnephilus",1,1
+1228,"Sympetrum","Mystacides",1,1
+1229,"Sympetrum","Oecetis",1,1
+1230,"Sympetrum","Caenis",1,1
+1231,"Sympetrum","Macrocyclops albidus",1,1
+1232,"Sympetrum","Sida crystallina",1,1
+1233,"Sympetrum","Scapholeberis kingi",1,1
+1234,"Libellula","Amphipoda Crangonyx gracilis",1,1
+1235,"Libellula","Polypedilum",1,1
+1236,"Libellula","Campeloma decisum",1,1
+1237,"Libellula","Paratendipes",1,1
+1238,"Libellula","Bivalvia",1,1
+1239,"Libellula","Xenochironomus",1,1
+1240,"Libellula","Microtendipes",1,1
+1241,"Libellula","Glyptotendipes",1,1
+1242,"Libellula","Endochironomus",1,1
+1243,"Libellula","Cryptochironomus",1,1
+1244,"Libellula","Chironomus",1,1
+1245,"Libellula","Limnephilus",1,1
+1246,"Libellula","Mystacides",1,1
+1247,"Libellula","Oecetis",1,1
+1248,"Libellula","Caenis",1,1
+1249,"Libellula","Alona intermedia",1,1
+1250,"Libellula","Alona rustica",1,1
+1251,"Libellula","Macrocyclops albidus",1,1
+1252,"Libellula","Sida crystallina",1,1
+1253,"Libellula","Scapholeberis kingi",1,1
+1254,"Anisoptera epitheca","Amphipoda Crangonyx gracilis",1,1
+1255,"Anisoptera epitheca","Polypedilum",1,1
+1256,"Anisoptera epitheca","Sphaeriidae",1,1
+1257,"Anisoptera epitheca","Campeloma decisum",1,1
+1258,"Anisoptera epitheca","Paratendipes",1,1
+1259,"Anisoptera epitheca","Bivalvia",1,1
+1260,"Anisoptera epitheca","Xenochironomus",1,1
+1261,"Anisoptera epitheca","Microtendipes",1,1
+1262,"Anisoptera epitheca","Glyptotendipes",1,1
+1263,"Anisoptera epitheca","Endochironomus",1,1
+1264,"Anisoptera epitheca","Cryptochironomus",1,1
+1265,"Anisoptera epitheca","Chironomus",1,1
+1266,"Anisoptera epitheca","Limnephilus",1,1
+1267,"Anisoptera epitheca","Mystacides",1,1
+1268,"Anisoptera epitheca","Oecetis",1,1
+1269,"Anisoptera epitheca","Caenis",1,1
+1270,"Anisoptera epitheca","Alona intermedia",1,1
+1271,"Anisoptera epitheca","Alona rustica",1,1
+1272,"Anisoptera epitheca","Macrocyclops albidus",1,1
+1273,"Anisoptera epitheca","Sida crystallina",1,1
+1274,"Anisoptera epitheca","Scapholeberis kingi",1,1
+1275,"Polycentropus","Amphipoda Crangonyx gracilis",1,1
+1276,"Polycentropus","Polypedilum",1,1
+1277,"Polycentropus","Campeloma decisum",1,1
+1278,"Polycentropus","Paratendipes",1,1
+1279,"Polycentropus","Bivalvia",1,1
+1280,"Polycentropus","Xenochironomus",1,1
+1281,"Polycentropus","Microtendipes",1,1
+1282,"Polycentropus","Glyptotendipes",1,1
+1283,"Polycentropus","Endochironomus",1,1
+1284,"Polycentropus","Cryptochironomus",1,1
+1285,"Polycentropus","Chironomus",1,1
+1286,"Polycentropus","Limnephilus",1,1
+1287,"Polycentropus","Mystacides",1,1
+1288,"Polycentropus","Oecetis",1,1
+1289,"Polycentropus","Caenis",1,1
+1290,"Polycentropus","Macrocyclops albidus",1,1
+1291,"Polycentropus","Sida crystallina",1,1
+1292,"Polycentropus","Scapholeberis kingi",1,1
+1293,"Molanna","Amphipoda Crangonyx gracilis",1,1
+1294,"Molanna","Stenochironomus",1,1
+1295,"Molanna","Annelida Hirudinea",1,1
+1296,"Molanna","Pseudochironomus",1,1
+1297,"Molanna","Annelida Oligochaete",1,1
+1298,"Molanna","Sphaeriidae",1,1
+1299,"Molanna","Campeloma decisum",1,1
+1300,"Molanna","Trichocerca cylindrica",1,1
+1301,"Banksiola","Amphipoda Crangonyx gracilis",1,1
+1302,"Banksiola","Stenochironomus",1,1
+1303,"Banksiola","Annelida Hirudinea",1,1
+1304,"Banksiola","Pseudochironomus",1,1
+1305,"Banksiola","Sphaeriidae",1,1
+1306,"Banksiola","Campeloma decisum",1,1
+1307,"Banksiola","Trichocerca cylindrica",1,1
+1308,"Agrypnia","Turbellaria Tricladida",1,1
+1309,"Agrypnia","Stenochironomus",1,1
+1310,"Agrypnia","Annelida Hirudinea",1,1
+1311,"Agrypnia","Annelida Oligochaete",1,1
+1312,"Agrypnia","Campeloma decisum",1,1
+1313,"Agrypnia","Trichocerca cylindrica",1,1
+1314,"Limnephilus","Turbellaria Tricladida",1,1
+1315,"Limnephilus","Annelida Hirudinea",1,1
+1316,"Limnephilus","Annelida Oligochaete",1,1
+1317,"Limnephilus","Trichocerca cylindrica",1,1
+1318,"Mystacides","Turbellaria Tricladida",1,1
+1319,"Mystacides","Annelida Hirudinea",1,1
+1320,"Mystacides","Annelida Oligochaete",1,1
+1321,"Mystacides","Trichocerca cylindrica",1,1
+1322,"Oecetis","Turbellaria Tricladida",1,1
+1323,"Oecetis","Annelida Hirudinea",1,1
+1324,"Oecetis","Annelida Oligochaete",1,1
+1325,"Oecetis","Trichocerca cylindrica",1,1
+1326,"Caenis","Turbellaria Tricladida",1,1
+1327,"Caenis","Stenochironomus",1,1
+1328,"Caenis","Annelida Hirudinea",1,1
+1329,"Caenis","Pseudochironomus",1,1
+1330,"Caenis","Annelida Oligochaete",1,1
+1331,"Caenis","Polypedilum",1,1
+1332,"Caenis","Campeloma decisum",1,1
+1333,"Caenis","Trichocerca cylindrica",1,1
+1334,"Leptophlebia","Amphipoda Crangonyx gracilis",1,1
+1335,"Leptophlebia","Turbellaria Tricladida",1,1
+1336,"Leptophlebia","Stenochironomus",1,1
+1337,"Leptophlebia","Annelida Hirudinea",1,1
+1338,"Leptophlebia","Pseudochironomus",1,1
+1339,"Leptophlebia","Annelida Oligochaete",1,1
+1340,"Leptophlebia","Sphaeriidae",1,1
+1341,"Leptophlebia","Campeloma decisum",1,1
+1342,"Leptophlebia","Keratella crassa",1,1
+1343,"Leptophlebia","Keratella taurocephala",1,1
+1344,"Leptophlebia","Limnephilus",1,1
+1345,"Leptophlebia","Mystacides",1,1
+1346,"Leptophlebia","Oecetis",1,1
+1347,"Leptophlebia","Trichocerca cylindrica",1,1
+1348,"Leptophlebia","Kellicottia longispina",1,1
+1349,"Leptophlebia","Hydroporus",1,1
+1350,"Leptophlebia","Hemiptera Gerris",1,1
+1351,"Leptophlebia","Harpacticoid copepodids",1,1
+1352,"Leptophlebia","Harpacticoid copepods",1,1
+1353,"Leptophlebia","Microcyclops rubellus",1,1
+1354,"Leptophlebia","Acanthocyclops",1,1
+1355,"Leptophlebia","Eucyclops serrulatus",1,1
+1356,"Leptophlebia","Macrocyclops albidus",1,1
+1357,"Leptophlebia","Sida crystallina",1,1
+1358,"Leptophlebia","Scapholeberis kingi",1,1
+1359,"Hydroporus","Amphipoda Crangonyx gracilis",1,1
+1360,"Hydroporus","Turbellaria Tricladida",1,1
+1361,"Hydroporus","Stenochironomus",1,1
+1362,"Hydroporus","Pseudochironomus",1,1
+1363,"Hydroporus","Annelida Oligochaete",1,1
+1364,"Hydroporus","Sphaeriidae",1,1
+1365,"Hydroporus","Campeloma decisum",1,1
+1366,"Hydroporus","Keratella crassa",1,1
+1367,"Hydroporus","Keratella taurocephala",1,1
+1368,"Hydroporus","Limnephilus",1,1
+1369,"Hydroporus","Mystacides",1,1
+1370,"Hydroporus","Oecetis",1,1
+1371,"Hydroporus","Caenis",1,1
+1372,"Hydroporus","Trichocerca cylindrica",1,1
+1373,"Hydroporus","Kellicottia longispina",1,1
+1374,"Hydroporus","Hydroporus",1,1
+1375,"Hydroporus","Hemiptera Gerris",1,1
+1376,"Hydroporus","Harpacticoid copepodids",1,1
+1377,"Hydroporus","Harpacticoid copepods",1,1
+1378,"Hydroporus","Microcyclops rubellus",1,1
+1379,"Hydroporus","Acanthocyclops",1,1
+1380,"Hydroporus","Eucyclops serrulatus",1,1
+1381,"Hydroporus","Conochiloides",1,1
+1382,"Hemiptera Gerris","Amphipoda Crangonyx gracilis",1,1
+1383,"Hemiptera Gerris","Turbellaria Tricladida",1,1
+1384,"Hemiptera Gerris","Stenochironomus",1,1
+1385,"Hemiptera Gerris","Pseudochironomus",1,1
+1386,"Hemiptera Gerris","Annelida Oligochaete",1,1
+1387,"Hemiptera Gerris","Polypedilum",1,1
+1388,"Hemiptera Gerris","Sphaeriidae",1,1
+1389,"Hemiptera Gerris","Campeloma decisum",1,1
+1390,"Hemiptera Gerris","Keratella crassa",1,1
+1391,"Hemiptera Gerris","Keratella taurocephala",1,1
+1392,"Hemiptera Gerris","Limnephilus",1,1
+1393,"Hemiptera Gerris","Mystacides",1,1
+1394,"Hemiptera Gerris","Oecetis",1,1
+1395,"Hemiptera Gerris","Caenis",1,1
+1396,"Hemiptera Gerris","Trichocerca cylindrica",1,1
+1397,"Hemiptera Gerris","Kellicottia longispina",1,1
+1398,"Hemiptera Gerris","Hydroporus",1,1
+1399,"Hemiptera Gerris","Hemiptera Gerris",1,1
+1400,"Hemiptera Gerris","Harpacticoid copepodids",1,1
+1401,"Hemiptera Gerris","Harpacticoid copepods",1,1
+1402,"Hemiptera Gerris","Microcyclops rubellus",1,1
+1403,"Hemiptera Gerris","Acanthocyclops",1,1
+1404,"Hemiptera Gerris","Eucyclops serrulatus",1,1
+1405,"Hemiptera Gerris","Conochiloides",1,1
+1406,"Harpacticoid copepodids","Amphipoda Crangonyx gracilis",1,1
+1407,"Harpacticoid copepodids","Turbellaria Tricladida",1,1
+1408,"Harpacticoid copepodids","Stenochironomus",1,1
+1409,"Harpacticoid copepodids","Pseudochironomus",1,1
+1410,"Harpacticoid copepodids","Annelida Oligochaete",1,1
+1411,"Harpacticoid copepodids","Polypedilum",1,1
+1412,"Harpacticoid copepodids","Sphaeriidae",1,1
+1413,"Harpacticoid copepodids","Campeloma decisum",1,1
+1414,"Harpacticoid copepodids","Keratella crassa",1,1
+1415,"Harpacticoid copepodids","Keratella taurocephala",1,1
+1416,"Harpacticoid copepodids","Limnephilus",1,1
+1417,"Harpacticoid copepodids","Mystacides",1,1
+1418,"Harpacticoid copepodids","Oecetis",1,1
+1419,"Harpacticoid copepodids","Caenis",1,1
+1420,"Harpacticoid copepodids","Trichocerca cylindrica",1,1
+1421,"Harpacticoid copepodids","Kellicottia longispina",1,1
+1422,"Harpacticoid copepodids","Hydroporus",1,1
+1423,"Harpacticoid copepodids","Hemiptera Gerris",1,1
+1424,"Harpacticoid copepodids","Harpacticoid copepodids",1,1
+1425,"Harpacticoid copepodids","Harpacticoid copepods",1,1
+1426,"Harpacticoid copepodids","Microcyclops rubellus",1,1
+1427,"Harpacticoid copepodids","Acanthocyclops",1,1
+1428,"Harpacticoid copepodids","Eucyclops serrulatus",1,1
+1429,"Harpacticoid copepodids","Conochiloides",1,1
+1430,"Harpacticoid copepods","Amphipoda Crangonyx gracilis",1,1
+1431,"Harpacticoid copepods","Turbellaria Tricladida",1,1
+1432,"Harpacticoid copepods","Stenochironomus",1,1
+1433,"Harpacticoid copepods","Pseudochironomus",1,1
+1434,"Harpacticoid copepods","Annelida Oligochaete",1,1
+1435,"Harpacticoid copepods","Polypedilum",1,1
+1436,"Harpacticoid copepods","Sphaeriidae",1,1
+1437,"Harpacticoid copepods","Campeloma decisum",1,1
+1438,"Harpacticoid copepods","Keratella crassa",1,1
+1439,"Harpacticoid copepods","Keratella taurocephala",1,1
+1440,"Harpacticoid copepods","Limnephilus",1,1
+1441,"Harpacticoid copepods","Mystacides",1,1
+1442,"Harpacticoid copepods","Oecetis",1,1
+1443,"Harpacticoid copepods","Caenis",1,1
+1444,"Harpacticoid copepods","Trichocerca cylindrica",1,1
+1445,"Harpacticoid copepods","Kellicottia longispina",1,1
+1446,"Harpacticoid copepods","Hydroporus",1,1
+1447,"Harpacticoid copepods","Hemiptera Gerris",1,1
+1448,"Harpacticoid copepods","Harpacticoid copepodids",1,1
+1449,"Harpacticoid copepods","Harpacticoid copepods",1,1
+1450,"Harpacticoid copepods","Microcyclops rubellus",1,1
+1451,"Harpacticoid copepods","Acanthocyclops",1,1
+1452,"Harpacticoid copepods","Eucyclops serrulatus",1,1
+1453,"Harpacticoid copepods","Conochiloides",1,1
+1454,"Microcyclops rubellus","Amphipoda Crangonyx gracilis",1,1
+1455,"Microcyclops rubellus","Turbellaria Tricladida",1,1
+1456,"Microcyclops rubellus","Stenochironomus",1,1
+1457,"Microcyclops rubellus","Pseudochironomus",1,1
+1458,"Microcyclops rubellus","Annelida Oligochaete",1,1
+1459,"Microcyclops rubellus","Polypedilum",1,1
+1460,"Microcyclops rubellus","Sphaeriidae",1,1
+1461,"Microcyclops rubellus","Campeloma decisum",1,1
+1462,"Microcyclops rubellus","Keratella crassa",1,1
+1463,"Microcyclops rubellus","Keratella taurocephala",1,1
+1464,"Microcyclops rubellus","Limnephilus",1,1
+1465,"Microcyclops rubellus","Mystacides",1,1
+1466,"Microcyclops rubellus","Oecetis",1,1
+1467,"Microcyclops rubellus","Caenis",1,1
+1468,"Microcyclops rubellus","Trichocerca cylindrica",1,1
+1469,"Microcyclops rubellus","Kellicottia longispina",1,1
+1470,"Microcyclops rubellus","Hydroporus",1,1
+1471,"Microcyclops rubellus","Hemiptera Gerris",1,1
+1472,"Microcyclops rubellus","Harpacticoid copepodids",1,1
+1473,"Microcyclops rubellus","Harpacticoid copepods",1,1
+1474,"Microcyclops rubellus","Microcyclops rubellus",1,1
+1475,"Microcyclops rubellus","Acanthocyclops",1,1
+1476,"Microcyclops rubellus","Eucyclops serrulatus",1,1
+1477,"Microcyclops rubellus","Conochiloides",1,1
+1478,"Acanthocyclops","Amphipoda Crangonyx gracilis",1,1
+1479,"Acanthocyclops","Turbellaria Tricladida",1,1
+1480,"Acanthocyclops","Stenochironomus",1,1
+1481,"Acanthocyclops","Pseudochironomus",1,1
+1482,"Acanthocyclops","Annelida Oligochaete",1,1
+1483,"Acanthocyclops","Polypedilum",1,1
+1484,"Acanthocyclops","Sphaeriidae",1,1
+1485,"Acanthocyclops","Campeloma decisum",1,1
+1486,"Acanthocyclops","Keratella crassa",1,1
+1487,"Acanthocyclops","Keratella taurocephala",1,1
+1488,"Acanthocyclops","Limnephilus",1,1
+1489,"Acanthocyclops","Mystacides",1,1
+1490,"Acanthocyclops","Oecetis",1,1
+1491,"Acanthocyclops","Caenis",1,1
+1492,"Acanthocyclops","Trichocerca cylindrica",1,1
+1493,"Acanthocyclops","Kellicottia longispina",1,1
+1494,"Acanthocyclops","Hydroporus",1,1
+1495,"Acanthocyclops","Hemiptera Gerris",1,1
+1496,"Acanthocyclops","Harpacticoid copepodids",1,1
+1497,"Acanthocyclops","Harpacticoid copepods",1,1
+1498,"Acanthocyclops","Microcyclops rubellus",1,1
+1499,"Acanthocyclops","Acanthocyclops",1,1
+1500,"Acanthocyclops","Eucyclops serrulatus",1,1
+1501,"Acanthocyclops","Conochiloides",1,1
+1502,"Eucyclops serrulatus","Amphipoda Crangonyx gracilis",1,1
+1503,"Eucyclops serrulatus","Turbellaria Tricladida",1,1
+1504,"Eucyclops serrulatus","Stenochironomus",1,1
+1505,"Eucyclops serrulatus","Pseudochironomus",1,1
+1506,"Eucyclops serrulatus","Annelida Oligochaete",1,1
+1507,"Eucyclops serrulatus","Polypedilum",1,1
+1508,"Eucyclops serrulatus","Sphaeriidae",1,1
+1509,"Eucyclops serrulatus","Campeloma decisum",1,1
+1510,"Eucyclops serrulatus","Keratella crassa",1,1
+1511,"Eucyclops serrulatus","Keratella taurocephala",1,1
+1512,"Eucyclops serrulatus","Limnephilus",1,1
+1513,"Eucyclops serrulatus","Mystacides",1,1
+1514,"Eucyclops serrulatus","Oecetis",1,1
+1515,"Eucyclops serrulatus","Caenis",1,1
+1516,"Eucyclops serrulatus","Trichocerca cylindrica",1,1
+1517,"Eucyclops serrulatus","Kellicottia longispina",1,1
+1518,"Eucyclops serrulatus","Hydroporus",1,1
+1519,"Eucyclops serrulatus","Hemiptera Gerris",1,1
+1520,"Eucyclops serrulatus","Harpacticoid copepodids",1,1
+1521,"Eucyclops serrulatus","Harpacticoid copepods",1,1
+1522,"Eucyclops serrulatus","Microcyclops rubellus",1,1
+1523,"Eucyclops serrulatus","Acanthocyclops",1,1
+1524,"Eucyclops serrulatus","Eucyclops serrulatus",1,1
+1525,"Eucyclops serrulatus","Conochiloides",1,1
+1526,"Macrocyclops albidus","Amphipoda Crangonyx gracilis",1,1
+1527,"Macrocyclops albidus","Turbellaria Tricladida",1,1
+1528,"Macrocyclops albidus","Stenochironomus",1,1
+1529,"Macrocyclops albidus","Pseudochironomus",1,1
+1530,"Macrocyclops albidus","Annelida Oligochaete",1,1
+1531,"Macrocyclops albidus","Polypedilum",1,1
+1532,"Macrocyclops albidus","Campeloma decisum",1,1
+1533,"Macrocyclops albidus","Keratella crassa",1,1
+1534,"Macrocyclops albidus","Keratella taurocephala",1,1
+1535,"Macrocyclops albidus","Limnephilus",1,1
+1536,"Macrocyclops albidus","Mystacides",1,1
+1537,"Macrocyclops albidus","Oecetis",1,1
+1538,"Macrocyclops albidus","Caenis",1,1
+1539,"Macrocyclops albidus","Trichocerca cylindrica",1,1
+1540,"Macrocyclops albidus","Kellicottia longispina",1,1
+1541,"Macrocyclops albidus","Hydroporus",1,1
+1542,"Macrocyclops albidus","Hemiptera Gerris",1,1
+1543,"Macrocyclops albidus","Harpacticoid copepodids",1,1
+1544,"Macrocyclops albidus","Harpacticoid copepods",1,1
+1545,"Macrocyclops albidus","Microcyclops rubellus",1,1
+1546,"Macrocyclops albidus","Acanthocyclops",1,1
+1547,"Macrocyclops albidus","Eucyclops serrulatus",1,1
+1548,"Macrocyclops albidus","Conochiloides",1,1
+1549,"Sida crystallina","Amphipoda Crangonyx gracilis",1,1
+1550,"Sida crystallina","Turbellaria Tricladida",1,1
+1551,"Sida crystallina","Stenochironomus",1,1
+1552,"Sida crystallina","Pseudochironomus",1,1
+1553,"Sida crystallina","Annelida Oligochaete",1,1
+1554,"Sida crystallina","Polypedilum",1,1
+1555,"Sida crystallina","Campeloma decisum",1,1
+1556,"Sida crystallina","Keratella crassa",1,1
+1557,"Sida crystallina","Keratella taurocephala",1,1
+1558,"Sida crystallina","Limnephilus",1,1
+1559,"Sida crystallina","Mystacides",1,1
+1560,"Sida crystallina","Oecetis",1,1
+1561,"Sida crystallina","Caenis",1,1
+1562,"Sida crystallina","Trichocerca cylindrica",1,1
+1563,"Sida crystallina","Kellicottia longispina",1,1
+1564,"Sida crystallina","Hydroporus",1,1
+1565,"Sida crystallina","Hemiptera Gerris",1,1
+1566,"Sida crystallina","Harpacticoid copepodids",1,1
+1567,"Sida crystallina","Harpacticoid copepods",1,1
+1568,"Sida crystallina","Microcyclops rubellus",1,1
+1569,"Sida crystallina","Acanthocyclops",1,1
+1570,"Sida crystallina","Eucyclops serrulatus",1,1
+1571,"Sida crystallina","Conochiloides",1,1
+1572,"Scapholeberis kingi","Amphipoda Crangonyx gracilis",1,1
+1573,"Scapholeberis kingi","Turbellaria Tricladida",1,1
+1574,"Scapholeberis kingi","Stenochironomus",1,1
+1575,"Scapholeberis kingi","Pseudochironomus",1,1
+1576,"Scapholeberis kingi","Annelida Oligochaete",1,1
+1577,"Scapholeberis kingi","Polypedilum",1,1
+1578,"Scapholeberis kingi","Campeloma decisum",1,1
+1579,"Scapholeberis kingi","Keratella crassa",1,1
+1580,"Scapholeberis kingi","Keratella taurocephala",1,1
+1581,"Scapholeberis kingi","Limnephilus",1,1
+1582,"Scapholeberis kingi","Mystacides",1,1
+1583,"Scapholeberis kingi","Oecetis",1,1
+1584,"Scapholeberis kingi","Caenis",1,1
+1585,"Scapholeberis kingi","Trichocerca cylindrica",1,1
+1586,"Scapholeberis kingi","Kellicottia longispina",1,1
+1587,"Scapholeberis kingi","Hydroporus",1,1
+1588,"Scapholeberis kingi","Hemiptera Gerris",1,1
+1589,"Scapholeberis kingi","Harpacticoid copepodids",1,1
+1590,"Scapholeberis kingi","Harpacticoid copepods",1,1
+1591,"Scapholeberis kingi","Microcyclops rubellus",1,1
+1592,"Scapholeberis kingi","Acanthocyclops",1,1
+1593,"Scapholeberis kingi","Eucyclops serrulatus",1,1
+1594,"Scapholeberis kingi","Conochiloides",1,1
+1595,"Ophryoxus gracilis","Amphipoda Crangonyx gracilis",1,1
+1596,"Ophryoxus gracilis","Polypedilum",1,1
+1597,"Ophryoxus gracilis","Sphaeriidae",1,1
+1598,"Ophryoxus gracilis","Campeloma decisum",1,1
+1599,"Ophryoxus gracilis","Paratendipes",1,1
+1600,"Ophryoxus gracilis","Bivalvia",1,1
+1601,"Ophryoxus gracilis","Xenochironomus",1,1
+1602,"Ophryoxus gracilis","Microtendipes",1,1
+1603,"Ophryoxus gracilis","Glyptotendipes",1,1
+1604,"Ophryoxus gracilis","Endochironomus",1,1
+1605,"Ophryoxus gracilis","Cryptochironomus",1,1
+1606,"Ophryoxus gracilis","Chironomus",1,1
+1607,"Ophryoxus gracilis","Sympetrum",1,1
+1608,"Ophryoxus gracilis","Libellula",1,1
+1609,"Ophryoxus gracilis","Anisoptera epitheca",1,1
+1610,"Ophryoxus gracilis","Polycentropus",1,1
+1611,"Ophryoxus gracilis","Molanna",1,1
+1612,"Ophryoxus gracilis","Banksiola",1,1
+1613,"Ophryoxus gracilis","Agrypnia",1,1
+1614,"Ophryoxus gracilis","Limnephilus",1,1
+1615,"Ophryoxus gracilis","Mystacides",1,1
+1616,"Ophryoxus gracilis","Oecetis",1,1
+1617,"Ophryoxus gracilis","Caenis",1,1
+1618,"Ophryoxus gracilis","Leptophlebia",1,1
+1619,"Ophryoxus gracilis","Hydroporus",1,1
+1620,"Ophryoxus gracilis","Hemiptera Gerris",1,1
+1621,"Ophryoxus gracilis","Harpacticoid copepodids",1,1
+1622,"Ophryoxus gracilis","Harpacticoid copepods",1,1
+1623,"Ophryoxus gracilis","Microcyclops rubellus",1,1
+1624,"Ophryoxus gracilis","Acanthocyclops",1,1
+1625,"Ophryoxus gracilis","Eucyclops serrulatus",1,1
+1626,"Ophryoxus gracilis","Macrocyclops albidus",1,1
+1627,"Ophryoxus gracilis","Sida crystallina",1,1
+1628,"Ophryoxus gracilis","Scapholeberis kingi",1,1
+1629,"Acantholeberis curvirostris","Amphipoda Crangonyx gracilis",1,1
+1630,"Acantholeberis curvirostris","Polypedilum",1,1
+1631,"Acantholeberis curvirostris","Campeloma decisum",1,1
+1632,"Acantholeberis curvirostris","Paratendipes",1,1
+1633,"Acantholeberis curvirostris","Bivalvia",1,1
+1634,"Acantholeberis curvirostris","Xenochironomus",1,1
+1635,"Acantholeberis curvirostris","Microtendipes",1,1
+1636,"Acantholeberis curvirostris","Glyptotendipes",1,1
+1637,"Acantholeberis curvirostris","Endochironomus",1,1
+1638,"Acantholeberis curvirostris","Cryptochironomus",1,1
+1639,"Acantholeberis curvirostris","Chironomus",1,1
+1640,"Acantholeberis curvirostris","Sympetrum",1,1
+1641,"Acantholeberis curvirostris","Libellula",1,1
+1642,"Acantholeberis curvirostris","Anisoptera epitheca",1,1
+1643,"Acantholeberis curvirostris","Polycentropus",1,1
+1644,"Acantholeberis curvirostris","Molanna",1,1
+1645,"Acantholeberis curvirostris","Banksiola",1,1
+1646,"Acantholeberis curvirostris","Agrypnia",1,1
+1647,"Acantholeberis curvirostris","Limnephilus",1,1
+1648,"Acantholeberis curvirostris","Mystacides",1,1
+1649,"Acantholeberis curvirostris","Oecetis",1,1
+1650,"Acantholeberis curvirostris","Caenis",1,1
+1651,"Acantholeberis curvirostris","Leptophlebia",1,1
+1652,"Acantholeberis curvirostris","Hydroporus",1,1
+1653,"Acantholeberis curvirostris","Hemiptera Gerris",1,1
+1654,"Acantholeberis curvirostris","Harpacticoid copepodids",1,1
+1655,"Acantholeberis curvirostris","Harpacticoid copepods",1,1
+1656,"Acantholeberis curvirostris","Microcyclops rubellus",1,1
+1657,"Acantholeberis curvirostris","Acanthocyclops",1,1
+1658,"Acantholeberis curvirostris","Eucyclops serrulatus",1,1
+1659,"Acantholeberis curvirostris","Macrocyclops albidus",1,1
+1660,"Acantholeberis curvirostris","Sida crystallina",1,1
+1661,"Acantholeberis curvirostris","Scapholeberis kingi",1,1
+1662,"Chydorus sp2","Amphipoda Crangonyx gracilis",1,1
+1663,"Chydorus sp2","Polypedilum",1,1
+1664,"Chydorus sp2","Campeloma decisum",1,1
+1665,"Chydorus sp2","Paratendipes",1,1
+1666,"Chydorus sp2","Bivalvia",1,1
+1667,"Chydorus sp2","Xenochironomus",1,1
+1668,"Chydorus sp2","Microtendipes",1,1
+1669,"Chydorus sp2","Glyptotendipes",1,1
+1670,"Chydorus sp2","Endochironomus",1,1
+1671,"Chydorus sp2","Cryptochironomus",1,1
+1672,"Chydorus sp2","Chironomus",1,1
+1673,"Chydorus sp2","Sympetrum",1,1
+1674,"Chydorus sp2","Libellula",1,1
+1675,"Chydorus sp2","Anisoptera epitheca",1,1
+1676,"Chydorus sp2","Polycentropus",1,1
+1677,"Chydorus sp2","Molanna",1,1
+1678,"Chydorus sp2","Banksiola",1,1
+1679,"Chydorus sp2","Agrypnia",1,1
+1680,"Chydorus sp2","Limnephilus",1,1
+1681,"Chydorus sp2","Mystacides",1,1
+1682,"Chydorus sp2","Oecetis",1,1
+1683,"Chydorus sp2","Caenis",1,1
+1684,"Chydorus sp2","Leptophlebia",1,1
+1685,"Chydorus sp2","Hydroporus",1,1
+1686,"Chydorus sp2","Hemiptera Gerris",1,1
+1687,"Chydorus sp2","Harpacticoid copepodids",1,1
+1688,"Chydorus sp2","Harpacticoid copepods",1,1
+1689,"Chydorus sp2","Microcyclops rubellus",1,1
+1690,"Chydorus sp2","Acanthocyclops",1,1
+1691,"Chydorus sp2","Eucyclops serrulatus",1,1
+1692,"Chydorus sp2","Macrocyclops albidus",1,1
+1693,"Chydorus sp2","Sida crystallina",1,1
+1694,"Chydorus sp2","Scapholeberis kingi",1,1
+1695,"Chydorus spl","Amphipoda Crangonyx gracilis",1,1
+1696,"Chydorus spl","Polypedilum",1,1
+1697,"Chydorus spl","Campeloma decisum",1,1
+1698,"Chydorus spl","Paratendipes",1,1
+1699,"Chydorus spl","Bivalvia",1,1
+1700,"Chydorus spl","Xenochironomus",1,1
+1701,"Chydorus spl","Microtendipes",1,1
+1702,"Chydorus spl","Glyptotendipes",1,1
+1703,"Chydorus spl","Endochironomus",1,1
+1704,"Chydorus spl","Cryptochironomus",1,1
+1705,"Chydorus spl","Chironomus",1,1
+1706,"Chydorus spl","Sympetrum",1,1
+1707,"Chydorus spl","Libellula",1,1
+1708,"Chydorus spl","Anisoptera epitheca",1,1
+1709,"Chydorus spl","Polycentropus",1,1
+1710,"Chydorus spl","Molanna",1,1
+1711,"Chydorus spl","Banksiola",1,1
+1712,"Chydorus spl","Agrypnia",1,1
+1713,"Chydorus spl","Limnephilus",1,1
+1714,"Chydorus spl","Mystacides",1,1
+1715,"Chydorus spl","Oecetis",1,1
+1716,"Chydorus spl","Caenis",1,1
+1717,"Chydorus spl","Leptophlebia",1,1
+1718,"Chydorus spl","Hydroporus",1,1
+1719,"Chydorus spl","Hemiptera Gerris",1,1
+1720,"Chydorus spl","Harpacticoid copepodids",1,1
+1721,"Chydorus spl","Harpacticoid copepods",1,1
+1722,"Chydorus spl","Microcyclops rubellus",1,1
+1723,"Chydorus spl","Acanthocyclops",1,1
+1724,"Chydorus spl","Eucyclops serrulatus",1,1
+1725,"Chydorus spl","Macrocyclops albidus",1,1
+1726,"Chydorus spl","Sida crystallina",1,1
+1727,"Chydorus spl","Scapholeberis kingi",1,1
+1728,"Disparalona acutirostris","Amphipoda Crangonyx gracilis",1,1
+1729,"Disparalona acutirostris","Polypedilum",1,1
+1730,"Disparalona acutirostris","Campeloma decisum",1,1
+1731,"Disparalona acutirostris","Paratendipes",1,1
+1732,"Disparalona acutirostris","Bivalvia",1,1
+1733,"Disparalona acutirostris","Xenochironomus",1,1
+1734,"Disparalona acutirostris","Microtendipes",1,1
+1735,"Disparalona acutirostris","Glyptotendipes",1,1
+1736,"Disparalona acutirostris","Endochironomus",1,1
+1737,"Disparalona acutirostris","Cryptochironomus",1,1
+1738,"Disparalona acutirostris","Chironomus",1,1
+1739,"Disparalona acutirostris","Sympetrum",1,1
+1740,"Disparalona acutirostris","Libellula",1,1
+1741,"Disparalona acutirostris","Anisoptera epitheca",1,1
+1742,"Disparalona acutirostris","Polycentropus",1,1
+1743,"Disparalona acutirostris","Molanna",1,1
+1744,"Disparalona acutirostris","Banksiola",1,1
+1745,"Disparalona acutirostris","Agrypnia",1,1
+1746,"Disparalona acutirostris","Limnephilus",1,1
+1747,"Disparalona acutirostris","Mystacides",1,1
+1748,"Disparalona acutirostris","Oecetis",1,1
+1749,"Disparalona acutirostris","Caenis",1,1
+1750,"Disparalona acutirostris","Leptophlebia",1,1
+1751,"Disparalona acutirostris","Hydroporus",1,1
+1752,"Disparalona acutirostris","Hemiptera Gerris",1,1
+1753,"Disparalona acutirostris","Harpacticoid copepodids",1,1
+1754,"Disparalona acutirostris","Harpacticoid copepods",1,1
+1755,"Disparalona acutirostris","Microcyclops rubellus",1,1
+1756,"Disparalona acutirostris","Acanthocyclops",1,1
+1757,"Disparalona acutirostris","Eucyclops serrulatus",1,1
+1758,"Disparalona acutirostris","Macrocyclops albidus",1,1
+1759,"Disparalona acutirostris","Sida crystallina",1,1
+1760,"Disparalona acutirostris","Scapholeberis kingi",1,1
+1761,"Alonella excisa","Amphipoda Crangonyx gracilis",1,1
+1762,"Alonella excisa","Stenochironomus",1,1
+1763,"Alonella excisa","Polypedilum",1,1
+1764,"Alonella excisa","Campeloma decisum",1,1
+1765,"Alonella excisa","Paratendipes",1,1
+1766,"Alonella excisa","Bivalvia",1,1
+1767,"Alonella excisa","Xenochironomus",1,1
+1768,"Alonella excisa","Microtendipes",1,1
+1769,"Alonella excisa","Glyptotendipes",1,1
+1770,"Alonella excisa","Endochironomus",1,1
+1771,"Alonella excisa","Cryptochironomus",1,1
+1772,"Alonella excisa","Chironomus",1,1
+1773,"Alonella excisa","Sympetrum",1,1
+1774,"Alonella excisa","Libellula",1,1
+1775,"Alonella excisa","Anisoptera epitheca",1,1
+1776,"Alonella excisa","Polycentropus",1,1
+1777,"Alonella excisa","Molanna",1,1
+1778,"Alonella excisa","Banksiola",1,1
+1779,"Alonella excisa","Agrypnia",1,1
+1780,"Alonella excisa","Limnephilus",1,1
+1781,"Alonella excisa","Mystacides",1,1
+1782,"Alonella excisa","Oecetis",1,1
+1783,"Alonella excisa","Caenis",1,1
+1784,"Alonella excisa","Leptophlebia",1,1
+1785,"Alonella excisa","Alona intermedia",1,1
+1786,"Alonella excisa","Alona rustica",1,1
+1787,"Alonella excisa","Hydroporus",1,1
+1788,"Alonella excisa","Hemiptera Gerris",1,1
+1789,"Alonella excisa","Harpacticoid copepodids",1,1
+1790,"Alonella excisa","Harpacticoid copepods",1,1
+1791,"Alonella excisa","Microcyclops rubellus",1,1
+1792,"Alonella excisa","Acanthocyclops",1,1
+1793,"Alonella excisa","Eucyclops serrulatus",1,1
+1794,"Alonella excisa","Macrocyclops albidus",1,1
+1795,"Alonella excisa","Sida crystallina",1,1
+1796,"Alonella excisa","Scapholeberis kingi",1,1
+1797,"Alona intermedia","Amphipoda Crangonyx gracilis",1,1
+1798,"Alona intermedia","Turbellaria Tricladida",1,1
+1799,"Alona intermedia","Stenochironomus",1,1
+1800,"Alona intermedia","Pseudochironomus",1,1
+1801,"Alona intermedia","Annelida Oligochaete",1,1
+1802,"Alona intermedia","Sphaeriidae",1,1
+1803,"Alona intermedia","Campeloma decisum",1,1
+1804,"Alona intermedia","Keratella crassa",1,1
+1805,"Alona intermedia","Keratella taurocephala",1,1
+1806,"Alona intermedia","Limnephilus",1,1
+1807,"Alona intermedia","Mystacides",1,1
+1808,"Alona intermedia","Oecetis",1,1
+1809,"Alona intermedia","Caenis",1,1
+1810,"Alona intermedia","Trichocerca cylindrica",1,1
+1811,"Alona intermedia","Kellicottia longispina",1,1
+1812,"Alona intermedia","Conochiloides",1,1
+1813,"Alona rustica","Amphipoda Crangonyx gracilis",1,1
+1814,"Alona rustica","Turbellaria Tricladida",1,1
+1815,"Alona rustica","Stenochironomus",1,1
+1816,"Alona rustica","Pseudochironomus",1,1
+1817,"Alona rustica","Annelida Oligochaete",1,1
+1818,"Alona rustica","Sphaeriidae",1,1
+1819,"Alona rustica","Campeloma decisum",1,1
+1820,"Alona rustica","Keratella crassa",1,1
+1821,"Alona rustica","Keratella taurocephala",1,1
+1822,"Alona rustica","Limnephilus",1,1
+1823,"Alona rustica","Mystacides",1,1
+1824,"Alona rustica","Oecetis",1,1
+1825,"Alona rustica","Caenis",1,1
+1826,"Alona rustica","Trichocerca cylindrica",1,1
+1827,"Alona rustica","Kellicottia longispina",1,1
+1828,"Alona rustica","Conochiloides",1,1
+1829,"Alona quadrangularis","Amphipoda Crangonyx gracilis",1,1
+1830,"Alona quadrangularis","Stenochironomus",1,1
+1831,"Alona quadrangularis","Polypedilum",1,1
+1832,"Alona quadrangularis","Campeloma decisum",1,1
+1833,"Alona quadrangularis","Paratendipes",1,1
+1834,"Alona quadrangularis","Bivalvia",1,1
+1835,"Alona quadrangularis","Xenochironomus",1,1
+1836,"Alona quadrangularis","Microtendipes",1,1
+1837,"Alona quadrangularis","Glyptotendipes",1,1
+1838,"Alona quadrangularis","Endochironomus",1,1
+1839,"Alona quadrangularis","Cryptochironomus",1,1
+1840,"Alona quadrangularis","Chironomus",1,1
+1841,"Alona quadrangularis","Sympetrum",1,1
+1842,"Alona quadrangularis","Libellula",1,1
+1843,"Alona quadrangularis","Anisoptera epitheca",1,1
+1844,"Alona quadrangularis","Polycentropus",1,1
+1845,"Alona quadrangularis","Banksiola",1,1
+1846,"Alona quadrangularis","Agrypnia",1,1
+1847,"Alona quadrangularis","Limnephilus",1,1
+1848,"Alona quadrangularis","Mystacides",1,1
+1849,"Alona quadrangularis","Oecetis",1,1
+1850,"Alona quadrangularis","Caenis",1,1
+1851,"Alona quadrangularis","Leptophlebia",1,1
+1852,"Alona quadrangularis","Hydroporus",1,1
+1853,"Alona quadrangularis","Hemiptera Gerris",1,1
+1854,"Alona quadrangularis","Harpacticoid copepodids",1,1
+1855,"Alona quadrangularis","Harpacticoid copepods",1,1
+1856,"Alona quadrangularis","Microcyclops rubellus",1,1
+1857,"Alona quadrangularis","Acanthocyclops",1,1
+1858,"Alona quadrangularis","Eucyclops serrulatus",1,1
+1859,"Alona quadrangularis","Macrocyclops albidus",1,1
+1860,"Alona quadrangularis","Sida crystallina",1,1
+1861,"Alona quadrangularis","Scapholeberis kingi",1,1
+1862,"Alona affinis","Amphipoda Crangonyx gracilis",1,1
+1863,"Alona affinis","Turbellaria Tricladida",1,1
+1864,"Alona affinis","Polypedilum",1,1
+1865,"Alona affinis","Sphaeriidae",1,1
+1866,"Alona affinis","Campeloma decisum",1,1
+1867,"Alona affinis","Paratendipes",1,1
+1868,"Alona affinis","Bivalvia",1,1
+1869,"Alona affinis","Xenochironomus",1,1
+1870,"Alona affinis","Microtendipes",1,1
+1871,"Alona affinis","Glyptotendipes",1,1
+1872,"Alona affinis","Endochironomus",1,1
+1873,"Alona affinis","Cryptochironomus",1,1
+1874,"Alona affinis","Chironomus",1,1
+1875,"Alona affinis","Banksiola",1,1
+1876,"Alona affinis","Agrypnia",1,1
+1877,"Alona affinis","Limnephilus",1,1
+1878,"Alona affinis","Mystacides",1,1
+1879,"Alona affinis","Oecetis",1,1
+1880,"Alona affinis","Caenis",1,1
+1881,"Alona affinis","Macrocyclops albidus",1,1
+1882,"Alona affinis","Sida crystallina",1,1
+1883,"Alona affinis","Scapholeberis kingi",1,1
+1884,"Cyclopoid copepodids","Amphipoda Crangonyx gracilis",1,1
+1885,"Cyclopoid copepodids","Turbellaria Tricladida",1,1
+1886,"Cyclopoid copepodids","Annelida Oligochaete",1,1
+1887,"Cyclopoid copepodids","Polypedilum",1,1
+1888,"Cyclopoid copepodids","Sphaeriidae",1,1
+1889,"Cyclopoid copepodids","Campeloma decisum",1,1
+1890,"Cyclopoid copepodids","Paratendipes",1,1
+1891,"Cyclopoid copepodids","Bivalvia",1,1
+1892,"Cyclopoid copepodids","Xenochironomus",1,1
+1893,"Cyclopoid copepodids","Microtendipes",1,1
+1894,"Cyclopoid copepodids","Glyptotendipes",1,1
+1895,"Cyclopoid copepodids","Endochironomus",1,1
+1896,"Cyclopoid copepodids","Cryptochironomus",1,1
+1897,"Cyclopoid copepodids","Chironomus",1,1
+1898,"Cyclopoid copepodids","Banksiola",1,1
+1899,"Cyclopoid copepodids","Agrypnia",1,1
+1900,"Cyclopoid copepodids","Limnephilus",1,1
+1901,"Cyclopoid copepodids","Mystacides",1,1
+1902,"Cyclopoid copepodids","Oecetis",1,1
+1903,"Cyclopoid copepodids","Caenis",1,1
+1904,"Cyclopoid copepodids","Macrocyclops albidus",1,1
+1905,"Cyclopoid copepodids","Sida crystallina",1,1
+1906,"Cyclopoid copepodids","Scapholeberis kingi",1,1
+1907,"Calanoid copepodids","Amphipoda Crangonyx gracilis",1,1
+1908,"Calanoid copepodids","Polypedilum",1,1
+1909,"Calanoid copepodids","Sphaeriidae",1,1
+1910,"Calanoid copepodids","Campeloma decisum",1,1
+1911,"Calanoid copepodids","Paratendipes",1,1
+1912,"Calanoid copepodids","Bivalvia",1,1
+1913,"Calanoid copepodids","Xenochironomus",1,1
+1914,"Calanoid copepodids","Microtendipes",1,1
+1915,"Calanoid copepodids","Glyptotendipes",1,1
+1916,"Calanoid copepodids","Endochironomus",1,1
+1917,"Calanoid copepodids","Cryptochironomus",1,1
+1918,"Calanoid copepodids","Chironomus",1,1
+1919,"Calanoid copepodids","Banksiola",1,1
+1920,"Calanoid copepodids","Agrypnia",1,1
+1921,"Calanoid copepodids","Limnephilus",1,1
+1922,"Calanoid copepodids","Mystacides",1,1
+1923,"Calanoid copepodids","Oecetis",1,1
+1924,"Calanoid copepodids","Caenis",1,1
+1925,"Calanoid copepodids","Alona intermedia",1,1
+1926,"Calanoid copepodids","Alona rustica",1,1
+1927,"Calanoid copepodids","Macrocyclops albidus",1,1
+1928,"Calanoid copepodids","Sida crystallina",1,1
+1929,"Calanoid copepodids","Scapholeberis kingi",1,1
+1930,"Nauplii","Amphipoda Crangonyx gracilis",1,1
+1931,"Nauplii","Polypedilum",1,1
+1932,"Nauplii","Sphaeriidae",1,1
+1933,"Nauplii","Campeloma decisum",1,1
+1934,"Nauplii","Paratendipes",1,1
+1935,"Nauplii","Bivalvia",1,1
+1936,"Nauplii","Xenochironomus",1,1
+1937,"Nauplii","Microtendipes",1,1
+1938,"Nauplii","Glyptotendipes",1,1
+1939,"Nauplii","Endochironomus",1,1
+1940,"Nauplii","Cryptochironomus",1,1
+1941,"Nauplii","Chironomus",1,1
+1942,"Nauplii","Banksiola",1,1
+1943,"Nauplii","Agrypnia",1,1
+1944,"Nauplii","Limnephilus",1,1
+1945,"Nauplii","Mystacides",1,1
+1946,"Nauplii","Oecetis",1,1
+1947,"Nauplii","Caenis",1,1
+1948,"Nauplii","Alona intermedia",1,1
+1949,"Nauplii","Alona rustica",1,1
+1950,"Nauplii","Macrocyclops albidus",1,1
+1951,"Nauplii","Sida crystallina",1,1
+1952,"Nauplii","Scapholeberis kingi",1,1
+1953,"Synchaeta","Amphipoda Crangonyx gracilis",1,1
+1954,"Synchaeta","Polypedilum",1,1
+1955,"Synchaeta","Campeloma decisum",1,1
+1956,"Synchaeta","Paratendipes",1,1
+1957,"Synchaeta","Limnephilus",1,1
+1958,"Synchaeta","Mystacides",1,1
+1959,"Synchaeta","Oecetis",1,1
+1960,"Synchaeta","Caenis",1,1
+1961,"Synchaeta","Macrocyclops albidus",1,1
+1962,"Synchaeta","Sida crystallina",1,1
+1963,"Synchaeta","Scapholeberis kingi",1,1
+1964,"Synchaeta","Gastropus",1,1
+1965,"Gastropus","Turbellaria Tricladida",1,1
+1966,"Gastropus","Stenochironomus",1,1
+1967,"Gastropus","Campeloma decisum",1,1
+1968,"Asplanchna","Amphipoda Crangonyx gracilis",1,1
+1969,"Asplanchna","Polypedilum",1,1
+1970,"Asplanchna","Campeloma decisum",1,1
+1971,"Asplanchna","Paratendipes",1,1
+1972,"Asplanchna","Gastropus",1,1
+1973,"Trichocerca cylindrica","Amphipoda Crangonyx gracilis",1,1
+1974,"Trichocerca cylindrica","Stenochironomus",1,1
+1975,"Trichocerca cylindrica","Pseudochironomus",1,1
+1976,"Trichocerca cylindrica","Annelida Oligochaete",1,1
+1977,"Trichocerca cylindrica","Sphaeriidae",1,1
+1978,"Trichocerca cylindrica","Campeloma decisum",1,1
+1979,"Trichocerca cylindrica","Trichocerca cylindrica",1,1
+1980,"Polyarthra vulgaris","Amphipoda Crangonyx gracilis",1,1
+1981,"Polyarthra vulgaris","Turbellaria Tricladida",1,1
+1982,"Polyarthra vulgaris","Stenochironomus",1,1
+1983,"Polyarthra vulgaris","Pseudochironomus",1,1
+1984,"Polyarthra vulgaris","Sphaeriidae",1,1
+1985,"Polyarthra vulgaris","Campeloma decisum",1,1
+1986,"Polyarthra vulgaris","Trichocerca cylindrica",1,1
+1987,"Polyarthra remata","Amphipoda Crangonyx gracilis",1,1
+1988,"Polyarthra remata","Turbellaria Tricladida",1,1
+1989,"Polyarthra remata","Stenochironomus",1,1
+1990,"Polyarthra remata","Pseudochironomus",1,1
+1991,"Polyarthra remata","Annelida Oligochaete",1,1
+1992,"Polyarthra remata","Sphaeriidae",1,1
+1993,"Polyarthra remata","Campeloma decisum",1,1
+1994,"Polyarthra remata","Limnephilus",1,1
+1995,"Polyarthra remata","Mystacides",1,1
+1996,"Polyarthra remata","Oecetis",1,1
+1997,"Polyarthra remata","Trichocerca cylindrica",1,1
+1998,"Keratella hiemalis","Turbellaria Tricladida",1,1
+1999,"Keratella hiemalis","Stenochironomus",1,1
+2000,"Keratella hiemalis","Annelida Oligochaete",1,1
+2001,"Keratella hiemalis","Campeloma decisum",1,1
+2002,"Keratella hiemalis","Trichocerca cylindrica",1,1
+2003,"Keratella crassa","Turbellaria Tricladida",1,1
+2004,"Keratella crassa","Stenochironomus",1,1
+2005,"Keratella crassa","Annelida Hirudinea",1,1
+2006,"Keratella crassa","Annelida Oligochaete",1,1
+2007,"Keratella crassa","Campeloma decisum",1,1
+2008,"Keratella crassa","Trichocerca cylindrica",1,1
+2009,"Keratella taurocephala","Amphipoda Crangonyx gracilis",1,1
+2010,"Keratella taurocephala","Stenochironomus",1,1
+2011,"Keratella taurocephala","Annelida Hirudinea",1,1
+2012,"Keratella taurocephala","Pseudochironomus",1,1
+2013,"Keratella taurocephala","Annelida Oligochaete",1,1
+2014,"Keratella taurocephala","Polypedilum",1,1
+2015,"Keratella taurocephala","Campeloma decisum",1,1
+2016,"Keratella taurocephala","Trichocerca cylindrica",1,1
+2017,"Keratella cochlearis","Amphipoda Crangonyx gracilis",1,1
+2018,"Keratella cochlearis","Turbellaria Tricladida",1,1
+2019,"Keratella cochlearis","Stenochironomus",1,1
+2020,"Keratella cochlearis","Annelida Hirudinea",1,1
+2021,"Keratella cochlearis","Pseudochironomus",1,1
+2022,"Keratella cochlearis","Annelida Oligochaete",1,1
+2023,"Keratella cochlearis","Polypedilum",1,1
+2024,"Keratella cochlearis","Sphaeriidae",1,1
+2025,"Keratella cochlearis","Campeloma decisum",1,1
+2026,"Keratella cochlearis","Trichocerca cylindrica",1,1
+2027,"Kellicottia bostoniensis","Amphipoda Crangonyx gracilis",1,1
+2028,"Kellicottia bostoniensis","Annelida Oligochaete",1,1
+2029,"Kellicottia bostoniensis","Polypedilum",1,1
+2030,"Kellicottia bostoniensis","Campeloma decisum",1,1
+2031,"Kellicottia bostoniensis","Trichocerca cylindrica",1,1
+2032,"Kellicottia longispina","Amphipoda Crangonyx gracilis",1,1
+2033,"Kellicottia longispina","Turbellaria Tricladida",1,1
+2034,"Kellicottia longispina","Stenochironomus",1,1
+2035,"Kellicottia longispina","Annelida Hirudinea",1,1
+2036,"Kellicottia longispina","Pseudochironomus",1,1
+2037,"Kellicottia longispina","Annelida Oligochaete",1,1
+2038,"Kellicottia longispina","Sphaeriidae",1,1
+2039,"Kellicottia longispina","Campeloma decisum",1,1
+2040,"Kellicottia longispina","Trichocerca cylindrica",1,1
+2041,"Conochiloides","Turbellaria Tricladida",1,1
+2042,"Conochiloides","Annelida Oligochaete",1,1
+2043,"Conochilus unicornis","Amphipoda Crangonyx gracilis",1,1
+2044,"Conochilus unicornis","Turbellaria Tricladida",1,1
+2045,"Conochilus unicornis","Stenochironomus",1,1
+2046,"Conochilus unicornis","Annelida Hirudinea",1,1
+2047,"Conochilus unicornis","Pseudochironomus",1,1
+2048,"Conochilus unicornis","Annelida Oligochaete",1,1
+2049,"Conochilus unicornis","Sphaeriidae",1,1
+2050,"Conochilus unicornis","Campeloma decisum",1,1
+2051,"Conochilus unicornis","Trichocerca cylindrica",1,1
+2052,"Conochilus unicornis","Hemiptera Gerris",1,1
+2053,"Conochilus unicornis","Acanthocyclops",1,1
+2054,"Conochilus unicornis","Eucyclops serrulatus",1,1
+2055,"Conochilus unicornis","Macrocyclops albidus",1,1
+2056,"Conochilus unicornis","Conochiloides",1,1
+2057,"Polyphemus pediculus","Amphipoda Crangonyx gracilis",1,1
+2058,"Polyphemus pediculus","Turbellaria Tricladida",1,1
+2059,"Polyphemus pediculus","Stenochironomus",1,1
+2060,"Polyphemus pediculus","Pseudochironomus",1,1
+2061,"Polyphemus pediculus","Annelida Oligochaete",1,1
+2062,"Polyphemus pediculus","Polypedilum",1,1
+2063,"Polyphemus pediculus","Sphaeriidae",1,1
+2064,"Polyphemus pediculus","Campeloma decisum",1,1
+2065,"Polyphemus pediculus","Keratella crassa",1,1
+2066,"Polyphemus pediculus","Keratella taurocephala",1,1
+2067,"Polyphemus pediculus","Limnephilus",1,1
+2068,"Polyphemus pediculus","Mystacides",1,1
+2069,"Polyphemus pediculus","Oecetis",1,1
+2070,"Polyphemus pediculus","Caenis",1,1
+2071,"Polyphemus pediculus","Trichocerca cylindrica",1,1
+2072,"Polyphemus pediculus","Kellicottia longispina",1,1
+2073,"Polyphemus pediculus","Hydroporus",1,1
+2074,"Polyphemus pediculus","Hemiptera Gerris",1,1
+2075,"Polyphemus pediculus","Harpacticoid copepodids",1,1
+2076,"Polyphemus pediculus","Harpacticoid copepods",1,1
+2077,"Polyphemus pediculus","Microcyclops rubellus",1,1
+2078,"Polyphemus pediculus","Acanthocyclops",1,1
+2079,"Polyphemus pediculus","Eucyclops serrulatus",1,1
+2080,"Polyphemus pediculus","Conochiloides",1,1
+2081,"Leptodora kindtii","Amphipoda Crangonyx gracilis",1,1
+2082,"Leptodora kindtii","Turbellaria Tricladida",1,1
+2083,"Leptodora kindtii","Stenochironomus",1,1
+2084,"Leptodora kindtii","Pseudochironomus",1,1
+2085,"Leptodora kindtii","Annelida Oligochaete",1,1
+2086,"Leptodora kindtii","Polypedilum",1,1
+2087,"Leptodora kindtii","Sphaeriidae",1,1
+2088,"Leptodora kindtii","Campeloma decisum",1,1
+2089,"Leptodora kindtii","Keratella crassa",1,1
+2090,"Leptodora kindtii","Keratella taurocephala",1,1
+2091,"Leptodora kindtii","Limnephilus",1,1
+2092,"Leptodora kindtii","Mystacides",1,1
+2093,"Leptodora kindtii","Oecetis",1,1
+2094,"Leptodora kindtii","Caenis",1,1
+2095,"Leptodora kindtii","Trichocerca cylindrica",1,1
+2096,"Leptodora kindtii","Kellicottia longispina",1,1
+2097,"Leptodora kindtii","Hydroporus",1,1
+2098,"Leptodora kindtii","Hemiptera Gerris",1,1
+2099,"Leptodora kindtii","Harpacticoid copepodids",1,1
+2100,"Leptodora kindtii","Harpacticoid copepods",1,1
+2101,"Leptodora kindtii","Microcyclops rubellus",1,1
+2102,"Leptodora kindtii","Acanthocyclops",1,1
+2103,"Leptodora kindtii","Eucyclops serrulatus",1,1
+2104,"Leptodora kindtii","Conochiloides",1,1
+2105,"Holopedium gibberum","Amphipoda Crangonyx gracilis",1,1
+2106,"Holopedium gibberum","Turbellaria Tricladida",1,1
+2107,"Holopedium gibberum","Stenochironomus",1,1
+2108,"Holopedium gibberum","Pseudochironomus",1,1
+2109,"Holopedium gibberum","Annelida Oligochaete",1,1
+2110,"Holopedium gibberum","Polypedilum",1,1
+2111,"Holopedium gibberum","Sphaeriidae",1,1
+2112,"Holopedium gibberum","Campeloma decisum",1,1
+2113,"Holopedium gibberum","Keratella crassa",1,1
+2114,"Holopedium gibberum","Keratella taurocephala",1,1
+2115,"Holopedium gibberum","Limnephilus",1,1
+2116,"Holopedium gibberum","Mystacides",1,1
+2117,"Holopedium gibberum","Oecetis",1,1
+2118,"Holopedium gibberum","Caenis",1,1
+2119,"Holopedium gibberum","Trichocerca cylindrica",1,1
+2120,"Holopedium gibberum","Kellicottia longispina",1,1
+2121,"Holopedium gibberum","Hydroporus",1,1
+2122,"Holopedium gibberum","Hemiptera Gerris",1,1
+2123,"Holopedium gibberum","Harpacticoid copepodids",1,1
+2124,"Holopedium gibberum","Harpacticoid copepods",1,1
+2125,"Holopedium gibberum","Microcyclops rubellus",1,1
+2126,"Holopedium gibberum","Acanthocyclops",1,1
+2127,"Holopedium gibberum","Eucyclops serrulatus",1,1
+2128,"Holopedium gibberum","Conochiloides",1,1
+2129,"Diaphanosoma birgei","Amphipoda Crangonyx gracilis",1,1
+2130,"Diaphanosoma birgei","Turbellaria Tricladida",1,1
+2131,"Diaphanosoma birgei","Stenochironomus",1,1
+2132,"Diaphanosoma birgei","Pseudochironomus",1,1
+2133,"Diaphanosoma birgei","Annelida Oligochaete",1,1
+2134,"Diaphanosoma birgei","Polypedilum",1,1
+2135,"Diaphanosoma birgei","Sphaeriidae",1,1
+2136,"Diaphanosoma birgei","Campeloma decisum",1,1
+2137,"Diaphanosoma birgei","Keratella crassa",1,1
+2138,"Diaphanosoma birgei","Keratella taurocephala",1,1
+2139,"Diaphanosoma birgei","Limnephilus",1,1
+2140,"Diaphanosoma birgei","Mystacides",1,1
+2141,"Diaphanosoma birgei","Oecetis",1,1
+2142,"Diaphanosoma birgei","Caenis",1,1
+2143,"Diaphanosoma birgei","Trichocerca cylindrica",1,1
+2144,"Diaphanosoma birgei","Kellicottia longispina",1,1
+2145,"Diaphanosoma birgei","Hydroporus",1,1
+2146,"Diaphanosoma birgei","Hemiptera Gerris",1,1
+2147,"Diaphanosoma birgei","Harpacticoid copepodids",1,1
+2148,"Diaphanosoma birgei","Harpacticoid copepods",1,1
+2149,"Diaphanosoma birgei","Microcyclops rubellus",1,1
+2150,"Diaphanosoma birgei","Acanthocyclops",1,1
+2151,"Diaphanosoma birgei","Eucyclops serrulatus",1,1
+2152,"Diaphanosoma birgei","Conochiloides",1,1
+2153,"Daphnia parvula","Amphipoda Crangonyx gracilis",1,1
+2154,"Daphnia parvula","Turbellaria Tricladida",1,1
+2155,"Daphnia parvula","Stenochironomus",1,1
+2156,"Daphnia parvula","Pseudochironomus",1,1
+2157,"Daphnia parvula","Annelida Oligochaete",1,1
+2158,"Daphnia parvula","Polypedilum",1,1
+2159,"Daphnia parvula","Sphaeriidae",1,1
+2160,"Daphnia parvula","Campeloma decisum",1,1
+2161,"Daphnia parvula","Keratella crassa",1,1
+2162,"Daphnia parvula","Keratella taurocephala",1,1
+2163,"Daphnia parvula","Limnephilus",1,1
+2164,"Daphnia parvula","Mystacides",1,1
+2165,"Daphnia parvula","Oecetis",1,1
+2166,"Daphnia parvula","Caenis",1,1
+2167,"Daphnia parvula","Trichocerca cylindrica",1,1
+2168,"Daphnia parvula","Kellicottia longispina",1,1
+2169,"Daphnia parvula","Hydroporus",1,1
+2170,"Daphnia parvula","Hemiptera Gerris",1,1
+2171,"Daphnia parvula","Harpacticoid copepodids",1,1
+2172,"Daphnia parvula","Harpacticoid copepods",1,1
+2173,"Daphnia parvula","Microcyclops rubellus",1,1
+2174,"Daphnia parvula","Acanthocyclops",1,1
+2175,"Daphnia parvula","Eucyclops serrulatus",1,1
+2176,"Daphnia parvula","Conochiloides",1,1
+2177,"Daphnia galeata mendotae","Amphipoda Crangonyx gracilis",1,1
+2178,"Daphnia galeata mendotae","Turbellaria Tricladida",1,1
+2179,"Daphnia galeata mendotae","Stenochironomus",1,1
+2180,"Daphnia galeata mendotae","Pseudochironomus",1,1
+2181,"Daphnia galeata mendotae","Annelida Oligochaete",1,1
+2182,"Daphnia galeata mendotae","Polypedilum",1,1
+2183,"Daphnia galeata mendotae","Sphaeriidae",1,1
+2184,"Daphnia galeata mendotae","Campeloma decisum",1,1
+2185,"Daphnia galeata mendotae","Keratella crassa",1,1
+2186,"Daphnia galeata mendotae","Keratella taurocephala",1,1
+2187,"Daphnia galeata mendotae","Limnephilus",1,1
+2188,"Daphnia galeata mendotae","Mystacides",1,1
+2189,"Daphnia galeata mendotae","Oecetis",1,1
+2190,"Daphnia galeata mendotae","Caenis",1,1
+2191,"Daphnia galeata mendotae","Trichocerca cylindrica",1,1
+2192,"Daphnia galeata mendotae","Kellicottia longispina",1,1
+2193,"Daphnia galeata mendotae","Hydroporus",1,1
+2194,"Daphnia galeata mendotae","Hemiptera Gerris",1,1
+2195,"Daphnia galeata mendotae","Harpacticoid copepodids",1,1
+2196,"Daphnia galeata mendotae","Harpacticoid copepods",1,1
+2197,"Daphnia galeata mendotae","Microcyclops rubellus",1,1
+2198,"Daphnia galeata mendotae","Acanthocyclops",1,1
+2199,"Daphnia galeata mendotae","Eucyclops serrulatus",1,1
+2200,"Daphnia galeata mendotae","Conochiloides",1,1
+2201,"Eubosmina","Amphipoda Crangonyx gracilis",1,1
+2202,"Eubosmina","Polypedilum",1,1
+2203,"Eubosmina","Campeloma decisum",1,1
+2204,"Eubosmina","Keratella crassa",1,1
+2205,"Eubosmina","Keratella taurocephala",1,1
+2206,"Eubosmina","Limnephilus",1,1
+2207,"Eubosmina","Mystacides",1,1
+2208,"Eubosmina","Oecetis",1,1
+2209,"Eubosmina","Caenis",1,1
+2210,"Eubosmina","Trichocerca cylindrica",1,1
+2211,"Eubosmina","Kellicottia longispina",1,1
+2212,"Eubosmina","Leptophlebia",1,1
+2213,"Eubosmina","Alona intermedia",1,1
+2214,"Eubosmina","Alona rustica",1,1
+2215,"Eubosmina","Hydroporus",1,1
+2216,"Eubosmina","Hemiptera Gerris",1,1
+2217,"Eubosmina","Harpacticoid copepodids",1,1
+2218,"Eubosmina","Harpacticoid copepods",1,1
+2219,"Eubosmina","Microcyclops rubellus",1,1
+2220,"Eubosmina","Acanthocyclops",1,1
+2221,"Eubosmina","Eucyclops serrulatus",1,1
+2222,"Eubosmina","Macrocyclops albidus",1,1
+2223,"Eubosmina","Sida crystallina",1,1
+2224,"Eubosmina","Scapholeberis kingi",1,1
+2225,"Eubosmina","Conochiloides",1,1
+2226,"Bosmina longirostris","Turbellaria Tricladida",1,1
+2227,"Bosmina longirostris","Stenochironomus",1,1
+2228,"Bosmina longirostris","Pseudochironomus",1,1
+2229,"Bosmina longirostris","Annelida Oligochaete",1,1
+2230,"Bosmina longirostris","Polypedilum",1,1
+2231,"Bosmina longirostris","Campeloma decisum",1,1
+2232,"Bosmina longirostris","Trichocerca cylindrica",1,1
+2233,"Bosmina longirostris","Hydroporus",1,1
+2234,"Bosmina longirostris","Hemiptera Gerris",1,1
+2235,"Bosmina longirostris","Harpacticoid copepodids",1,1
+2236,"Bosmina longirostris","Harpacticoid copepods",1,1
+2237,"Bosmina longirostris","Microcyclops rubellus",1,1
+2238,"Bosmina longirostris","Acanthocyclops",1,1
+2239,"Bosmina longirostris","Eucyclops serrulatus",1,1
+2240,"Epischura lacustris","Amphipoda Crangonyx gracilis",1,1
+2241,"Epischura lacustris","Turbellaria Tricladida",1,1
+2242,"Epischura lacustris","Stenochironomus",1,1
+2243,"Epischura lacustris","Pseudochironomus",1,1
+2244,"Epischura lacustris","Annelida Oligochaete",1,1
+2245,"Epischura lacustris","Polypedilum",1,1
+2246,"Epischura lacustris","Campeloma decisum",1,1
+2247,"Epischura lacustris","Keratella crassa",1,1
+2248,"Epischura lacustris","Keratella taurocephala",1,1
+2249,"Epischura lacustris","Limnephilus",1,1
+2250,"Epischura lacustris","Mystacides",1,1
+2251,"Epischura lacustris","Oecetis",1,1
+2252,"Epischura lacustris","Caenis",1,1
+2253,"Epischura lacustris","Trichocerca cylindrica",1,1
+2254,"Epischura lacustris","Kellicottia longispina",1,1
+2255,"Epischura lacustris","Hydroporus",1,1
+2256,"Epischura lacustris","Hemiptera Gerris",1,1
+2257,"Epischura lacustris","Harpacticoid copepodids",1,1
+2258,"Epischura lacustris","Harpacticoid copepods",1,1
+2259,"Epischura lacustris","Microcyclops rubellus",1,1
+2260,"Epischura lacustris","Acanthocyclops",1,1
+2261,"Epischura lacustris","Eucyclops serrulatus",1,1
+2262,"Epischura lacustris","Conochiloides",1,1
+2263,"Tropocyclops prasinus","Amphipoda Crangonyx gracilis",1,1
+2264,"Tropocyclops prasinus","Turbellaria Tricladida",1,1
+2265,"Tropocyclops prasinus","Stenochironomus",1,1
+2266,"Tropocyclops prasinus","Pseudochironomus",1,1
+2267,"Tropocyclops prasinus","Annelida Oligochaete",1,1
+2268,"Tropocyclops prasinus","Polypedilum",1,1
+2269,"Tropocyclops prasinus","Campeloma decisum",1,1
+2270,"Tropocyclops prasinus","Keratella crassa",1,1
+2271,"Tropocyclops prasinus","Keratella taurocephala",1,1
+2272,"Tropocyclops prasinus","Limnephilus",1,1
+2273,"Tropocyclops prasinus","Mystacides",1,1
+2274,"Tropocyclops prasinus","Oecetis",1,1
+2275,"Tropocyclops prasinus","Caenis",1,1
+2276,"Tropocyclops prasinus","Trichocerca cylindrica",1,1
+2277,"Tropocyclops prasinus","Kellicottia longispina",1,1
+2278,"Tropocyclops prasinus","Hydroporus",1,1
+2279,"Tropocyclops prasinus","Hemiptera Gerris",1,1
+2280,"Tropocyclops prasinus","Harpacticoid copepodids",1,1
+2281,"Tropocyclops prasinus","Harpacticoid copepods",1,1
+2282,"Tropocyclops prasinus","Microcyclops rubellus",1,1
+2283,"Tropocyclops prasinus","Acanthocyclops",1,1
+2284,"Tropocyclops prasinus","Eucyclops serrulatus",1,1
+2285,"Tropocyclops prasinus","Conochiloides",1,1
+2286,"Mesocyclops edax","Amphipoda Crangonyx gracilis",1,1
+2287,"Mesocyclops edax","Turbellaria Tricladida",1,1
+2288,"Mesocyclops edax","Stenochironomus",1,1
+2289,"Mesocyclops edax","Pseudochironomus",1,1
+2290,"Mesocyclops edax","Annelida Oligochaete",1,1
+2291,"Mesocyclops edax","Polypedilum",1,1
+2292,"Mesocyclops edax","Campeloma decisum",1,1
+2293,"Mesocyclops edax","Keratella crassa",1,1
+2294,"Mesocyclops edax","Keratella taurocephala",1,1
+2295,"Mesocyclops edax","Limnephilus",1,1
+2296,"Mesocyclops edax","Mystacides",1,1
+2297,"Mesocyclops edax","Oecetis",1,1
+2298,"Mesocyclops edax","Caenis",1,1
+2299,"Mesocyclops edax","Trichocerca cylindrica",1,1
+2300,"Mesocyclops edax","Kellicottia longispina",1,1
+2301,"Mesocyclops edax","Hydroporus",1,1
+2302,"Mesocyclops edax","Hemiptera Gerris",1,1
+2303,"Mesocyclops edax","Harpacticoid copepodids",1,1
+2304,"Mesocyclops edax","Harpacticoid copepods",1,1
+2305,"Mesocyclops edax","Microcyclops rubellus",1,1
+2306,"Mesocyclops edax","Acanthocyclops",1,1
+2307,"Mesocyclops edax","Eucyclops serrulatus",1,1
+2308,"Mesocyclops edax","Conochiloides",1,1
+2309,"Diacyclops thomasi","Amphipoda Crangonyx gracilis",1,1
+2310,"Diacyclops thomasi","Turbellaria Tricladida",1,1
+2311,"Diacyclops thomasi","Stenochironomus",1,1
+2312,"Diacyclops thomasi","Pseudochironomus",1,1
+2313,"Diacyclops thomasi","Annelida Oligochaete",1,1
+2314,"Diacyclops thomasi","Polypedilum",1,1
+2315,"Diacyclops thomasi","Campeloma decisum",1,1
+2316,"Diacyclops thomasi","Keratella crassa",1,1
+2317,"Diacyclops thomasi","Keratella taurocephala",1,1
+2318,"Diacyclops thomasi","Limnephilus",1,1
+2319,"Diacyclops thomasi","Mystacides",1,1
+2320,"Diacyclops thomasi","Oecetis",1,1
+2321,"Diacyclops thomasi","Caenis",1,1
+2322,"Diacyclops thomasi","Trichocerca cylindrica",1,1
+2323,"Diacyclops thomasi","Kellicottia longispina",1,1
+2324,"Diacyclops thomasi","Hydroporus",1,1
+2325,"Diacyclops thomasi","Hemiptera Gerris",1,1
+2326,"Diacyclops thomasi","Harpacticoid copepodids",1,1
+2327,"Diacyclops thomasi","Harpacticoid copepods",1,1
+2328,"Diacyclops thomasi","Microcyclops rubellus",1,1
+2329,"Diacyclops thomasi","Acanthocyclops",1,1
+2330,"Diacyclops thomasi","Eucyclops serrulatus",1,1
+2331,"Diacyclops thomasi","Conochiloides",1,1
+2332,"Diaptomus minutus","Amphipoda Crangonyx gracilis",1,1
+2333,"Diaptomus minutus","Turbellaria Tricladida",1,1
+2334,"Diaptomus minutus","Stenochironomus",1,1
+2335,"Diaptomus minutus","Pseudochironomus",1,1
+2336,"Diaptomus minutus","Annelida Oligochaete",1,1
+2337,"Diaptomus minutus","Polypedilum",1,1
+2338,"Diaptomus minutus","Campeloma decisum",1,1
+2339,"Diaptomus minutus","Keratella crassa",1,1
+2340,"Diaptomus minutus","Keratella taurocephala",1,1
+2341,"Diaptomus minutus","Limnephilus",1,1
+2342,"Diaptomus minutus","Mystacides",1,1
+2343,"Diaptomus minutus","Oecetis",1,1
+2344,"Diaptomus minutus","Caenis",1,1
+2345,"Diaptomus minutus","Trichocerca cylindrica",1,1
+2346,"Diaptomus minutus","Kellicottia longispina",1,1
+2347,"Diaptomus minutus","Hydroporus",1,1
+2348,"Diaptomus minutus","Hemiptera Gerris",1,1
+2349,"Diaptomus minutus","Harpacticoid copepodids",1,1
+2350,"Diaptomus minutus","Harpacticoid copepods",1,1
+2351,"Diaptomus minutus","Microcyclops rubellus",1,1
+2352,"Diaptomus minutus","Acanthocyclops",1,1
+2353,"Diaptomus minutus","Eucyclops serrulatus",1,1
+2354,"Diaptomus minutus","Conochiloides",1,1
+2355,"Fish eggs","Amphipoda Crangonyx gracilis",1,1
+2356,"Fish eggs","Turbellaria Tricladida",1,1
+2357,"Fish eggs","Stenochironomus",1,1
+2358,"Fish eggs","Pseudochironomus",1,1
+2359,"Fish eggs","Annelida Oligochaete",1,1
+2360,"Fish eggs","Polypedilum",1,1
+2361,"Fish eggs","Campeloma decisum",1,1
+2362,"Fish eggs","Keratella crassa",1,1
+2363,"Fish eggs","Keratella taurocephala",1,1
+2364,"Fish eggs","Limnephilus",1,1
+2365,"Fish eggs","Mystacides",1,1
+2366,"Fish eggs","Oecetis",1,1
+2367,"Fish eggs","Caenis",1,1
+2368,"Fish eggs","Trichocerca cylindrica",1,1
+2369,"Fish eggs","Kellicottia longispina",1,1
+2370,"Fish eggs","Hydroporus",1,1
+2371,"Fish eggs","Hemiptera Gerris",1,1
+2372,"Fish eggs","Harpacticoid copepodids",1,1
+2373,"Fish eggs","Harpacticoid copepods",1,1
+2374,"Fish eggs","Microcyclops rubellus",1,1
+2375,"Fish eggs","Acanthocyclops",1,1
+2376,"Fish eggs","Eucyclops serrulatus",1,1
+2377,"Fish eggs","Conochiloides",1,1
+2378,"Shiner (Notemigonus crysoleucus)","Amphipoda Crangonyx gracilis",1,1
+2379,"Shiner (Notemigonus crysoleucus)","Turbellaria Tricladida",1,1
+2380,"Shiner (Notemigonus crysoleucus)","Stenochironomus",1,1
+2381,"Shiner (Notemigonus crysoleucus)","Pseudochironomus",1,1
+2382,"Shiner (Notemigonus crysoleucus)","Annelida Oligochaete",1,1
+2383,"Shiner (Notemigonus crysoleucus)","Polypedilum",1,1
+2384,"Shiner (Notemigonus crysoleucus)","Campeloma decisum",1,1
+2385,"Shiner (Notemigonus crysoleucus)","Keratella crassa",1,1
+2386,"Shiner (Notemigonus crysoleucus)","Keratella taurocephala",1,1
+2387,"Shiner (Notemigonus crysoleucus)","Limnephilus",1,1
+2388,"Shiner (Notemigonus crysoleucus)","Mystacides",1,1
+2389,"Shiner (Notemigonus crysoleucus)","Oecetis",1,1
+2390,"Shiner (Notemigonus crysoleucus)","Caenis",1,1
+2391,"Shiner (Notemigonus crysoleucus)","Trichocerca cylindrica",1,1
+2392,"Shiner (Notemigonus crysoleucus)","Kellicottia longispina",1,1
+2393,"Shiner (Notemigonus crysoleucus)","Hydroporus",1,1
+2394,"Shiner (Notemigonus crysoleucus)","Hemiptera Gerris",1,1
+2395,"Shiner (Notemigonus crysoleucus)","Harpacticoid copepodids",1,1
+2396,"Shiner (Notemigonus crysoleucus)","Harpacticoid copepods",1,1
+2397,"Shiner (Notemigonus crysoleucus)","Microcyclops rubellus",1,1
+2398,"Shiner (Notemigonus crysoleucus)","Acanthocyclops",1,1
+2399,"Shiner (Notemigonus crysoleucus)","Eucyclops serrulatus",1,1
+2400,"Shiner (Notemigonus crysoleucus)","Conochiloides",1,1
+2401,"Mudminnow (Umbra)","Amphipoda Crangonyx gracilis",1,1
+2402,"Mudminnow (Umbra)","Turbellaria Tricladida",1,1
+2403,"Mudminnow (Umbra)","Stenochironomus",1,1
+2404,"Mudminnow (Umbra)","Pseudochironomus",1,1
+2405,"Mudminnow (Umbra)","Annelida Oligochaete",1,1
+2406,"Mudminnow (Umbra)","Polypedilum",1,1
+2407,"Mudminnow (Umbra)","Campeloma decisum",1,1
+2408,"Mudminnow (Umbra)","Trichocerca cylindrica",1,1
+2409,"Mudminnow (Umbra)","Hydroporus",1,1
+2410,"Mudminnow (Umbra)","Hemiptera Gerris",1,1
+2411,"Mudminnow (Umbra)","Harpacticoid copepodids",1,1
+2412,"Mudminnow (Umbra)","Harpacticoid copepods",1,1
+2413,"Mudminnow (Umbra)","Microcyclops rubellus",1,1
+2414,"Mudminnow (Umbra)","Acanthocyclops",1,1
+2415,"Mudminnow (Umbra)","Eucyclops serrulatus",1,1
+2416,"Black crappie (Pomoxis nigromaculatus), adult","Amphipoda Crangonyx gracilis",1,1
+2417,"Black crappie (Pomoxis nigromaculatus), adult","Turbellaria Tricladida",1,1
+2418,"Black crappie (Pomoxis nigromaculatus), adult","Stenochironomus",1,1
+2419,"Black crappie (Pomoxis nigromaculatus), adult","Pseudochironomus",1,1
+2420,"Black crappie (Pomoxis nigromaculatus), adult","Annelida Oligochaete",1,1
+2421,"Black crappie (Pomoxis nigromaculatus), adult","Polypedilum",1,1
+2422,"Black crappie (Pomoxis nigromaculatus), adult","Campeloma decisum",1,1
+2423,"Black crappie (Pomoxis nigromaculatus), adult","Keratella crassa",1,1
+2424,"Black crappie (Pomoxis nigromaculatus), adult","Keratella taurocephala",1,1
+2425,"Black crappie (Pomoxis nigromaculatus), adult","Limnephilus",1,1
+2426,"Black crappie (Pomoxis nigromaculatus), adult","Mystacides",1,1
+2427,"Black crappie (Pomoxis nigromaculatus), adult","Oecetis",1,1
+2428,"Black crappie (Pomoxis nigromaculatus), adult","Caenis",1,1
+2429,"Black crappie (Pomoxis nigromaculatus), adult","Trichocerca cylindrica",1,1
+2430,"Black crappie (Pomoxis nigromaculatus), adult","Kellicottia longispina",1,1
+2431,"Black crappie (Pomoxis nigromaculatus), adult","Hydroporus",1,1
+2432,"Black crappie (Pomoxis nigromaculatus), adult","Hemiptera Gerris",1,1
+2433,"Black crappie (Pomoxis nigromaculatus), adult","Harpacticoid copepodids",1,1
+2434,"Black crappie (Pomoxis nigromaculatus), adult","Harpacticoid copepods",1,1
+2435,"Black crappie (Pomoxis nigromaculatus), adult","Microcyclops rubellus",1,1
+2436,"Black crappie (Pomoxis nigromaculatus), adult","Acanthocyclops",1,1
+2437,"Black crappie (Pomoxis nigromaculatus), adult","Eucyclops serrulatus",1,1
+2438,"Black crappie (Pomoxis nigromaculatus), adult","Conochiloides",1,1
+2439,"Black crappie (Pomoxis nigromaculatus), young","Amphipoda Crangonyx gracilis",1,1
+2440,"Black crappie (Pomoxis nigromaculatus), young","Turbellaria Tricladida",1,1
+2441,"Black crappie (Pomoxis nigromaculatus), young","Stenochironomus",1,1
+2442,"Black crappie (Pomoxis nigromaculatus), young","Pseudochironomus",1,1
+2443,"Black crappie (Pomoxis nigromaculatus), young","Annelida Oligochaete",1,1
+2444,"Black crappie (Pomoxis nigromaculatus), young","Sphaeriidae",1,1
+2445,"Black crappie (Pomoxis nigromaculatus), young","Campeloma decisum",1,1
+2446,"Black crappie (Pomoxis nigromaculatus), young","Stictochironomus",1,1
+2447,"Rock bass (Ambloptes rupestris), adult","Amphipoda Crangonyx gracilis",1,1
+2448,"Rock bass (Ambloptes rupestris), adult","Turbellaria Tricladida",1,1
+2449,"Rock bass (Ambloptes rupestris), adult","Stenochironomus",1,1
+2450,"Rock bass (Ambloptes rupestris), adult","Pseudochironomus",1,1
+2451,"Rock bass (Ambloptes rupestris), adult","Annelida Oligochaete",1,1
+2452,"Rock bass (Ambloptes rupestris), adult","Sphaeriidae",1,1
+2453,"Rock bass (Ambloptes rupestris), adult","Campeloma decisum",1,1
+2454,"Rock bass (Ambloptes rupestris), young","Amphipoda Crangonyx gracilis",1,1
+2455,"Rock bass (Ambloptes rupestris), young","Stenochironomus",1,1
+2456,"Rock bass (Ambloptes rupestris), young","Pseudochironomus",1,1
+2457,"Rock bass (Ambloptes rupestris), young","Polypedilum",1,1
+2458,"Rock bass (Ambloptes rupestris), young","Campeloma decisum",1,1
+2459,"Rock bass (Ambloptes rupestris), young","Agrypnia",1,1
+2460,"Rock bass (Ambloptes rupestris), young","Keratella crassa",1,1
+2461,"Rock bass (Ambloptes rupestris), young","Keratella taurocephala",1,1
+2462,"Rock bass (Ambloptes rupestris), young","Limnephilus",1,1
+2463,"Rock bass (Ambloptes rupestris), young","Mystacides",1,1
+2464,"Rock bass (Ambloptes rupestris), young","Oecetis",1,1
+2465,"Rock bass (Ambloptes rupestris), young","Caenis",1,1
+2466,"Rock bass (Ambloptes rupestris), young","Kellicottia longispina",1,1
+2467,"Rock bass (Ambloptes rupestris), young","Leptophlebia",1,1
+2468,"Rock bass (Ambloptes rupestris), young","Conochilus unicornis",1,1
+2469,"Rock bass (Ambloptes rupestris), young","Hydroporus",1,1
+2470,"Rock bass (Ambloptes rupestris), young","Hemiptera Gerris",1,1
+2471,"Rock bass (Ambloptes rupestris), young","Harpacticoid copepodids",1,1
+2472,"Rock bass (Ambloptes rupestris), young","Harpacticoid copepods",1,1
+2473,"Rock bass (Ambloptes rupestris), young","Microcyclops rubellus",1,1
+2474,"Rock bass (Ambloptes rupestris), young","Acanthocyclops",1,1
+2475,"Rock bass (Ambloptes rupestris), young","Eucyclops serrulatus",1,1
+2476,"Rock bass (Ambloptes rupestris), young","Macrocyclops albidus",1,1
+2477,"Rock bass (Ambloptes rupestris), young","Stictochironomus",1,1
+2478,"Largemouth bass (Micropterus salsmoides), adult","Amphipoda Crangonyx gracilis",1,1
+2479,"Largemouth bass (Micropterus salsmoides), adult","Turbellaria Tricladida",1,1
+2480,"Largemouth bass (Micropterus salsmoides), adult","Stenochironomus",1,1
+2481,"Largemouth bass (Micropterus salsmoides), adult","Pseudochironomus",1,1
+2482,"Largemouth bass (Micropterus salsmoides), adult","Annelida Oligochaete",1,1
+2483,"Largemouth bass (Micropterus salsmoides), adult","Sphaeriidae",1,1
+2484,"Largemouth bass (Micropterus salsmoides), adult","Campeloma decisum",1,1
+2485,"Largemouth bass (Micropterus salsmoides), adult","Limnephilus",1,1
+2486,"Largemouth bass (Micropterus salsmoides), adult","Mystacides",1,1
+2487,"Largemouth bass (Micropterus salsmoides), adult","Oecetis",1,1
+2488,"Largemouth bass (Micropterus salsmoides), adult","Caenis",1,1
+2489,"Largemouth bass (Micropterus salsmoides), young","Kellicottia bostoniensis",1,1
+2490,"Largemouth bass (Micropterus salsmoides), young","Black crappie (Pomoxis nigromaculatus), adult",1,1
+2491,"Yellow perch (Perca flaverscens), adult","Kellicottia bostoniensis",1,1
+2492,"Yellow perch (Perca flaverscens), adult","Black crappie (Pomoxis nigromaculatus), adult",1,1
+2493,"Yellow perch (Perca flaverscens), young","Kellicottia bostoniensis",1,1
+2494,"Yellow perch (Perca flaverscens), young","Black crappie (Pomoxis nigromaculatus), adult",1,1
