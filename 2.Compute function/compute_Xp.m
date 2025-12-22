@@ -4,26 +4,25 @@ function X_p = compute_Xp()
 % For each perturbation p:
 %   X_p ≈ R_p X_0 + b_p
 
-    %% --- 1. Load testing data ---
-    dataVarName = input('Enter the testing data in the workspace: ', 's');
-    data3D = evalin('base', dataVarName);      % [E x P x N]
-    [numExps, numPerturb, numNodes] = size(data3D);
-    X0 = squeeze(data3D(:,1,:));               % reference states [E x N]
+    folderPath = fullfile('compute data', '1.Mutualistic_Coral Reefs_perturbation_type1');
 
-    %% --- 2. Load learned response maps ---
-    load(fullfile('compute data/1.Mutualistic_Coral Reefs_perturbation_type1', ...
-                  'R_p_b_p.mat'), 'R_p', 'b_p');
+    % 1) load testing data
+    load(fullfile(folderPath, 'X_test.mat'), 'X_test');   % [E x P x N]
+    [numExps, numPerturb, numNodes] = size(X_test);
+    X0 = squeeze(X_test(:,1,:));   % [E x N]
 
-    %% --- 3. Predict X_p ---
+    % 2) load response maps
+    load(fullfile(folderPath, 'R_p_b_p.mat'), 'R_p', 'b_p');
+
+    % 3) predict
     X_p = zeros(numExps, numPerturb, numNodes);
     for p = 1:numPerturb
-        Rp_current = R_p(:,:,p);               % response matrix [N x N]
-        bp_current = b_p(:,p);                 % offset vector [N x 1]
-        Xp_current = Rp_current * X0.' + bp_current;  % predicted states [N x E]
-        X_p(:,p,:) = Xp_current.';             % store as [E x N]
+        Xp = R_p(:,:,p) * X0.' + b_p(:,p);   % [N x E]
+        X_p(:,p,:) = Xp.';                  % [E x N]
     end
 
-    %% --- 4. Output ---
+    % 4) save
     assignin('base', 'X_p', X_p);
-    save('X_p.mat', 'X_p');
+    save(fullfile(folderPath, 'X_p.mat'), 'X_p');
 end
+
