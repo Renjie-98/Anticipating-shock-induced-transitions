@@ -9,59 +9,68 @@ function Y = gen_train_set()
 %    • Required files (same folder):
 %        T.mat        → 213×213 transition matrix
 %        X_obs.mat    → Using only the baseline state 
-%        ratios.mat   → link removal ratios and Weight reduction ratios
+%        ratios.mat   →  Weight reduction ratios
 %
 %  OUTPUT:
 %    • train_set.mat → 3D tensor (nTrials × nRatios × N)
-%        - Simulated propagation results under combined link losses and weight loss
+%        - Simulated propagation results under  weight loss
 clc;
-fprintf('\n=== Generating training set (link + weight perturbation) ===\n');
+fprintf('\n=== Generating training set (weight perturbation) ===\n');
 nTrials      = 1000;               
 outFile      = 'train_set.mat';  
 
 %% ------------ Default settings ------------
 Tfile        = 'T.mat';           load(Tfile, 'T');                
-activityFile = 'X_obs.mat';    load(activityFile, 'X_obs');    
-ratioFile    = 'ratios.mat';      load(ratioFile, 'ratios');   
-linkRatios   = ratios(:,1);         % Link loss ratios
-weightRatios = ratios(:,2);         % Weight loss ratios
+activityFile = 'X_obs.mat';       load(activityFile, 'X_obs');    
+ratioFile    = 'ratios.mat';      load(ratioFile, 'ratios'); 
+weightRatios = ratios(:,1);         
 nRatios      = size(ratios,1);
 
-%% ------------ Initialize baseline state ------------
-x0 = double(X_obs(1,:));         % Baseline state (first year 2008)
-N  = size(T,1);
+% ------------ Basic sizes & baseline ------------
+T_base = double(T);                 %  transition matrix
+N = size(T_base, 1);
+% Pre-extract nonzero structure ONCE (topology fixed)
+[i0, j0, v0] = find(T_base);
+baseSum = sum(v0);
 
-%% ------------ Identify existing links ------------
-[rowIdx, colIdx, val] = find(T);    % Nonzero elements (active links)
-nEdges = numel(rowIdx);
+x0 = double(X_obs(1, :));           % baseline state (1×N)
 
-%% ------------ Parallel computation loop ------------
+% ------------ Output tensor ------------
 Y = zeros(nTrials, N, nRatios, 'double');
+
+% ------------ Main loop over ratios ------------
 parfor r = 1:nRatios
-    linkLoss   = linkRatios(r);     % Current link loss ratio
-    weightLoss = weightRatios(r);   % Current weight loss ratio
-    fprintf('→ Computing ratio %3d / %3d | Link loss: %.3f | Weight loss: %.3f\n', ...
-        r, nRatios, linkLoss, weightLoss);
+    p = weightRatios(r);       
+    alpha = 1 - p;
 
-    m = floor(linkLoss * nEdges);   % Number of links to remove
+    fprintf('→ Ratio %3d / %3d | p = %.3f\n', ...
+        r, nRatios, p);
+
     localY = zeros(nTrials, N);
+
     for t = 1:nTrials
-        % --- Step 1: link removal ---
-        sel = randperm(nEdges, m);    % Randomly select m links to remove
-        Tpert = T;                    % Copy transition matrix
-        Tpert(sub2ind(size(Tpert), rowIdx(sel), colIdx(sel))) = 0; % Remove links
+        if alpha < 0.5
+            perturbation = 2 * alpha * rand(size(v0));
+            v = perturbation .* v0;
+        else
+            perturbation = (2 - 2 * alpha) * rand(size(v0));
+            v = v0 - perturbation .* v0;
+        end
 
-        % --- Step 2: Weight reducation ---
-        currentSum = sum(Tpert(:));
-        targetSum  = (1 - weightLoss) * sum(T(:));
-        scaleFactor = targetSum / currentSum;
-        Tpert = Tpert * scaleFactor;
-        
+        A_scaled = sparse(i0, j0, v, N, N);
 
-        localY(t,:) = x0 * Tpert;    % One-step propagation
+        % ===== enforce exact global weight loss =====
+        currentSum = sum(v);
+        targetSum  = (1 - p) * baseSum;
+        A_scaled = A_scaled * (targetSum / currentSum);
+       
+        % ===== One-step propagation =====
+        localY(t, :) = x0 * A_scaled;
     end
-    Y(:,:,r) = localY;               % Assign results to tensor
+
+    Y(:, :, r) = localY;
 end
+
 Y = permute(Y, [1 3 2]);           % Convert to (nTrials × nRatios × N)
 
 %% ------------ Post-processing and save ------------
@@ -70,6 +79,5 @@ for t = 1:nTrials
 end
 
 save(outFile, 'Y', '-v7.3');       % Save result (large file support)
-fprintf('\n✓ Done! Training set saved to %s\n', outFile);
 
 end
