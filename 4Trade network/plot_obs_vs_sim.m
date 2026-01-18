@@ -10,7 +10,7 @@ function plot_obs_vs_sim()
 %       (3) Distribution comparison (Kolmogorov–Smirnov test)
 %
 %  REQUIRED FILES (in current folder):
-%    - activity.mat   → contains 'activity'  (515 × 5537)
+%    - X_obs.mat   → contains 'X_obs'  (515 × 5537)
 %    - X_p.mat        → contains 'X_p'       (515 × 5537)
 % ============================================================
 
@@ -89,22 +89,20 @@ ax = gca;
 yMin = 8e12; 
 yMax = 14e12;
 ylim([yMin, yMax]);
-ax.YTick = linspace(yMin, yMax, 3);  % ✅ 只显示3个刻度
-
-numTicks = 5;                              % 刻度数量
-xlim([years(1) years(end)]);               % 确保完整范围
+ax.YTick = linspace(yMin, yMax, 3);  % 
+numTicks = 5;                              
+xlim([years(1) years(end)]);              
 tickIdx = round(linspace(1, numel(years), numTicks));
-ax.XTick = years(tickIdx);                 % 设置刻度位置
-ax.XTickLabel = [];                        % 不显示刻度文字
+ax.XTick = years(tickIdx);                
+ax.XTickLabel = [];                        
 ax.YAxis.Exponent = 13;       % Scientific notation ×10^13
 ytickformat('%.1f');          % Force display with 1 decimal (1 → 1.0)
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
+ax.XTickLabel = [];              
+ax.YTickLabel = [];              
 ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.YAxis.Exponent = 0;          
 
 ax.LineWidth = 2;
 ax.FontSize  = 30;      
@@ -128,7 +126,7 @@ plot([xyMin xyMax], [xyMin xyMax], 'k--', 'LineWidth', 1.0); hold off;
 
 %xlabel('Observed results', 'FontSize', 16);
 %ylabel('Simulated results', 'FontSize', 16);
-title(sprintf('\\bf%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 16);
+%title(sprintf('\\bf%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 16);
 
 % Layout
 axis equal;
@@ -137,8 +135,8 @@ ylim([xyMin xyMax]);
 box on; grid off;
 
 ax = gca;
-ax.XTick = linspace(xyMin, xyMax, 3);   % ✅ X 轴 3 条刻度线
-ax.YTick = linspace(xyMin, xyMax, 3);   % ✅ Y 轴 3 条刻度线
+ax.XTick = linspace(xyMin, xyMax, 3);  
+ax.YTick = linspace(xyMin, xyMax, 3);   
 
 tickStep = 2e12;  % Tick spacing
 ax.XAxis.Exponent = 13;       % Keep scientific notation
@@ -148,11 +146,10 @@ ytickformat('%.1f');
 ax.FontSize = 28;            
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.XTickLabel = [];              
+ax.YTickLabel = [];              
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;           
 
 ax.LineWidth = 2;
 ax.FontSize  = 37;      
@@ -194,12 +191,12 @@ yticks(0:0.1:0.2);
 ax.FontSize = 28;            
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.XTickLabel = [];             
+ax.YTickLabel = [];              
+ax.YRuler.SecondaryLabel.Visible = 'off'; 
+ax.YAxis.Exponent = 0;           
 ax.LineWidth = 2;
 ax.FontSize  = 37;      
 
 end
+
