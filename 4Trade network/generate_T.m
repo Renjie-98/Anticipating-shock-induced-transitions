@@ -13,7 +13,7 @@ function generate_T()
 %  OUTPUT (saved in current script folder):
 %    • 0T.mat        → Row-normalized transition matrix (baseline day)
 %    • activity.mat  → Airport outbound activity (F × N)
-%    • ratios.mat    → Directed link removal ratios (F × 1)
+%    • ratios.mat    → Perturbation (F × 1)
 %
 clc;
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\10.Economy_trade';  
@@ -83,15 +83,15 @@ totalWeights = zeros(F, 1);
 for k = 1:F
     Tk = readtable(fullfile(files(k).folder, fileList(k)), 'TextType', 'string');
     w = double(Tk.Weight);
-    linkCounts(k) = height(unique(Tk(:, {'Source','Target'}), 'rows'));
     totalWeights(k) = sum(w);
 end
 
-p_link = (linkCounts(1) - linkCounts) / linkCounts(1);
 p_weight = (totalWeights(1) - totalWeights) / totalWeights(1);
-ratios = [p_link(:), p_weight(:)];
+
+ratios = [p_weight(:)];
 
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
