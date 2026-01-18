@@ -27,11 +27,9 @@ yB = sum(B, 2);  % Simulated total flights per day
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\9.Passenger_flight';
 files = dir(fullfile(dataDir, 'flight_*.csv'));
 fileNames = {files.name};
-
 % Extract date strings (remove prefix/suffix)
 dateStrs = regexprep(fileNames, {'flight_', '.csv'}, {'', ''});
 dates = datetime(dateStrs, 'InputFormat', 'yyyy-MM-dd');
-
 % Sort by chronological order
 [dates, sortIdx] = sort(dates);
 yA = yA(sortIdx);
@@ -91,21 +89,17 @@ ax = gca;
 tickIdx = round(linspace(1, numel(dates), 5));
 ax.XTick = dates(tickIdx);
 ax.XAxis.TickLabelFormat = 'MM/yyyy';
-set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
+set(gca,'Position',[0.15 0.15 0.75 0.75]);  
 % --- Y-axis: from 0 to 9e4 with 4 ticks ---
 ylim([0 9.0e4]);
-ax.YTick = linspace(0, 9.0e4, 3);    % ✅ 仅3条刻度线 (0, 4.5e4, 9e4)
-ax.YTickLabel = [];                  % 不显示刻度文字
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;               % 禁止科学计数法
-
-
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
-
+ax.YTick = linspace(0, 9.0e4, 3);   
+ax.YTickLabel = [];                  
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;             
+ax.XTickLabel = [];              
+ax.YTickLabel = [];              
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;           
 ax.LineWidth = 2;
 ax.FontSize  = 30;      % 
 
@@ -130,7 +124,7 @@ plot([0 xyMax], [0 xyMax], 'k--', 'LineWidth', 1.0); hold off;
 
 %xlabel('Observed results', 'FontSize', 16);
 %ylabel('Predicted results', 'FontSize', 16);
-%title(sprintf('\\bf%c = %.2f,  r = %.2f', 961, rhoS, rhoP), 'FontSize', 25); % ρ and r
+title(sprintf('\\bf%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 25); % ρ and r
 
 % --- Layout and ticks ---
 axis equal;
@@ -142,26 +136,18 @@ ax.FontSize = 28;
 ax.FontName = 'Helvetica';
 ax.XAxis.Exponent = 4;
 ax.YAxis.Exponent = 4;
-
-
 ax.TickLabelInterpreter = 'tex';
-
-% --- Manual ticks including upper endpoint ---
 M = 1e4;
 ax.XTick = 0:M:xyMax;
 ax.XTick = linspace(0, xyMax, 3); 
 ax.YTick = linspace(0, xyMax, 3); 
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
-
-
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
-
+ax.XTickLabel = [];             
+ax.YTickLabel = [];              
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;           
 ax.LineWidth = 2;
-ax.FontSize  = 45;      % 
+ax.FontSize  = 45;      
 %% ====== (3) Distribution comparison: KS test ======
 figure('Units','centimeters','Position',[2 2 figW figH]);
 edges = linspace(min([x; y]), max([x; y]), 35);
@@ -177,7 +163,7 @@ hold off;
 [~, ~, ksD] = kstest2(x, y);  % Kolmogorov–Smirnov test
 %xlabel('The total number of flights', 'FontSize', 16);
 %ylabel('Probability', 'FontSize', 16);
-%title(sprintf('\\bfD = %.2f', ksD), 'FontSize', 16);
+title(sprintf('\\bfD = %.3f', ksD), 'FontSize', 16);
 
 %legend([h1 h2], {'Observed results', 'Predicted results'}, ...
        %'Location', 'best', 'FontSize', 28);
@@ -195,16 +181,15 @@ xlim([0 xyMax]);
 ax.XTick = linspace(0, xyMax, 3);
 ylim([0 0.4]);                    
 ax.YTick = linspace(0, 0.4, 3);   
-set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
+set(gca,'Position',[0.15 0.15 0.75 0.75]); 
 
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.XTickLabel = [];             
+ax.YTickLabel = [];             
+ax.YRuler.SecondaryLabel.Visible = 'off'; 
+ax.YAxis.Exponent = 0;          
 
 ax.LineWidth = 2;
-ax.FontSize  = 37;      % 
+ax.FontSize  = 37;    
 
 end
