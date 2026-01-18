@@ -57,7 +57,7 @@ scatter(dates, yB, 70, 'MarkerEdgeColor', red_dark, ...
         'MarkerEdgeAlpha', 1, 'MarkerFaceAlpha', fillAlpha);
 
 %xlabel('Year', 'FontSize', 25);
-ylabel('Average species abundance', 'FontSize', 25);
+%ylabel('Average species abundance', 'FontSize', 25);
 
 % --- Legend: dummy “line + circle” handles for each dataset ---
 hLegObs = plot(nan, nan, '-o', 'Color', blue_dark, ...
@@ -67,8 +67,9 @@ hLegSim = plot(nan, nan, '-o', 'Color', red_dark, ...
     'MarkerEdgeColor', red_dark, 'MarkerFaceColor', red_light, ...
     'LineWidth', 2.8, 'MarkerSize', 6);
 
-legend([hLegObs, hLegSim], {'Observed results', 'Predicted results'}, ...
-       'Location', 'best', 'FontSize', 9);
+lgd = legend([hLegObs, hLegSim], {'Observed results', 'Predicted results'}, ...
+             'Location', 'best', 'FontSize', 9);
+lgd.Box = 'off';
 
 % Hide dummy handles from the plot (only used for legend)
 set([hLegObs, hLegSim], 'XData', nan, 'YData', nan);
@@ -88,13 +89,12 @@ set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
 
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.XTickLabel = [];            
+ax.YTickLabel = [];             
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;           
 
-ax.FontSize  = 30;      % ✅ 放大刻度数字
+ax.FontSize  = 30;  
 ax.LineWidth = 2;
 
 %% ---------- (2) Scatter: Spearman & Pearson ----------
@@ -112,7 +112,7 @@ plot([0 xyMax], [0 xyMax], 'k--'); hold off;
 
 %xlabel('Observed results', 'FontSize', 16);
 %ylabel('Predicted results', 'FontSize', 16);
-%title(sprintf('%c = %.2f,  r = %.2f', 961, rhoS, rhoP), 'FontSize', 16);
+%title(sprintf('%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 16);
 
 axis equal;
 
@@ -133,11 +133,10 @@ box on; grid off;
 ax.FontSize = 28;
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.XTickLabel = [];             
+ax.YTickLabel = [];              
+ax.YRuler.SecondaryLabel.Visible = 'off';  
+ax.YAxis.Exponent = 0;           
 
 ax.LineWidth = 2;
 ax.FontSize  = 37;      
@@ -156,7 +155,7 @@ hold off;
 
 %xlabel('Average species abundance', 'FontSize', 16);
 %ylabel('Probability', 'FontSize', 16);
-%title(sprintf('D = %.2f', ksD), 'FontSize', 16);   % ✅ Show D only (omit p-value)
+%title(sprintf('D = %.3f', ksD), 'FontSize', 16);   % ✅ Show D only (omit p-value)
 %legend([h1 h2], {'Observed results', 'Predicted results'}, ...
        %'Location', 'best', 'FontSize', 28);
 
@@ -171,17 +170,17 @@ ax.XTickLabel = arrayfun(@(v) sprintf('%g', v), ax.XTick, 'UniformOutput', false
 
 % ===== Adjust Y-axis to leave top margin =====
 ylim([0, 0.3]);
-ax.YTick = linspace(0, 0.3, 3);       % ✅ 生成 0、0.15、0.3 三个刻度
-
+ax.YTick = linspace(0, 0.3, 3);     
 ax.FontSize = 28;
 set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
 
-% --- 隐藏所有刻度值与科学计数标识 ---
-ax.XTickLabel = [];              % 不显示 X 轴刻度数值
-ax.YTickLabel = [];              % 不显示 Y 轴刻度数值
+ax.XTickLabel = [];             
+ax.YTickLabel = [];              
 ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           % 禁止科学计数法自动出现
+ax.YAxis.Exponent = 0;           
 ax.LineWidth = 2;
 ax.FontSize  = 37;      
 
 end
+end
+
