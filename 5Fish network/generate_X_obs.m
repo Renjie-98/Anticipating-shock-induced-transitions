@@ -43,17 +43,14 @@ fprintf('\n=== Step 2: Computing ratios.mat (baseline = 2002/7/5) ===\n');
 
 baselineIdx = find(S.Date == datetime(2002,7,5), 1);
 
-activeCounts = sum(X_obs > 0, 2);   % Number of active nodes at each time
 totalStates  = sum(X_obs, 2);       % Total network state at each time
 
-baselineActive = activeCounts(baselineIdx);
 baselineState  = totalStates(baselineIdx);
-
-p_nodeRemoval = (baselineActive - activeCounts) / max(baselineActive, eps);
 p_stateDecline = (baselineState - totalStates) / max(baselineState, eps);
 
-ratios = [p_nodeRemoval(:), p_stateDecline(:)];
+ratios =  [p_stateDecline(:)];
 
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
