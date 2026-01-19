@@ -59,10 +59,6 @@ parfor r = 1:nRatios
 
         A_scaled = sparse(i0, j0, v, N, N);
 
-        % ===== enforce exact global weight loss =====
-        currentSum = sum(v);
-        targetSum  = (1 - p) * baseSum;
-        A_scaled = A_scaled * (targetSum / currentSum);
        
         % ===== One-step propagation =====
         localY(t, :) = x0 * A_scaled;
@@ -81,3 +77,4 @@ end
 save(outFile, 'Y', '-v7.3');       % Save result (large file support)
 
 end
+
