@@ -2,185 +2,169 @@ function plot_obs_vs_sim()
 % ============================================================
 %  plot_obs_vs_sim · Compare observed vs simulated fish data
 % ------------------------------------------------------------
-%  Purpose:
-%    This function compares observed and simulated fish network
-%    activity based on the *average node state* (mean redundancy per species).
-%    It performs and visualizes three analyses:
-%       (1) Time-series comparison
-%       (2) Scatter correlation (Spearman & Pearson)
-%       (3) Distribution comparison (K–S test)
+%  Uses average node state (mean redundancy per species) and shows:
+%   (1) Time series
+%   (2) Scatter correlation (Spearman & Pearson)
+%   (3) Distribution comparison (K–S test)
 %
 %  REQUIRED FILES (in current folder):
-%    - activity.mat  → contains 'activity'  (24 × 14)
-%    - X_p.mat       → contains 'X_p'       (24 × 14)
+%    - X_obs.mat  (X_obs: 24×14)
+%    - X_p.mat    (X_p:   24×14)
+%  REQUIRED CSV:
+%    - network state.csv (column: Date)
 % ============================================================
 
 %% ====== Load data ======
-load('X_obs.mat', 'X_obs');    % Observed fish network state
-load('X_p.mat', 'X_p');              % Simulated fish network state
-A = squeeze(X_obs);               % Observed (Y×N)
-B = squeeze(X_p);                    % Simulated (Y×N)
-yA = mean(A, 2);                     % ✅ Observed average node state
-yB = mean(B, 2);                     % ✅ Simulated average node state
+Sobs = load('X_obs.mat','X_obs');
+Sp   = load('X_p.mat','X_p');
 
-%% ====== Load date information from CSV ======
-dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\11.Ecosystem_fish';
-stateFile = fullfile(dataDir, 'network state.csv');
-T = readtable(stateFile, 'TextType', 'string');
-T.Date = datetime(T.Date, 'InputFormat', 'yyyy/MM/dd');
-dates = T.Date;
+A  = squeeze(Sobs.X_obs);
+B  = squeeze(Sp.X_p);
 
-%% ====== Common plot settings ======
-set(groot, 'DefaultAxesFontName', 'Helvetica', ...
-           'DefaultAxesFontSize', 14);
-cSca = [0.55 0.20 0.70];
+yA = mean(A,2);      % observed average node state
+yB = mean(B,2);      % predicted average node state
+yA = yA(:); 
+yB = yB(:);
 
-% ====== Color definitions (consistent with flight network) ======
-blue_dark = [0.10 0.30 0.90];
+%% ====== Load dates from CSV ======
+dataDir   = 'C:\Users\xuren\Desktop\NP-real\0Data\11.Ecosystem_fish';
+stateFile = fullfile(dataDir,'network state.csv');
+T = readtable(stateFile,'TextType','string');
+dates = datetime(T.Date,'InputFormat','yyyy/MM/dd');
+dates = dates(:);
+
+% Safety: align lengths
+n = min([numel(dates), numel(yA), numel(yB)]);
+dates = dates(1:n);
+yA    = yA(1:n);
+yB    = yB(1:n);
+
+%% ====== Common style ======
+set(groot,'DefaultAxesFontName','Helvetica','DefaultAxesFontSize',14);
+
+blue_dark  = [0.10 0.30 0.90];
 blue_light = [0.70 0.82 1.00];
-red_dark  = [0.85 0.20 0.20];
-red_light = [1.00 0.78 0.78];
-fillAlpha = 0.40;
+red_dark   = [0.85 0.20 0.20];
+red_light  = [1.00 0.78 0.78];
+fillAlpha  = 0.40;
+cSca       = [0.55 0.20 0.70];
 
-figW = 12; figH = 9;  % cm
+figW = 12; figH = 9;                 % cm
+pos  = [0.15 0.15 0.75 0.75];         % unify axis size
 
 %% ---------- (1) Time series ----------
-figure('Units','centimeters','Position',[2 2 figW figH]);
-plot(dates, yA, '-', 'Color', blue_dark, 'LineWidth', 2.5); hold on
-scatter(dates, yA, 70, 'MarkerEdgeColor', blue_dark, ...
-        'MarkerFaceColor', blue_light, ...
-        'MarkerEdgeAlpha', 1, 'MarkerFaceAlpha', fillAlpha);
+figure('Units','centimeters','Position',[2 2 figW figH]); hold on
+
+plot(dates, yA, '-', 'Color', blue_dark, 'LineWidth', 2.5);
+scatter(dates, yA, 70, 'o', ...
+    'MarkerEdgeColor', blue_dark, 'MarkerFaceColor', blue_light, ...
+    'MarkerEdgeAlpha', 1, 'MarkerFaceAlpha', fillAlpha);
 
 plot(dates, yB, '-', 'Color', red_dark, 'LineWidth', 2.8);
-scatter(dates, yB, 70, 'MarkerEdgeColor', red_dark, ...
-        'MarkerFaceColor', red_light, ...
-        'MarkerEdgeAlpha', 1, 'MarkerFaceAlpha', fillAlpha);
-
-%xlabel('Year', 'FontSize', 25);
-%ylabel('Average species abundance', 'FontSize', 25);
-
-% --- Legend: dummy “line + circle” handles for each dataset ---
-hLegObs = plot(nan, nan, '-o', 'Color', blue_dark, ...
-    'MarkerEdgeColor', blue_dark, 'MarkerFaceColor', blue_light, ...
-    'LineWidth', 2.5, 'MarkerSize', 6);
-hLegSim = plot(nan, nan, '-o', 'Color', red_dark, ...
+scatter(dates, yB, 70, '^', ...
     'MarkerEdgeColor', red_dark, 'MarkerFaceColor', red_light, ...
-    'LineWidth', 2.8, 'MarkerSize', 6);
+    'MarkerEdgeAlpha', 1, 'MarkerFaceAlpha', fillAlpha);
 
-lgd = legend([hLegObs, hLegSim], {'Observed results', 'Predicted results'}, ...
-             'Location', 'best', 'FontSize', 9);
+% Legend dummy handles (optional to display legend)
+hLegObs = plot(nan,nan,'-o','Color',blue_dark, ...
+    'MarkerEdgeColor',blue_dark,'MarkerFaceColor',blue_light, ...
+    'LineWidth',2.5,'MarkerSize',6);
+hLegSim = plot(nan,nan,'-^','Color',red_dark, ...
+    'MarkerEdgeColor',red_dark,'MarkerFaceColor',red_light, ...
+    'LineWidth',2.8,'MarkerSize',7);
+
+lgd = legend([hLegObs,hLegSim], {'Observed results','Predicted results'}, ...
+    'Location','best','FontSize',9);
 lgd.Box = 'off';
 
-% Hide dummy handles from the plot (only used for legend)
-set([hLegObs, hLegSim], 'XData', nan, 'YData', nan);
+% legend off;
 
-grid off; box on;
-datetick('x', 'yyyy', 'keeplimits');
+box on; grid off;
+xlim([dates(1) dates(end)]);
 
-% ===== Force display of first and last years =====
 ax = gca;
-ax.XLim = [dates(1) dates(end)];                 % Ensure full range visible
-ax.XTick = linspace(dates(1), dates(end), 6);    % Evenly spaced tick marks
-ax.XTickLabel = cellstr(datestr(ax.XTick, 'yyyy'));
+ax.XTick = linspace(dates(1), dates(end), 6);
+ax.XAxis.TickLabelFormat = 'yyyy';
 
-% ===== Add top margin for Y-axis =====
-ylim([0 100]);
-set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
+ylim([0 100]);                 % keep your original range
+ax.XTickLabel = [];
+ax.YTickLabel = [];
+ax.YRuler.SecondaryLabel.Visible = 'off';
+ax.YAxis.Exponent = 0;
 
-
-
-ax.XTickLabel = [];            
-ax.YTickLabel = [];             
-ax.YRuler.SecondaryLabel.Visible = 'off';  
-ax.YAxis.Exponent = 0;           
-
-ax.FontSize  = 30;  
 ax.LineWidth = 2;
+ax.FontSize  = 30;
+set(gca,'Position',pos);
 
 %% ---------- (2) Scatter: Spearman & Pearson ----------
 idx = (yA > 0) & (yB > 0);
 x = yA(idx);
 y = yB(idx);
-[rhoS, ~] = corr(x, y, 'Type', 'Spearman');
-[rhoP, ~] = corr(x, y, 'Type', 'Pearson');
 
-figure('Units','centimeters','Position',[2 2 figW figH]);
-scatter(x, y, 65, cSca, 'filled', ...
-        'MarkerEdgeColor', 'k', 'MarkerFaceAlpha', 0.75); hold on;
+[rhoS,~] = corr(x,y,'Type','Spearman');
+[rhoP,~] = corr(x,y,'Type','Pearson');
+
 xyMax = 1.05 * max([x; y]);
-plot([0 xyMax], [0 xyMax], 'k--'); hold off;
+xyMax = ceil(xyMax/10)*10;     % round to nearest 10
 
-%xlabel('Observed results', 'FontSize', 16);
-%ylabel('Predicted results', 'FontSize', 16);
-%title(sprintf('%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 16);
+figure('Units','centimeters','Position',[2 2 figW figH]); hold on
+scatter(x, y, 65, cSca, 'filled', ...
+    'MarkerEdgeColor','k', 'MarkerFaceAlpha',0.75);
+plot([0 xyMax],[0 xyMax],'k--','LineWidth',1.0);
+
+% title(sprintf('\\bf%c = %.3f,  r = %.3f', 961, rhoS, rhoP), 'FontSize', 25);
 
 axis equal;
+xlim([0 xyMax]); ylim([0 xyMax]);
+box on; grid off;
 
-% Expand and round axis limits to nearest 10
-xyMax = 1.05 * max([x; y]);   
-xyMax = ceil(xyMax / 10) * 10; 
-xlim([0 xyMax]);
-ylim([0 xyMax]);
-
-% --- Force ticks to include 0 and upper limit ---
 ax = gca;
 ax.XTick = linspace(0, xyMax, 3);
 ax.YTick = linspace(0, xyMax, 3);
-ax.XTickLabel = arrayfun(@(v) sprintf('%g', v), ax.XTick, 'UniformOutput', false);
-ax.YTickLabel = arrayfun(@(v) sprintf('%g', v), ax.YTick, 'UniformOutput', false);
 
-box on; grid off;
-ax.FontSize = 28;
-set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
-
-ax.XTickLabel = [];             
-ax.YTickLabel = [];              
-ax.YRuler.SecondaryLabel.Visible = 'off';  
-ax.YAxis.Exponent = 0;           
+ax.XTickLabel = [];
+ax.YTickLabel = [];
+ax.YRuler.SecondaryLabel.Visible = 'off';
+ax.XAxis.Exponent = 0;
+ax.YAxis.Exponent = 0;
 
 ax.LineWidth = 2;
-ax.FontSize  = 37;      
+ax.FontSize  = 37;
+set(gca,'Position',pos);
 
 %% ---------- (3) Distribution: KS test ----------
-figure('Units','centimeters','Position',[2 2 figW figH]);
+[~,~,ksD] = kstest2(x,y);
+
+figure('Units','centimeters','Position',[2 2 figW figH]); hold on
 edges = linspace(min([x; y]), max([x; y]), 25);
-h1 = histogram(x, edges, 'Normalization', 'probability', ...
-               'FaceColor', blue_dark, 'FaceAlpha', 0.45);
-hold on;
-h2 = histogram(y, edges, 'Normalization', 'probability', ...
-               'FaceColor', red_dark, 'FaceAlpha', 0.45);
-hold off;
 
-[~, ~, ksD] = kstest2(x, y);  % Kolmogorov–Smirnov test
+histogram(x, edges, 'Normalization','probability', ...
+    'FaceColor', blue_dark, 'FaceAlpha', 0.45);
+histogram(y, edges, 'Normalization','probability', ...
+    'FaceColor', red_dark,  'FaceAlpha', 0.45);
 
-%xlabel('Average species abundance', 'FontSize', 16);
-%ylabel('Probability', 'FontSize', 16);
-%title(sprintf('D = %.3f', ksD), 'FontSize', 16);   % ✅ Show D only (omit p-value)
-%legend([h1 h2], {'Observed results', 'Predicted results'}, ...
-       %'Location', 'best', 'FontSize', 28);
+ %title(sprintf('\\bfD = %.3f', ksD), 'FontSize', 16);
 
-grid off; box on;
+box on; grid off;
 legend off;
-% ===== Force display of full X-axis range =====
-xMax = ceil(max([x; y]) / 10) * 10;   % Round up to nearest multiple of 10
+
+xMax = ceil(max([x; y]) / 10) * 10;
 xlim([0 xMax]);
+ylim([0 0.3]);
+
 ax = gca;
-ax.XTick = linspace(0, xMax, 3);      
-ax.XTickLabel = arrayfun(@(v) sprintf('%g', v), ax.XTick, 'UniformOutput', false);
+ax.XTick = linspace(0, xMax, 3);
+ax.YTick = linspace(0, 0.3, 3);
 
-% ===== Adjust Y-axis to leave top margin =====
-ylim([0, 0.3]);
-ax.YTick = linspace(0, 0.3, 3);     
-ax.FontSize = 28;
-set(gca,'Position',[0.15 0.15 0.75 0.75]);  % ✅ unify axis size
+ax.XTickLabel = [];
+ax.YTickLabel = [];
+ax.YRuler.SecondaryLabel.Visible = 'off';
+ax.XAxis.Exponent = 0;
+ax.YAxis.Exponent = 0;
 
-ax.XTickLabel = [];             
-ax.YTickLabel = [];              
-ax.YRuler.SecondaryLabel.Visible = 'off';  % 不显示 ×10^n
-ax.YAxis.Exponent = 0;           
 ax.LineWidth = 2;
-ax.FontSize  = 37;      
+ax.FontSize  = 37;
+set(gca,'Position',pos);
 
-end
 end
 
