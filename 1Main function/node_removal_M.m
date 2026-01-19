@@ -37,7 +37,7 @@ function output_one = node_removal_M(nnros, A, x0)
         dummy_state = iteration_real_M(1, dummy_state, A_step, x0_step);
         x_step = dummy_state(1,1:N);
 
-        % (3) enforce zero again (防止数值误差/模型自增长)
+        % (3) enforce zero again 
         if num_removed > 0
             x_step(removed) = 0;
         end
@@ -45,3 +45,4 @@ function output_one = node_removal_M(nnros, A, x0)
         output_one(step_idx,:) = x_step;
     end
 end
+
