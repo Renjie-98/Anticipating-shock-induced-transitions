@@ -2,8 +2,7 @@ function generate_T()
 % ============================================================
 %  Purpose:
 %  Extract node-level ecosystem states and compute
-%  structural and functional perturbation ratios
-%  relative to a fixed baseline date (2002/07/05).
+%  structural perturbation ratios relative to a fixed baseline date.
 %
 %  INPUT:
 %    • Data folder (fixed path):
@@ -65,3 +64,4 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
