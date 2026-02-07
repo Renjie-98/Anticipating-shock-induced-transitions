@@ -8,11 +8,12 @@ function generate_T()
 %    (1) Baseline-year row-normalized trade transition matrix
 %    (2) Annual the redundancy of species
 %    (3) Relative perturbation ratios (node loss)
+% 
 %  INPUT:
 %    • Data folder (fixed path):
 %        11.Ecosystem_fish
 %
-%  OUTPUT:
+%  OUTPUT (saved in current script folder):
 %    • T.mat        →  Row-normalized transition matrix (baseline day)
 %    • X_obs.mat  →    Network activity (F × N)
 %    • ratios.mat    → Node loss ratios (F × 1)
@@ -67,6 +68,7 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
