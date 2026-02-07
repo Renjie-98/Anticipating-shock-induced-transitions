@@ -7,7 +7,6 @@ function generate_T()
 %  INPUT:
 %    • Data folder (fixed path):
 %        11.Ecosystem_fish
-%        network state.csv (Date + node states)
 %
 %  OUTPUT:
 %    • X_obs.mat   → node state matrix (F × N)
@@ -63,6 +62,7 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
