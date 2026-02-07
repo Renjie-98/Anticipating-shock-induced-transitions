@@ -6,13 +6,14 @@ function Y = gen_train_set()
 %
 %  INPUT:
 %    • Required files (same folder):
-%        T.mat        → 5537×5537 transition matrix
+%        T.mat        → Transition matrix
 %        X_obs.mat    → Using only the baseline state 
-%        ratios.mat   → link removal ratios
+%        ratios.mat   → link loss ratios
 %
 %  OUTPUT:
 %    • Training_set.mat → 3D tensor (nTrials × nRatios × N)
 %        - Simulated propagation results under varying link losses
+%
 clc;
 fprintf('\n=== Generating training set (Y) in parallel ===\n');
 nTrials      = 1000;                
@@ -58,3 +59,4 @@ save(outFile, 'Y', '-v7.3');       % Save result (large file support)
 fprintf('\n✓ Done! Training set saved to %s\n', outFile);
 
 end
+
