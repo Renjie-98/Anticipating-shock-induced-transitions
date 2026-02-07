@@ -11,8 +11,8 @@ function Y = gen_train_set()
 %        ratios.mat   →  Node loss ratios
 %
 %  OUTPUT:
-%    • train_set.mat → 3D tensor (nTrials × nRatios × N)
-%        - Simulated node loss
+%    • Training_set.mat → 3D tensor (nTrials × nRatios × N)
+%        - Simulated propagation results under varying node losses
 % 
 clc;
 fprintf('\n=== Generating fish training set (state decline) ===\n');
@@ -69,6 +69,7 @@ end
 
 save(outFile, 'Y', '-v7.3');        
 end
+
 
 
 
