@@ -3,7 +3,11 @@ function generate_T()
 %  Purpose:
 %  Extract node-level ecosystem states and compute
 %  structural perturbation ratios relative to a fixed baseline date.
-%
+
+%  Process multi-year trade CSV data to compute:
+%    (1) Baseline-year row-normalized trade transition matrix
+%    (2) Annual the redundancy of species
+%    (3) Relative perturbation ratios (node loss)
 %  INPUT:
 %    • Data folder (fixed path):
 %        11.Ecosystem_fish
@@ -62,6 +66,7 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
