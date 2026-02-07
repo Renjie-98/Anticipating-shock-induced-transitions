@@ -7,13 +7,14 @@ function Y = gen_train_set()
 %
 %  INPUT:
 %    • Required files (same folder):
-%        T.mat        → 213×213 transition matrix
+%        T.mat        → Transition matrix
 %        X_obs.mat    → Using only the baseline state 
-%        ratios.mat   →  Weight reduction ratios
+%        ratios.mat   → Weight loss ratios
 %
 %  OUTPUT:
 %    • train_set.mat → 3D tensor (nTrials × nRatios × N)
-%        - Simulated propagation results under  weight loss
+%        - Simulated  weight loss
+%
 clc;
 fprintf('\n=== Generating training set (weight perturbation) ===\n');
 nTrials      = 1000;               
@@ -77,6 +78,7 @@ end
 save(outFile, 'Y', '-v7.3');       % Save result (large file support)
 
 end
+
 
 
 
