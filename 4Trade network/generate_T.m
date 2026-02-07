@@ -11,7 +11,7 @@ function generate_T()
 %        10.Economy_trade
 %
 %    • T.mat        →   Row-normalized transition matrix (baseline day)
-%    • X_obs.mat  →     Node state activity (F × N)
+%    • X_obs.mat  →     Network activity (F × N)
 %    • ratios.mat    →  Weight loss ratios (F × 1)
 %
 clc;
@@ -92,6 +92,7 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
