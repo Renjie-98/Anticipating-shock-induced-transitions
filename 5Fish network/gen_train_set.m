@@ -6,7 +6,7 @@ function Y = gen_train_set()
 %
 %  INPUT:
 %    • Required files (same folder):
-%        X_obs.mat    → Baseline node state (first observation)
+%        X_obs.mat    → Using only the baseline state 
 %        ratios.mat   → node loss
 %
 %  OUTPUT:
@@ -68,6 +68,7 @@ end
 
 save(outFile, 'Y', '-v7.3');        
 end
+
 
 
 
