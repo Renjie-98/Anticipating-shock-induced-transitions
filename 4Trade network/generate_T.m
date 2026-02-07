@@ -13,7 +13,7 @@ function generate_T()
 %  OUTPUT (saved in current script folder):
 %    • 0T.mat        → Row-normalized transition matrix (baseline day)
 %    • activity.mat  → Airport outbound activity (F × N)
-%    • ratios.mat    → Perturbation (F × 1)
+%    • ratios.mat    → Weight loss ratios  (F × 1)
 %
 clc;
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\10.Economy_trade';  
@@ -93,6 +93,7 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
