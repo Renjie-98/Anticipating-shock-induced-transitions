@@ -3,7 +3,7 @@ function Y = gen_train_set()
 %  Purpose:
 %  Generate a training dataset by simulating one-step propagation
 %  on a trade network under varying levels of random directed
-%  link removal and weight reduction.
+%  weight reduction.
 %
 %  INPUT:
 %    • Required files (same folder):
@@ -77,4 +77,5 @@ end
 save(outFile, 'Y', '-v7.3');       % Save result (large file support)
 
 end
+
 
