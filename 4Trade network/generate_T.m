@@ -12,7 +12,7 @@ function generate_T()
 %
 %  OUTPUT (saved in current script folder):
 %    • T.mat        →   Row-normalized transition matrix (baseline day)
-%    • X_obs.mat  →     Network activity (F × N)
+%    • X_obs.mat  →     Network state (F × N)
 %    • ratios.mat    →  Weight loss ratios (F × 1)
 %
 clc;
@@ -93,6 +93,7 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
