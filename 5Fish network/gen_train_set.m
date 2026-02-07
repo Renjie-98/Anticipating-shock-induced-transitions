@@ -1,18 +1,18 @@
 function Y = gen_train_set()
 % ============================================================
 %  Purpose:
-%  Extract node-level ecosystem states and compute
-%  structural perturbation ratios relative to a fixed baseline date (2002/07/05).
+%  Generate a training dataset by simulating 
+%  random node removal on a fish ecosystem network, based on a fixed
+%  baseline observation.
 %
 %  INPUT:
-%    • Data folder (fixed path):
-%        11.Ecosystem_fish
-%        network state.csv (Date + node states)
+%    • Required files (same folder):
+%        X_obs.mat    → Baseline node state (first observation)
+%        ratios.mat   → node loss
 %
 %  OUTPUT:
-%    • X_obs.mat   → node state matrix (F × N)
-%    • ratios.mat  → perturbation ratios (F × 2):
-%        - col 1: node removal ratio
+%    • train_set.mat → 3D tensor (nTrials × nRatios × N)
+%        - Simulated node loss
 % ============================================================
 clc;
 fprintf('\n=== Generating fish training set (state decline) ===\n');
@@ -69,6 +69,7 @@ end
 
 save(outFile, 'Y', '-v7.3');        
 end
+
 
 
 
