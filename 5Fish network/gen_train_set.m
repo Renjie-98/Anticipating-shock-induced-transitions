@@ -1,9 +1,8 @@
 function Y = gen_train_set()
 % ============================================================
 %  Purpose:
-%  Generate a training dataset by simulating 
-%  random node removal on a fish ecosystem network, based on a fixed
-%  baseline observation.
+%  Generate a training dataset by simulating random node removal on a fish ecosystem network, 
+%  based on a fixed baseline observation.
 %
 %  INPUT:
 %    • Required files (same folder):
@@ -13,7 +12,7 @@ function Y = gen_train_set()
 %  OUTPUT:
 %    • train_set.mat → 3D tensor (nTrials × nRatios × N)
 %        - Simulated node loss
-% ============================================================
+% 
 clc;
 fprintf('\n=== Generating fish training set (state decline) ===\n');
 nTrials      = 100000;               
@@ -69,6 +68,7 @@ end
 
 save(outFile, 'Y', '-v7.3');        
 end
+
 
 
 
