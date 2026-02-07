@@ -12,8 +12,8 @@ function Y = gen_train_set()
 %        ratios.mat   → Weight loss ratios
 %
 %  OUTPUT:
-%    • train_set.mat → 3D tensor (nTrials × nRatios × N)
-%        - Simulated  weight loss
+%    • Training_set.mat → 3D tensor (nTrials × nRatios × N)
+%        - Simulated propagation results under varying weight losses
 %
 clc;
 fprintf('\n=== Generating training set (weight perturbation) ===\n');
@@ -78,6 +78,7 @@ end
 save(outFile, 'Y', '-v7.3');       % Save result (large file support)
 
 end
+
 
 
 
