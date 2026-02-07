@@ -11,7 +11,7 @@ function generate_T()
 %        9.Passenger_flight network
 %
 %  OUTPUT (saved in current script folder):
-%    • 0T.mat        → Row-normalized transition matrix (baseline day)
+%    • T.mat        → Row-normalized transition matrix (baseline day)
 %    • activity.mat  → Airport outbound activity (F × N)
 %    • ratios.mat    → Directed link removal ratios (F × 1)
 %
@@ -88,3 +88,4 @@ ratios = (linkCounts(1) - linkCounts) / linkCounts(1);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
