@@ -6,9 +6,9 @@ function Y = gen_train_set()
 %
 %  INPUT:
 %    • Required files (same folder):
-%        T.mat        →  transition matrix
+%        T.mat        →  Transition matrix
 %        X_obs.mat    →  Using only the baseline state 
-%        ratios.mat   →  node loss ratios
+%        ratios.mat   →  Node loss ratios
 %
 %  OUTPUT:
 %    • train_set.mat → 3D tensor (nTrials × nRatios × N)
@@ -69,6 +69,7 @@ end
 
 save(outFile, 'Y', '-v7.3');        
 end
+
 
 
 
