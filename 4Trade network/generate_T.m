@@ -8,7 +8,7 @@ function generate_T()
 %
 %  INPUT:
 %    • Data folder (fixed path):
-%        10.10.Economy_trade
+%        10.Economy_trade
 %
 %    • T.mat        → Row-normalized transition matrix (baseline day)
 %    • X_obs.mat  →    Trade outbound activity (F × N)
@@ -92,6 +92,7 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
