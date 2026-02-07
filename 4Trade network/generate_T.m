@@ -10,10 +10,9 @@ function generate_T()
 %    • Data folder (fixed path):
 %        10.10.Economy_trade
 %
-%  OUTPUT (saved in current script folder):
-%    • 0T.mat        → Row-normalized transition matrix (baseline day)
-%    • X_obs.mat  → Airport outbound activity (F × N)
-%    • ratios.mat    → Weight loss ratios  (F × 1)
+%    • T.mat        → Row-normalized transition matrix (baseline day)
+%    • X_obs.mat  →    Trade outbound activity (F × N)
+%    • ratios.mat    → Weight loss ratios (F × 1)
 %
 clc;
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\10.Economy_trade';  
@@ -93,6 +92,7 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
