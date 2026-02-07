@@ -4,7 +4,7 @@ function generate_T()
 %  Process multi-year trade CSV data to compute:
 %    (1) Baseline-year row-normalized trade transition matrix
 %    (2) Annual country export activity
-%    (3) Relative perturbation ratios (links and weights)
+%    (3) Relative perturbation ratios (weight loss)
 %
 %  INPUT:
 %    • Data folder (fixed path):
@@ -93,5 +93,6 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
