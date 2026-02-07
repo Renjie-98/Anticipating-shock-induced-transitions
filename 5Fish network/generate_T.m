@@ -13,8 +13,9 @@ function generate_T()
 %        11.Ecosystem_fish
 %
 %  OUTPUT:
-%    • X_obs.mat   → node state matrix (F × N)
-%    • ratios.mat  → Node loss ratios (F × 1):
+%    • T.mat        →  Row-normalized transition matrix (baseline day)
+%    • X_obs.mat  →    Node state activity (F × N)
+%    • ratios.mat    → Node loss ratios (F × 1)
 % ============================================================
 clc;
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\11.Ecosystem_fish';  % Input folder
@@ -66,6 +67,7 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
 
 
