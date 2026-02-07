@@ -11,8 +11,7 @@ function generate_T()
 %
 %  OUTPUT:
 %    • X_obs.mat   → node state matrix (F × N)
-%    • ratios.mat  → perturbation ratios (F × 2):
-%        - col 1: node removal ratio
+%    • ratios.mat  → node perturbation ratios (F × 1):
 % ============================================================
 clc;
 dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\11.Ecosystem_fish';  % Input folder
@@ -64,4 +63,5 @@ ratios = p_nodeRemoved(:);
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
