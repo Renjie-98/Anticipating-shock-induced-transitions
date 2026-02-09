@@ -1,9 +1,8 @@
 # Anticipating shock-induced transitions in complex interconnected systems from limited information
 
-The coding for anticipating shock-induced transitions
-
 Renjie Xu, Davide Zanchetta, Mauro Faccin, Jichao Li, Kewei Yang, Manlio De Domenico*
 
+The coding for anticipating shock-induced transitions
 
 ### Abstract: 
 
