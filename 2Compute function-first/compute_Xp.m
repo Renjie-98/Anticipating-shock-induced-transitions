@@ -1,6 +1,6 @@
 function X_p = compute_Xp()
 % COMPUTE_XP
-% Predict perturbed states X_p using precomputed linear maps R_p and offsets b_p.
+% Predict perturbed states X_p using precomputed linear maps R_p.
 % For each perturbation p:
 %   X_p ≈ R_p X_0 
 
@@ -25,4 +25,5 @@ function X_p = compute_Xp()
     %% --- 4. Output ---
     assignin('base', 'X_p', X_p);
     save('X_p.mat', 'X_p');
+
 end   
