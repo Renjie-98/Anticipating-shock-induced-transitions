@@ -16,7 +16,7 @@ function generate_T()
 %    • ratios.mat    →  Weight loss ratios (F × 1)
 %
 clc;
-dataDir = 'C:\Users\xuren\Desktop\NP-real\0Data\10.Economy_trade';  
+dataDir = '……\0Data\10.Economy_trade';  
 outDir  = fileparts(mfilename('fullpath'));                       
 
 %% ------------------------------------------------------------
@@ -93,4 +93,5 @@ ratios = [p_weight(:)];
 save(fullfile(outDir, 'ratios.mat'), 'ratios', '-v7.3');
 
 end
+
 
