@@ -1,6 +1,6 @@
 function R_p = compute_Rp()
 % COMPUTE_RP
-% Estimate linear response operators R_p and offsets b_p from baseline ensembles.
+% Estimate linear response operators R_p.
 %
 % For each perturbation p:
 %   x_p ≈ R_p x_0
@@ -80,3 +80,4 @@ function Ainv = pinv_trunc(A)
     s_inv(keep) = 1 ./ s(keep);
     Ainv = V * diag(s_inv) * U.';
 end
+
