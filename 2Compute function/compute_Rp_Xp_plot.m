@@ -15,7 +15,7 @@ function allResults = compute_Rp_Xp_plot_all()
 %   - Plot relative errors of all three cases in one figure with 95% CI.
 
     %% ================= 1. Base path =================
-    basePath = 'F:\NP-real\1Coding\1Main function\compute data';
+    basePath = 'XXX';
 
     %% ================= 2. Define cases =================
     cases = struct([]);
