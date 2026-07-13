@@ -23,7 +23,7 @@ function allResults = compute_Rp_Xp_plot_all()
     cases(1).folder = fullfile(basePath, ...
         '0.Mutualistic_Coral Reefs_perturbation_type1_test');
     cases(1).label = 'Node loss';
-    cases(1).ylimRange = [0 0.4];     % NV1 / NV3
+    cases(1).ylimRange = [0 0.4];     % Mutualistic system, adjust if needed
 
     cases(2).folder = fullfile(basePath, ...
         '0.Mutualistic_Coral Reefs_perturbation_type2_test');
