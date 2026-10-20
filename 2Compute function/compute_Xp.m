@@ -1,12 +1,13 @@
-function X_p = compute_Xp()
+function compute_Xp()
 % COMPUTE_XP
 % Predict perturbed states X_p using precomputed linear maps R_p.
 % For each perturbation p:
 %   X_p ≈ R_p X_0 
 
     %% --- 1. Load testing data ---
-    dataVarName = input('Enter the testing data in the workspace: ', 's');
-    data3D = evalin('base', dataVarName);      % [E x P x N]
+    baseFolder = 'compute data/1.Mutualistic_Coral Reefs_delete_perturbation_type';
+    load(fullfile(baseFolder, 'X_test.mat'), 'X_test');
+    data3D = X_test;% [E x P x N]
     %% ---the added (begin) ---  
     % We regenerated the testing data since the initial states were not saved. 
     % The first step represents the unperturbed initial state, 
@@ -15,12 +16,10 @@ function X_p = compute_Xp()
     data3D(:,2,:) = []; 
     %% ---the added (end) ---
     [numExps, numPerturb, numNodes] = size(data3D);
-
     X0 = squeeze(data3D(:,1,:));               % reference states [E x N]
 
     %% --- 2. Load learned response maps ---
-    load(fullfile('8.Biochemical_Mycoplasma genitalium_perturbation_type3', ...
-                  'R_p.mat'), 'R_p');
+    load(fullfile(baseFolder, 'R_p.mat'), 'R_p');
 
     %% --- 3. Predict X_p ---
     X_p = zeros(numExps, numPerturb, numNodes);
@@ -32,5 +31,6 @@ function X_p = compute_Xp()
 
     %% --- 4. Output ---
     assignin('base', 'X_p', X_p);
-    save('X_p.mat', 'X_p');
+    save(fullfile(baseFolder, 'X_p.mat'), 'X_p', '-v7.3');
+
 end   
