@@ -158,20 +158,8 @@ Depending on the experiment, the sample axis may represent time points or pertur
 
 MATLAB v7.3 files are read using h5py in Python, while other MAT formats can be read with SciPy. Check dimension ordering when transferring arrays between MATLAB and Python.
 
-## Reproducibility notes
-
-- Record the network, model parameters, perturbation protocol, initial-state distribution, and random seeds.
-- Use the actual integration times when plotting nonuniformly sampled trajectories.
-- Keep training and testing preprocessing consistent.
-- State whether averages include deleted nodes represented by zeros.
-- Preserve the intended experiment size when reproducing results. Smaller ensembles may be useful for checking the workflow but do not reproduce the full analysis.
-- The existence of high- and low-abundance outcomes depends on the network and dynamical parameters; changing initial conditions alone does not guarantee both outcomes.
 
 ## Citation
-
-If you use this code in your own work, please cite our paper:
-
-> Renjie Xu, Davide Zanchetta, Mauro Faccin, Jichao Li, Kewei Yang, and Manlio De Domenico. (2026). *Anticipating shock-induced transitions in complex interconnected systems from limited information.*
 
 Please also cite the original sources of any network datasets used in your analysis. Publication details and a DOI can be added to the citation when available.
 
