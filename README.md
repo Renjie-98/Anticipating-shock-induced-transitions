@@ -17,8 +17,6 @@
 
 ## Requirements
 
-### MATLAB
-
 - MATLAB R2024b.
 - Parallel Computing Toolbox for parallel execution of the `parfor` loops used in data generation. If running without parallel execution, adapt these loops to serial `for` loops.
 
@@ -26,16 +24,6 @@
 
 - Python 3 and a Jupyter-compatible environment, such as JupyterLab or VS Code with notebook support.
 - NumPy, SciPy, h5py, and Matplotlib.
-
-Install the Python dependencies with:
-
-```bash
-python -m pip install numpy scipy h5py matplotlib jupyterlab
-```
-
-The plotting notebook uses Times New Roman and, in some cells, external LaTeX rendering. For those cells, install a working LaTeX distribution, such as MiKTeX, including the `bm` and `amssymb` packages. Update the `MIKTEX_BIN` setting to match the local installation. Cells that explicitly check for `latex.exe` require this configuration even if the global Matplotlib setting uses `text.usetex = False`.
-
-Exact tested Python and package versions are not yet specified.
 
 ## Workflow
 
