@@ -163,7 +163,4 @@ MATLAB v7.3 files are read using h5py in Python, while other MAT formats can be 
 
 Please also cite the original sources of any network datasets used in your analysis. Publication details and a DOI can be added to the citation when available.
 
-## Questions and feedback
-
-Please use the repository's [Issues](https://github.com/Renjie-98/Anticipating-shock-induced-transitions/issues) page to report problems or ask questions. Include the script or notebook cell, experiment settings, and error message when reporting an issue.
 
