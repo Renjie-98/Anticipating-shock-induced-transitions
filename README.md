@@ -14,7 +14,6 @@
 | `Figure2B/` | Files associated with Figure 2B. |
 | `ploting.ipynb` | Consolidated Python notebook for plotting and response-matrix rank/effective-rank analysis. |
 
-The notebook filename is intentionally written as `ploting.ipynb` to match the supplied file.
 
 ## Requirements
 
